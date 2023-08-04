@@ -4,7 +4,7 @@ This repository contains instrument drivers, default fonts, languages and styles
 
 ## instrument drivers
 
-See [here](https://faresx.github.io/QInsControl.jl/dev/New%20Instrument/) to learn about how to create new drivers.
+Instrument drivers are contained in folders Confs and ExtraLoad. See [here](https://faresx.github.io/QInsControl.jl/dev/New%20Instrument/) to learn about how to create new drivers.
 
 ## languages
 
