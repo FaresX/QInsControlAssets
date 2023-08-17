@@ -1,3 +1,33 @@
+[temperatureT3]
+cmdheader = ""
+U = "K"
+enable = true
+optkeys = []
+help = "Still Plate"
+optvalues = []
+type = "read"
+alias = "温度T3"
+
+[temperatureT1]
+cmdheader = ""
+U = "K"
+enable = true
+optkeys = []
+help = "PT2 Head"
+optvalues = []
+type = "read"
+alias = "温度T1"
+
+[temperatureT7]
+cmdheader = ""
+U = "K"
+enable = true
+optkeys = []
+help = "PT1 Plate"
+optvalues = []
+type = "read"
+alias = "温度T7"
+
 [temperatureT5]
 cmdheader = ""
 U = "K"
@@ -7,6 +37,26 @@ help = "MC Plate Cernox"
 optvalues = []
 type = "read"
 alias = "温度T5"
+
+[temperatureT2]
+cmdheader = ""
+U = "K"
+enable = true
+optkeys = []
+help = "PT2 Plate"
+optvalues = []
+type = "read"
+alias = "温度T2"
+
+[temperatureT4]
+cmdheader = ""
+U = "K"
+enable = true
+optkeys = []
+help = "Cold Plate"
+optvalues = []
+type = "read"
+alias = "温度T4"
 
 [conf]
 idn = "Triton"
@@ -34,3 +84,13 @@ help = "Magnet"
 optvalues = []
 type = "read"
 alias = "温度T13"
+
+[temperatureT6]
+cmdheader = ""
+U = "K"
+enable = true
+optkeys = []
+help = "PT1 Head"
+optvalues = []
+type = "read"
+alias = "温度T6"
