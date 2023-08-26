@@ -138,6 +138,16 @@ optvalues = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 type = "set"
 alias = "Z状态"
 
+[zheater]
+cmdheader = ""
+U = ""
+enable = true
+optkeys = ["ON", "OFF"]
+help = ""
+optvalues = ["ON", "OFF"]
+type = "set"
+alias = "Z加热器"
+
 [conf]
 idn = "MERCURY IPS"
 output_labels = ["X -", "Y -", "Z -"]

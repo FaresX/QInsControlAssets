@@ -39,3 +39,6 @@ MercuryIPS_sigactnz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:ACTN"), "
 MercuryIPS_sigpfldz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:PFLD"), "PFLD:")[end][1:end-1]
 
 MercuryIPS_sigfldz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:PFLD"), "FLD:")[end][1:end-1]
+
+MercuryIPS_zheater_set(instr, val) = query(instr, "SET:DEV:GRPZ:PSU:SIG:SWHT:$val")
+MercuryIPS_zheater_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:SWHT"), "SWHT:")[end]
