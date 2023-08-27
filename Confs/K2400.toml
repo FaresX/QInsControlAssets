@@ -58,10 +58,10 @@ optvalues = []
 type = "set"
 alias = "测量电流保护"
 
-[dataout]
-cmdheader = "FETCh?"
+[dataread]
+cmdheader = ":READ?"
 U = ""
-enable = false
+enable = true
 optkeys = []
 help = ""
 optvalues = []
@@ -98,6 +98,16 @@ optvalues = []
 type = "set"
 alias = "测量电压范围"
 
+[dataelements]
+cmdheader = ":FORMat:ELEMents:SENSe1"
+U = ""
+enable = true
+optkeys = ["VOLTage", "CURRent", "RESistance", "TIME", "STATus"]
+help = ""
+optvalues = ["VOLT", "CURR", "RES", "TIME", "STAT"]
+type = "set"
+alias = "数据元素"
+
 [conf]
 idn = "MODEL 2400"
 output_labels = ["H", "HS"]
@@ -115,16 +125,6 @@ optvalues = []
 type = "set"
 alias = "测量电压保护"
 
-[levelv]
-cmdheader = ":SOURce:VOLTage:LEVel"
-U = "V"
-enable = true
-optkeys = []
-help = ""
-optvalues = []
-type = "sweep"
-alias = "输出电压"
-
 [sourcerangev]
 cmdheader = ":SOURce:VOLTage:RANGe"
 U = "V"
@@ -134,3 +134,13 @@ help = ""
 optvalues = []
 type = "set"
 alias = "输出电压范围"
+
+[levelv]
+cmdheader = ":SOURce:VOLTage:LEVel"
+U = "V"
+enable = true
+optkeys = []
+help = ""
+optvalues = []
+type = "sweep"
+alias = "输出电压"
