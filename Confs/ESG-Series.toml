@@ -6,7 +6,17 @@ optkeys = ["ON", "OFF"]
 help = ""
 optvalues = ["1", "0"]
 type = "set"
-alias = "输出"
+alias = "射频输出"
+
+[outputmod]
+cmdheader = ":OUTPut:MODulation:STATe"
+U = ""
+enable = true
+optkeys = ["ON", "OFF"]
+help = ""
+optvalues = ["1", "0"]
+type = "set"
+alias = "调制输出"
 
 [frequency]
 cmdheader = ":SOUR:FREQ"

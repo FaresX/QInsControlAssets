@@ -61,7 +61,7 @@ alias = "测量电流保护"
 [dataread]
 cmdheader = ":READ?"
 U = ""
-enable = true
+enable = false
 optkeys = []
 help = ""
 optvalues = []
@@ -101,7 +101,7 @@ alias = "测量电压范围"
 [dataelements]
 cmdheader = ":FORMat:ELEMents:SENSe1"
 U = ""
-enable = true
+enable = false
 optkeys = ["VOLTage", "CURRent", "RESistance", "TIME", "STATus"]
 help = ""
 optvalues = ["VOLT", "CURR", "RES", "TIME", "STAT"]
@@ -114,6 +114,16 @@ output_labels = ["H", "HS"]
 icon = ""
 input_labels = ["L", "LS"]
 cmdtype = "scpi"
+
+[levelv]
+cmdheader = ":SOURce:VOLTage:LEVel"
+U = "V"
+enable = true
+optkeys = []
+help = ""
+optvalues = []
+type = "sweep"
+alias = "输出电压"
 
 [measureprotv]
 cmdheader = ":SENSe:VOLTage:PROTection"
@@ -134,13 +144,3 @@ help = ""
 optvalues = []
 type = "set"
 alias = "输出电压范围"
-
-[levelv]
-cmdheader = ":SOURce:VOLTage:LEVel"
-U = "V"
-enable = true
-optkeys = []
-help = ""
-optvalues = []
-type = "sweep"
-alias = "输出电压"
