@@ -55,10 +55,6 @@ cmdheader = ":SENSe:CURRent:PROTection"
 [dataread]
 alias = "读数据"
 U = ""
-<<<<<<< HEAD
-=======
-enable = true
->>>>>>> a896bcb37d6eb8803c931e93a853421a72462e74
 optkeys = []
 help = ""
 optvalues = []
@@ -95,10 +91,6 @@ cmdheader = ":SENSe:VOLTage:RANGe"
 [dataelements]
 alias = "数据元素"
 U = ""
-<<<<<<< HEAD
-=======
-enable = true
->>>>>>> a896bcb37d6eb8803c931e93a853421a72462e74
 optkeys = ["VOLTage", "CURRent", "RESistance", "TIME", "STATus"]
 help = ""
 optvalues = ["VOLT", "CURR", "RES", "TIME", "STAT"]
@@ -121,19 +113,13 @@ optvalues = []
 type = "sweep"
 cmdheader = ":SOURce:VOLTage:LEVel"
 
-<<<<<<< HEAD
 [measureprotv]
 alias = "测量电压保护"
-=======
-[sourcerangev]
-cmdheader = ":SOURce:VOLTage:RANGe"
->>>>>>> a896bcb37d6eb8803c931e93a853421a72462e74
 U = "V"
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-<<<<<<< HEAD
 cmdheader = ":SENSe:VOLTage:PROTection"
 
 [leveli]
@@ -144,16 +130,3 @@ help = "Set amplitude for fixed source\r\n\r\n[:IMMediate][:AMPLitude] <n>\r\n\r
 optvalues = []
 type = "sweep"
 cmdheader = ":SOURce:CURRent:LEVel"
-=======
-alias = "输出电压范围"
-
-[measureprotv]
-cmdheader = ":SENSe:VOLTage:PROTection"
-U = "V"
-enable = true
-optkeys = []
-help = ""
-optvalues = []
-type = "set"
-alias = "测量电压保护"
->>>>>>> a896bcb37d6eb8803c931e93a853421a72462e74
