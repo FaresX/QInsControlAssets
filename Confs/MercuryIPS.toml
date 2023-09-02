@@ -1,152 +1,137 @@
 [sigactny]
-cmdheader = ""
+alias = "Y状态"
 U = ""
-enable = true
 optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
 optvalues = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 type = "set"
-alias = "Y状态"
+cmdheader = ""
 
 [sigfldy]
-cmdheader = ""
+alias = "Y当前场"
 U = "T"
-enable = false
 optkeys = []
 help = ""
 optvalues = []
 type = "read"
-alias = "Y当前场"
+cmdheader = ""
 
 [sigrfstz]
-cmdheader = ""
+alias = "Z扫描速率"
 U = "T/min"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "Z扫描速率"
+cmdheader = ""
 
 [sigfsetx]
-cmdheader = ""
+alias = "X目标场"
 U = "T"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "X目标场"
+cmdheader = ""
 
 [sigfldx]
-cmdheader = ""
+alias = "X当前场"
 U = "T"
-enable = false
 optkeys = []
 help = ""
 optvalues = []
 type = "read"
-alias = "X当前场"
+cmdheader = ""
 
 [sigrfsty]
-cmdheader = ""
+alias = "Y扫描速率"
 U = "T/min"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "Y扫描速率"
+cmdheader = ""
 
 [sigactnx]
-cmdheader = ""
+alias = "X状态"
 U = ""
-enable = true
 optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
 optvalues = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 type = "set"
-alias = "X状态"
+cmdheader = ""
 
 [sigpfldy]
-cmdheader = ""
+alias = "Y当前恒定场"
 U = "T"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "read"
-alias = "Y当前恒定场"
+cmdheader = ""
 
 [sigfsetz]
-cmdheader = ""
+alias = "Z目标场"
 U = "T"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "Z目标场"
+cmdheader = ""
 
 [sigrfstx]
-cmdheader = ""
+alias = "X扫描速率"
 U = "T/min"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "X扫描速率"
+cmdheader = ""
 
 [sigpfldz]
-cmdheader = ""
+alias = "Z当前恒定场"
 U = "T"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "read"
-alias = "Z当前恒定场"
+cmdheader = ""
 
 [sigpfldx]
-cmdheader = ""
+alias = "X当前恒定场"
 U = "T"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "read"
-alias = "X当前恒定场"
+cmdheader = ""
 
 [sigfldz]
-cmdheader = ""
+alias = "Z当前场"
 U = "T"
-enable = false
 optkeys = []
 help = ""
 optvalues = []
 type = "read"
-alias = "Z当前场"
+cmdheader = ""
 
 [sigactnz]
-cmdheader = ""
+alias = "Z状态"
 U = ""
-enable = true
 optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
 optvalues = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 type = "set"
-alias = "Z状态"
+cmdheader = ""
 
 [zheater]
-cmdheader = ""
+alias = "Z加热器"
 U = ""
-enable = true
 optkeys = ["ON", "OFF"]
 help = ""
 optvalues = ["ON", "OFF"]
 type = "set"
-alias = "Z加热器"
+cmdheader = ""
 
 [conf]
 idn = "MERCURY IPS"
@@ -156,11 +141,10 @@ input_labels = ["X +", "Y +", "Z +"]
 cmdtype = "scpi"
 
 [sigfsety]
-cmdheader = ""
+alias = "Y目标场"
 U = "T"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "Y目标场"
+cmdheader = ""

@@ -1,42 +1,38 @@
 [output]
-cmdheader = ":OUTPut:STATe"
+alias = "射频输出"
 U = ""
-enable = true
 optkeys = ["ON", "OFF"]
 help = ""
 optvalues = ["1", "0"]
 type = "set"
-alias = "射频输出"
+cmdheader = ":OUTPut:STATe"
 
 [outputmod]
-cmdheader = ":OUTPut:MODulation:STATe"
+alias = "调制输出"
 U = ""
-enable = true
 optkeys = ["ON", "OFF"]
 help = ""
 optvalues = ["1", "0"]
 type = "set"
-alias = "调制输出"
+cmdheader = ":OUTPut:MODulation:STATe"
 
 [frequency]
-cmdheader = ":SOUR:FREQ"
+alias = "频率"
 U = "Hz"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "sweep"
-alias = "频率"
+cmdheader = ":SOUR:FREQ"
 
 [power]
-cmdheader = ":SOUR:POW"
+alias = "功率"
 U = "dBm"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "sweep"
-alias = "功率"
+cmdheader = ":SOUR:POW"
 
 [conf]
 idn = "E8254A;ESG-3000B"

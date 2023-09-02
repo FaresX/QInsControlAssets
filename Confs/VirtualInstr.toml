@@ -1,62 +1,56 @@
 [B]
-cmdheader = ""
+alias = "JJ B"
 U = "T"
-enable = true
 optkeys = []
 help = "仅作为测试"
 optvalues = []
 type = "sweep"
-alias = "JJ B"
+cmdheader = ""
 
 [SystemTime]
-cmdheader = ""
+alias = "系统时间"
 U = "s"
-enable = true
 optkeys = []
 help = "Get the system time in seconds since the epoch, with fairly high (typically, microsecond) resolution."
 optvalues = []
 type = "read"
-alias = "系统时间"
+cmdheader = ""
 
 [I]
-cmdheader = ""
+alias = "JJ I"
 U = "A"
-enable = true
 optkeys = []
 help = "仅作为测试"
 optvalues = []
 type = "sweep"
-alias = "JJ I"
+cmdheader = ""
 
 [Date]
-cmdheader = ""
+alias = "日期"
 U = ""
-enable = true
 optkeys = []
 help = "Return a Date corresponding to the user's system time including the system timezone locale."
 optvalues = []
 type = "read"
-alias = "日期"
+cmdheader = ""
 
 [Time]
-cmdheader = ""
+alias = "时间"
 U = ""
-enable = true
 optkeys = []
 help = "Return a Time corresponding to the user's system time including the system timezone locale."
 optvalues = []
 type = "read"
-alias = "时间"
+cmdheader = ""
 
 [power]
-cmdheader = ""
+alias = "Power"
 U = ""
-enable = true
 optkeys = ["ON", "OFF"]
 help = "仅作为设置测试"
 optvalues = ["1", "0"]
 type = "set"
-alias = "Power"
+cmdheader = ""
 
 [conf]
 idn = "VirtualInstr"
@@ -66,31 +60,28 @@ input_labels = []
 cmdtype = ""
 
 [Vac]
-cmdheader = ""
+alias = "JJ Vac"
 U = "V"
-enable = true
 optkeys = []
 help = "仅作为测试"
 optvalues = []
 type = "read"
-alias = "JJ Vac"
+cmdheader = ""
 
 [Iac]
-cmdheader = ""
+alias = "JJ Iac"
 U = "A"
-enable = true
 optkeys = []
 help = "仅作为测试"
 optvalues = []
 type = "sweep"
-alias = "JJ Iac"
+cmdheader = ""
 
 [DateTime]
-cmdheader = ""
+alias = "日期和时间"
 U = ""
-enable = true
 optkeys = []
 help = "Return a DateTime corresponding to the user's system time including the system timezone locale."
 optvalues = []
 type = "read"
-alias = "日期和时间"
+cmdheader = ""

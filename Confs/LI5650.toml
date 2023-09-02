@@ -1,132 +1,119 @@
 [coupling]
-cmdheader = ":INPut1:COUPling"
+alias = "耦合"
 U = ""
-enable = true
 optkeys = ["AC", "DC"]
 help = ""
 optvalues = ["AC", "DC"]
 type = "set"
-alias = "耦合"
+cmdheader = ":INPut1:COUPling"
 
 [acfrequency]
-cmdheader = ":SOURce:FREQuency1:CW"
+alias = "交流频率"
 U = "Hz"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "sweep"
-alias = "交流频率"
+cmdheader = ":SOURce:FREQuency1:CW"
 
 [ground]
-cmdheader = ":INPut1:LOW"
+alias = "接地"
 U = ""
-enable = true
 optkeys = ["FLOAT", "GROUND"]
 help = ""
 optvalues = ["FLO", "GRO"]
 type = "set"
-alias = "接地"
+cmdheader = ":INPut1:LOW"
 
 [auxout1]
-cmdheader = ":SOURce5:VOLTage:LEVel:IMMediate:OFFSet"
+alias = "附加输出1"
 U = "V"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "sweep"
-alias = "附加输出1"
+cmdheader = ":SOURce5:VOLTage:LEVel:IMMediate:OFFSet"
 
 [acvoltage]
-cmdheader = ":SOURce:VOLTage:LEVel:IMMediate:AMPLitude"
+alias = "交流电压"
 U = "V"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "sweep"
-alias = "交流电压"
+cmdheader = ":SOURce:VOLTage:LEVel:IMMediate:AMPLitude"
 
 [slopepPSD]
-cmdheader = ":SENSe:FILTer1:LPASs:SLOPe"
+alias = "衰减率pPSD"
 U = ""
-enable = true
 optkeys = ["6dB", "12dB", "18dB", "24dB"]
 help = ""
 optvalues = ["6", "12", "18", "24"]
 type = "set"
-alias = "衰减率pPSD"
+cmdheader = ":SENSe:FILTer1:LPASs:SLOPe"
 
 [dataout]
-cmdheader = "FETCh?"
+alias = "DATA"
 U = ""
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "read"
-alias = "DATA"
+cmdheader = "FETCh?"
 
 [sensitivityipPSD]
-cmdheader = ":SENSe:CURRent1:AC:RANGe:UPPer"
+alias = "电流灵敏度pPSD"
 U = "A"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "电流灵敏度pPSD"
+cmdheader = ":SENSe:CURRent1:AC:RANGe:UPPer"
 
 [auxout2]
-cmdheader = ":SOURce6:VOLTage:LEVel:IMMediate:OFFSet"
+alias = "附加输出2"
 U = "V"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "sweep"
-alias = "附加输出2"
+cmdheader = ":SOURce6:VOLTage:LEVel:IMMediate:OFFSet"
 
 [tconstpPSD]
-cmdheader = ":SENSe:FILTer1:LPASs:TCONstant"
+alias = "时间常数pPSD"
 U = "s"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "时间常数pPSD"
+cmdheader = ":SENSe:FILTer1:LPASs:TCONstant"
 
 [dynres]
-cmdheader = ":SENSe:DREServe"
+alias = "动态储量"
 U = ""
-enable = true
 optkeys = ["HIGH", "MEDIUM", "LOW"]
 help = ""
 optvalues = ["HIGH", "MEDium", "LOW"]
 type = "set"
-alias = "动态储量"
+cmdheader = ":SENSe:DREServe"
 
 [acphasepPSD]
-cmdheader = ":SENSe:PHASe1"
+alias = "交流相位pPSD"
 U = "°"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "交流相位pPSD"
+cmdheader = ":SENSe:PHASe1"
 
 [sensitivityvpPSD]
-cmdheader = ":SENSe:VOLTage1:AC:RANGe:UPPer"
+alias = "电压灵敏度pPSD"
 U = "V"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "电压灵敏度pPSD"
+cmdheader = ":SENSe:VOLTage1:AC:RANGe:UPPer"
 
 [conf]
 idn = "LI5650"

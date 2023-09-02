@@ -1,252 +1,227 @@
 [Bmeasureiv]
-cmdheader = "smub.measure.iv()"
+alias = "B测量电流电压"
 U = ""
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "read"
-alias = "B测量电流电压"
+cmdheader = "smub.measure.iv()"
 
 [Bmeasurerangei]
-cmdheader = "smub.measure.rangei"
+alias = "B测量电流范围"
 U = "A"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "B测量电流范围"
+cmdheader = "smub.measure.rangei"
 
 [Asourcelimitv]
-cmdheader = "smua.source.limitv"
+alias = "A输出电压限制"
 U = "V"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "A输出电压限制"
+cmdheader = "smua.source.limitv"
 
 [Bmeasurerangev]
-cmdheader = "smub.measure.rangev"
+alias = "B测量电压范围"
 U = "V"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "B测量电压范围"
+cmdheader = "smub.measure.rangev"
 
 [Ameasurerangei]
-cmdheader = "smua.measure.rangei"
+alias = "A测量电流范围"
 U = "A"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "A测量电流范围"
+cmdheader = "smua.measure.rangei"
 
 [Ameasureiv]
-cmdheader = "smua.measure.iv()"
+alias = "A测量电流电压"
 U = ""
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "read"
-alias = "A测量电流电压"
+cmdheader = "smua.measure.iv()"
 
 [Asourcerangev]
-cmdheader = "smua.source.rangev"
+alias = "A输出电压范围"
 U = "V"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "A输出电压范围"
+cmdheader = "smua.source.rangev"
 
 [Ameasurev]
-cmdheader = "smua.measure.v()"
+alias = "A测量电压"
 U = "V"
-enable = false
 optkeys = []
 help = ""
 optvalues = []
 type = "read"
-alias = "A测量电压"
+cmdheader = "smua.measure.v()"
 
 [Bsourcefunc]
-cmdheader = "smub.source.func"
+alias = "B输出模式"
 U = ""
-enable = true
 optkeys = ["AMP", "VOLT"]
 help = ""
 optvalues = ["0.00000e+00", "1.00000e+00"]
 type = "set"
-alias = "B输出模式"
+cmdheader = "smub.source.func"
 
 [Bmeasurev]
-cmdheader = "smub.measure.v()"
+alias = "B测量电压"
 U = "V"
-enable = false
 optkeys = []
 help = ""
 optvalues = []
 type = "read"
-alias = "B测量电压"
+cmdheader = "smub.measure.v()"
 
 [Asourcelimiti]
-cmdheader = "smua.source.limiti"
+alias = "A输出电流限制"
 U = "A"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "A输出电流限制"
+cmdheader = "smua.source.limiti"
 
 [Bsourceleveli]
-cmdheader = "smub.source.leveli"
+alias = "B输出电流"
 U = "A"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "sweep"
-alias = "B输出电流"
+cmdheader = "smub.source.leveli"
 
 [Bsourcelimitv]
-cmdheader = "smub.source.limitv"
+alias = "B输出电压限制"
 U = "V"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "B输出电压限制"
+cmdheader = "smub.source.limitv"
 
 [Bsourcerangev]
-cmdheader = "smub.source.rangev"
+alias = "B输出电压范围"
 U = "V"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "B输出电压范围"
+cmdheader = "smub.source.rangev"
 
 [Asourcefunc]
-cmdheader = "smua.source.func"
+alias = "A输出模式"
 U = ""
-enable = true
 optkeys = ["AMP", "VOLT"]
 help = ""
 optvalues = ["0.00000e+00", "1.00000e+00"]
 type = "set"
-alias = "A输出模式"
+cmdheader = "smua.source.func"
 
 [Boutput]
-cmdheader = "smub.source.output"
+alias = "B输出"
 U = ""
-enable = true
 optkeys = ["ON", "OFF"]
 help = ""
 optvalues = ["1.00000e+00", "0.00000e+00"]
 type = "set"
-alias = "B输出"
+cmdheader = "smub.source.output"
 
 [Asourcerangei]
-cmdheader = "smua.source.rangei"
+alias = "A输出电流范围"
 U = "A"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "A输出电流范围"
+cmdheader = "smua.source.rangei"
 
 [Bsourcelevelv]
-cmdheader = "smub.source.levelv"
+alias = "B输出电压"
 U = "V"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "sweep"
-alias = "B输出电压"
+cmdheader = "smub.source.levelv"
 
 [Ameasurei]
-cmdheader = "smua.measure.i()"
+alias = "A测量电流"
 U = "A"
-enable = false
 optkeys = []
 help = ""
 optvalues = []
 type = "read"
-alias = "A测量电流"
+cmdheader = "smua.measure.i()"
 
 [Aoutput]
-cmdheader = "smua.source.output"
+alias = "A输出"
 U = ""
-enable = true
 optkeys = ["ON", "OFF"]
 help = ""
 optvalues = ["1.00000e+00", "0.00000e+00"]
 type = "set"
-alias = "A输出"
+cmdheader = "smua.source.output"
 
 [Bmeasurei]
-cmdheader = "smub.measure.i()"
+alias = "B测量电流"
 U = "A"
-enable = false
 optkeys = []
 help = ""
 optvalues = []
 type = "read"
-alias = "B测量电流"
+cmdheader = "smub.measure.i()"
 
 [Ameasurerangev]
-cmdheader = "smua.measure.rangev"
+alias = "A测量电压范围"
 U = "V"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "A测量电压范围"
+cmdheader = "smua.measure.rangev"
 
 [Bsourcelimiti]
-cmdheader = "smub.source.limiti"
+alias = "B输出电流限制"
 U = "A"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "B输出电流限制"
+cmdheader = "smub.source.limiti"
 
 [Bsourcerangei]
-cmdheader = "smub.source.rangei"
+alias = "B输出电流范围"
 U = "A"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-alias = "B输出电流范围"
+cmdheader = "smub.source.rangei"
 
 [Asourceleveli]
-cmdheader = "smua.source.leveli"
+alias = "A输出电流"
 U = "A"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "sweep"
-alias = "A输出电流"
+cmdheader = "smua.source.leveli"
 
 [conf]
 idn = "Model 2612"
@@ -256,11 +231,10 @@ input_labels = ["AL", "ALS", "BL", "BLS"]
 cmdtype = "tsp"
 
 [Asourcelevelv]
-cmdheader = "smua.source.levelv"
+alias = "A输出电压"
 U = "V"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "sweep"
-alias = "A输出电压"
+cmdheader = "smua.source.levelv"

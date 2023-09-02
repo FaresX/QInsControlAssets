@@ -1,12 +1,11 @@
 [inputB]
-cmdheader = "KRDG? B"
+alias = "B通道温度"
 U = "K"
-enable = true
 optkeys = []
 help = ""
 optvalues = []
 type = "read"
-alias = "B通道温度"
+cmdheader = "KRDG? B"
 
 [conf]
 idn = "MODEL336"

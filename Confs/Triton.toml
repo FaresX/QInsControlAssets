@@ -1,62 +1,56 @@
 [temperatureT3]
-cmdheader = ""
+alias = "温度T3"
 U = "K"
-enable = true
 optkeys = []
 help = "Still Plate"
 optvalues = []
 type = "read"
-alias = "温度T3"
+cmdheader = ""
 
 [temperatureT1]
-cmdheader = ""
+alias = "温度T1"
 U = "K"
-enable = true
 optkeys = []
 help = "PT2 Head"
 optvalues = []
 type = "read"
-alias = "温度T1"
+cmdheader = ""
 
 [temperatureT7]
-cmdheader = ""
+alias = "温度T7"
 U = "K"
-enable = true
 optkeys = []
 help = "PT1 Plate"
 optvalues = []
 type = "read"
-alias = "温度T7"
+cmdheader = ""
 
 [temperatureT5]
-cmdheader = ""
+alias = "温度T5"
 U = "K"
-enable = true
 optkeys = []
 help = "MC Plate Cernox"
 optvalues = []
 type = "read"
-alias = "温度T5"
+cmdheader = ""
 
 [temperatureT2]
-cmdheader = ""
+alias = "温度T2"
 U = "K"
-enable = true
 optkeys = []
 help = "PT2 Plate"
 optvalues = []
 type = "read"
-alias = "温度T2"
+cmdheader = ""
 
 [temperatureT4]
-cmdheader = ""
+alias = "温度T4"
 U = "K"
-enable = true
 optkeys = []
 help = "Cold Plate"
 optvalues = []
 type = "read"
-alias = "温度T4"
+cmdheader = ""
 
 [conf]
 idn = "Triton"
@@ -66,31 +60,28 @@ input_labels = []
 cmdtype = "scpi"
 
 [temperatureT8]
-cmdheader = ""
+alias = "温度T8"
 U = "K"
-enable = true
 optkeys = []
 help = "MC Plate RuO2"
 optvalues = []
 type = "read"
-alias = "温度T8"
+cmdheader = ""
 
 [temperatureT13]
-cmdheader = ""
+alias = "温度T13"
 U = "K"
-enable = true
 optkeys = []
 help = "Magnet"
 optvalues = []
 type = "read"
-alias = "温度T13"
+cmdheader = ""
 
 [temperatureT6]
-cmdheader = ""
+alias = "温度T6"
 U = "K"
-enable = true
 optkeys = []
 help = "PT1 Head"
 optvalues = []
 type = "read"
-alias = "温度T6"
+cmdheader = ""
