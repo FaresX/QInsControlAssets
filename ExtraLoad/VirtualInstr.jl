@@ -28,8 +28,21 @@ let
     B::Float64 = 0
     Power::String = "0"
 
-    Ic(b) = 1e-6 * (abs(sinc(1e3b)) + randn() * 1e-2)
-    IR(i) = Power == "0" ? 0 : (abs(i) > Ic(B) ? 600 * (1 + randn() * 1e-2) : 600 * (randn() * 1e-2))
+    Ic(b) = 1e-6 * abs(sinc(1e3b))
+    function IR(i)
+        if Power == "1"
+            δIc = 0.1Ic(B)
+            if abs(i) < Ic(B) - δIc
+                return 600 * 0.005randn()
+            elseif Ic(B) - δIc < abs(i) < Ic(B) + δIc
+                return (1200 / (1 + 9e13abs2(abs(i) - Ic(B)))) * (1 + 0.01randn())
+            else
+                return 600 * (1 + 0.01randn())
+            end
+        else
+            return 600 * 0.005randn()
+        end
+    end
 
     global VirtualInstr_I_set(_, setv) = (I = parse(Float64, setv))
     global VirtualInstr_I_get(_) = string(I)
