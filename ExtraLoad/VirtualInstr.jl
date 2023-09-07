@@ -35,9 +35,9 @@ let
             if abs(i) < Ic(B) - δIc
                 return 600 * 0.005randn()
             elseif Ic(B) - δIc < abs(i) < Ic(B) + δIc
-                return (1200 / (1 + 9e13abs2(abs(i) - Ic(B)))) * (1 + 0.01randn())
+                return (1200 / (1 + 9e13abs2(abs(i) - Ic(B)))) * (1 + 0.005randn())
             else
-                return 600 * (1 + 0.01randn())
+                return 600 * (1 + 0.005randn())
             end
         else
             return 600 * 0.005randn()
