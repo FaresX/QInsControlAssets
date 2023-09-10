@@ -1,11 +1,11 @@
-[sourcerangev]
-alias = "输出电压范围"
+[measureprotv]
+alias = "测量电压保护"
 U = "V"
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-cmdheader = ":SOURce:VOLTage:RANGe"
+cmdheader = ":SENSe:VOLTage:PROTection"
 
 [measurefuncon]
 alias = "启用测量模式"
@@ -113,14 +113,14 @@ optvalues = []
 type = "sweep"
 cmdheader = ":SOURce:VOLTage:LEVel"
 
-[measureprotv]
-alias = "测量电压保护"
+[sourcerangev]
+alias = "输出电压范围"
 U = "V"
 optkeys = []
 help = ""
 optvalues = []
 type = "set"
-cmdheader = ":SENSe:VOLTage:PROTection"
+cmdheader = ":SOURce:VOLTage:RANGe"
 
 [leveli]
 alias = "输出电流"

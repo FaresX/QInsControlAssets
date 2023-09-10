@@ -7,6 +7,15 @@ optvalues = ["AC", "DC"]
 type = "set"
 cmdheader = ":INPut1:COUPling"
 
+[acvoltagerange]
+alias = "交流电压范围"
+U = "V"
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
+cmdheader = ":SOURce:VOLTage:RANGe"
+
 [acfrequency]
 alias = "交流频率"
 U = "Hz"
