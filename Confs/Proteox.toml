@@ -1,0 +1,15 @@
+[drimixs]
+alias = "混合室温度"
+U = "K"
+optkeys = []
+help = ""
+optvalues = []
+type = "read"
+cmdheader = ""
+
+[conf]
+idn = "Proteox"
+output_labels = []
+icon = ""
+input_labels = []
+cmdtype = ""
