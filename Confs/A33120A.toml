@@ -1,0 +1,66 @@
+[sourcevunit]
+cmdheader = "SOURce:VOLTage:UNIT"
+U = ""
+enable = true
+optkeys = ["Vpp", "Vrms", "dBm"]
+help = ""
+optvalues = ["VPP", "VRMS", "DBM"]
+type = "sweep"
+alias = "电压模式"
+
+[sourcepulsedcyle]
+cmdheader = "SOURce:PULSe:DCYCle"
+U = ""
+enable = true
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
+alias = "占空比"
+
+[sourcefreq]
+cmdheader = "SOURce:FREQuency"
+U = "Hz"
+enable = true
+optkeys = []
+help = ""
+optvalues = []
+type = "sweep"
+alias = "频率"
+
+[sourcevoffset]
+cmdheader = "SOURce:VOLTage:OFFSet"
+U = "V"
+enable = true
+optkeys = []
+help = ""
+optvalues = []
+type = "sweep"
+alias = "电压偏移"
+
+[sourcefunc]
+cmdheader = "SOURce:FUNCtion:SHAPe"
+U = ""
+enable = true
+optkeys = ["sin", "square", "triangle", "ramp", "noise"]
+help = ""
+optvalues = ["SIN", "SQU", "TRI", "RAMP", "NOIS"]
+type = "set"
+alias = "波形"
+
+[sourcev]
+cmdheader = "SOURce:VOLTage"
+U = "V"
+enable = true
+optkeys = []
+help = ""
+optvalues = []
+type = "sweep"
+alias = "电压"
+
+[conf]
+idn = "33120A"
+output_labels = []
+icon = ""
+input_labels = []
+cmdtype = "scpi"
