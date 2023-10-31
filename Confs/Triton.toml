@@ -1,44 +1,8 @@
-[temperatureT3]
-alias = "温度T3"
-U = "K"
-optkeys = []
-help = "Still Plate"
-optvalues = []
-type = "read"
-cmdheader = ""
-
-[temperatureT1]
-alias = "温度T1"
-U = "K"
-optkeys = []
-help = "PT2 Head"
-optvalues = []
-type = "read"
-cmdheader = ""
-
-[temperatureT7]
-alias = "温度T7"
-U = "K"
-optkeys = []
-help = "PT1 Plate"
-optvalues = []
-type = "read"
-cmdheader = ""
-
 [temperatureT5]
 alias = "温度T5"
 U = "K"
 optkeys = []
 help = "MC Plate Cernox"
-optvalues = []
-type = "read"
-cmdheader = ""
-
-[temperatureT2]
-alias = "温度T2"
-U = "K"
-optkeys = []
-help = "PT2 Plate"
 optvalues = []
 type = "read"
 cmdheader = ""
@@ -52,18 +16,20 @@ optvalues = []
 type = "read"
 cmdheader = ""
 
-[conf]
-idn = "Triton"
-output_labels = []
-icon = ""
-input_labels = []
-cmdtype = "scpi"
-
-[temperatureT8]
-alias = "温度T8"
+[temperatureT1]
+alias = "温度T1"
 U = "K"
 optkeys = []
-help = "MC Plate RuO2"
+help = "PT2 Head"
+optvalues = []
+type = "read"
+cmdheader = ""
+
+[temperatureT6]
+alias = "温度T6"
+U = "K"
+optkeys = []
+help = "PT1 Head"
 optvalues = []
 type = "read"
 cmdheader = ""
@@ -77,11 +43,54 @@ optvalues = []
 type = "read"
 cmdheader = ""
 
-[temperatureT6]
-alias = "温度T6"
+[temperatureT3]
+alias = "温度T3"
 U = "K"
 optkeys = []
-help = "PT1 Head"
+help = "Still Plate"
 optvalues = []
 type = "read"
 cmdheader = ""
+
+[temperatureT7]
+alias = "温度T7"
+U = "K"
+optkeys = []
+help = "PT1 Plate"
+optvalues = []
+type = "read"
+cmdheader = ""
+
+[temperatureT8]
+alias = "温度T8"
+U = "K"
+optkeys = []
+help = "MC Plate RuO2"
+optvalues = []
+type = "read"
+cmdheader = ""
+
+[temperatureTA]
+alias = "温度TA"
+U = "K"
+optkeys = []
+help = ""
+optvalues = []
+type = "read"
+cmdheader = ""
+
+[temperatureT2]
+alias = "温度T2"
+U = "K"
+optkeys = []
+help = "PT2 Plate"
+optvalues = []
+type = "read"
+cmdheader = ""
+
+[conf]
+idn = "Triton"
+output_labels = []
+icon = ""
+input_labels = []
+cmdtype = "scpi"

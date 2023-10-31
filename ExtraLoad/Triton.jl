@@ -1,3 +1,5 @@
+Triton_temperatureTA_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:SIG:TEMP"), "TEMP:")[end][1:end-1]
+
 Triton_temperatureT1_get(instr) = split(query(instr, "READ:DEV:T1:TEMP:SIG:TEMP"), "TEMP:")[end][1:end-1]
 
 Triton_temperatureT2_get(instr) = split(query(instr, "READ:DEV:T2:TEMP:SIG:TEMP"), "TEMP:")[end][1:end-1]
