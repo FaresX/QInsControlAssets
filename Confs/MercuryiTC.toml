@@ -1,0 +1,69 @@
+[setflowctl]
+alias = "流量控制"
+U = ""
+optkeys = ["Manual", "Auto"]
+help = ""
+optvalues = ["OFF", "ON"]
+type = "set"
+cmdheader = ""
+
+[enablepid]
+alias = "PID开关"
+U = ""
+optkeys = ["Manual", "Auto"]
+help = ""
+optvalues = ["OFF", "ON"]
+type = "set"
+cmdheader = ""
+
+[setheater]
+alias = "设置加热器"
+U = ""
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
+cmdheader = ""
+
+[setsweepmode]
+alias = "设置扫温模式"
+U = ""
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
+cmdheader = ""
+
+[settemp]
+alias = "设置温度"
+U = "K"
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
+cmdheader = ""
+
+[conf]
+idn = "MERCURY ITC"
+output_labels = []
+icon = ""
+input_labels = []
+cmdtype = "scpi"
+
+[temperature]
+alias = "温度"
+U = "K"
+optkeys = []
+help = ""
+optvalues = []
+type = "read"
+cmdheader = ""
+
+[setflow]
+alias = "设置流量"
+U = ""
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
+cmdheader = ""

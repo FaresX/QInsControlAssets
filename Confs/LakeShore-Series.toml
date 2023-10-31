@@ -1,3 +1,12 @@
+[inputA]
+alias = "A通道温度"
+U = "K"
+optkeys = []
+help = ""
+optvalues = []
+type = "read"
+cmdheader = "KRDG? A"
+
 [inputB]
 alias = "B通道温度"
 U = "K"
@@ -8,7 +17,7 @@ type = "read"
 cmdheader = "KRDG? B"
 
 [conf]
-idn = "MODEL336"
+idn = "MODEL336;MODEL350"
 output_labels = []
 icon = ""
 input_labels = []
