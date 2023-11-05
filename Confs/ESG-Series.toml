@@ -35,7 +35,7 @@ type = "sweep"
 cmdheader = ":SOUR:POW"
 
 [conf]
-idn = "E8254A;ESG-3000B;MG3692C"
+idn = "E8254A;E8257D;ESG-3000B;MG3692C"
 output_labels = ["RF out"]
 icon = ""
 input_labels = []
