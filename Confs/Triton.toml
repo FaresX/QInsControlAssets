@@ -16,6 +16,42 @@ optvalues = []
 type = "read"
 cmdheader = ""
 
+[hrtlm400tapbautotsetsw]
+alias = "怀柔TLM400TAProbeB自动控温开关"
+U = ""
+optkeys = ["ON", "OFF"]
+help = ""
+optvalues = ["ON", "OFF"]
+type = "set"
+cmdheader = ""
+
+[taloopP]
+alias = "TAPID - P"
+U = ""
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
+cmdheader = ""
+
+[hrtlm400tapbautotset]
+alias = "怀柔TLM400TAProbeB自动控温"
+U = "K"
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
+cmdheader = ""
+
+[taloopI]
+alias = "TAPID - I"
+U = ""
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
+cmdheader = ""
+
 [temperatureT1]
 alias = "温度T1"
 U = "K"
@@ -23,6 +59,24 @@ optkeys = []
 help = "PT2 Head"
 optvalues = []
 type = "read"
+cmdheader = ""
+
+[h2power]
+alias = "加热器H2功率"
+U = "μW"
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
+cmdheader = ""
+
+[taloopPID]
+alias = "TAPID"
+U = ""
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
 cmdheader = ""
 
 [temperatureT6]
@@ -52,6 +106,15 @@ optvalues = []
 type = "read"
 cmdheader = ""
 
+[taexcitationcur]
+alias = "TA激励电流"
+U = "A"
+optkeys = ["316pA", "1nA", "3.16nA", "10nA", "31.6nA", "100nA"]
+help = ""
+optvalues = ["316pA", "1nA", "3.16nA", "10nA", "31.6nA", "100nA"]
+type = "set"
+cmdheader = ""
+
 [temperatureT7]
 alias = "温度T7"
 U = "K"
@@ -61,6 +124,15 @@ optvalues = []
 type = "read"
 cmdheader = ""
 
+[looptset]
+alias = "温度设置"
+U = "K"
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
+cmdheader = ""
+
 [temperatureT8]
 alias = "温度T8"
 U = "K"
@@ -68,6 +140,24 @@ optkeys = []
 help = "MC Plate RuO2"
 optvalues = []
 type = "read"
+cmdheader = ""
+
+[taexcitationvolt]
+alias = "TA激励电压"
+U = "V"
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
+cmdheader = ""
+
+[looprange]
+alias = "加热器范围"
+U = "mA"
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
 cmdheader = ""
 
 [temperatureTA]
@@ -88,9 +178,36 @@ optvalues = []
 type = "read"
 cmdheader = ""
 
+[taloopD]
+alias = "TAPID - D"
+U = ""
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
+cmdheader = ""
+
+[taexcitationtype]
+alias = "TA激励类型"
+U = ""
+optkeys = ["电流", "电压"]
+help = ""
+optvalues = ["CUR", "VOLT"]
+type = "set"
+cmdheader = ""
+
 [conf]
 idn = "Triton"
 output_labels = []
 icon = ""
 input_labels = []
 cmdtype = "scpi"
+
+[loopmode]
+alias = "闭合PID"
+U = ""
+optkeys = ["ON", "OFF"]
+help = ""
+optvalues = ["ON", "OFF"]
+type = "set"
+cmdheader = ""
