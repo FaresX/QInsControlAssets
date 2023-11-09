@@ -30,9 +30,6 @@ Triton_taloopI_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:LOOP:I"), "I:")
 Triton_taloopD_set(instr, val) = write(instr, "SET:DEV:TA:TEMP:LOOP:D:$val")
 Triton_taloopD_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:LOOP:D"), "D:")[end]
 
-Triton_taloopD_set(instr, val) = write(instr, "SET:DEV:TA:TEMP:LOOP:D:$val")
-Triton_taloopD_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:LOOP:D"), "D:")[end]
-
 function Triton_taloopPID_set(instr, val)
     spval = split(val, ',')
     @assert length(spval) == 3 "please input P,I,D"
@@ -85,7 +82,7 @@ let
     global function Triton_hrtlm400tapbautotset_set(instr, val)
         if hrtlm400tapbautotsetsw == "ON"
             sv = val isa Number ? val : parse(Float64, val)
-            if sv < 0.1
+            if sv < 0.07
                 write(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
                 write(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:CUR")
                 write(instr, "SET:DEV:TA:TEMP:EXCT:MAG:1nA")
@@ -93,7 +90,7 @@ let
                 write(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:0.316")
 				write(instr, "SET:DEV:H2:HTR:SIG:POWR:8000")
                 write(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
-            elseif 0.1 <= sv < 0.5
+            elseif 0.07 <= sv < 0.5
                 write(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
                 write(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:CUR")
                 write(instr, "SET:DEV:TA:TEMP:EXCT:MAG:10nA")
