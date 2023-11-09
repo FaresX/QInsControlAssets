@@ -18,23 +18,23 @@ Triton_temperatureT8_get(instr) = split(query(instr, "READ:DEV:T8:TEMP:SIG:TEMP"
 
 Triton_temperatureT13_get(instr) = split(query(instr, "READ:DEV:T13:TEMP:SIG:TEMP"), "TEMP:")[end][1:end-1]
 
-Triton_loopmode_set(instr, val) = write(instr, "SET:DEV:TA:TEMP:LOOP:MODE:$val")
+Triton_loopmode_set(instr, val) = query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:$val")
 Triton_loopmode_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:LOOP:MODE"), "MODE:")[end]
 
-Triton_taloopP_set(instr, val) = write(instr, "SET:DEV:TA:TEMP:LOOP:P:$val")
+Triton_taloopP_set(instr, val) = query(instr, "SET:DEV:TA:TEMP:LOOP:P:$val")
 Triton_taloopP_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:LOOP:P"), "P:")[end]
 
-Triton_taloopI_set(instr, val) = write(instr, "SET:DEV:TA:TEMP:LOOP:I:$val")
+Triton_taloopI_set(instr, val) = query(instr, "SET:DEV:TA:TEMP:LOOP:I:$val")
 Triton_taloopI_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:LOOP:I"), "I:")[end]
 
-Triton_taloopD_set(instr, val) = write(instr, "SET:DEV:TA:TEMP:LOOP:D:$val")
+Triton_taloopD_set(instr, val) = query(instr, "SET:DEV:TA:TEMP:LOOP:D:$val")
 Triton_taloopD_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:LOOP:D"), "D:")[end]
 
 function Triton_taloopPID_set(instr, val)
     spval = split(val, ',')
     @assert length(spval) == 3 "please input P,I,D"
     p, i, d = val
-    write(instr, "SET:DEV:TA:TEMP:LOOP:P:$p:I:$i:D:$d")
+    query(instr, "SET:DEV:TA:TEMP:LOOP:P:$p:I:$i:D:$d")
 end
 function Triton_taloopPID_get(instr)
     p = split(query(instr, "READ:DEV:TA:TEMP:LOOP:P"), "P:")[end]
@@ -43,22 +43,22 @@ function Triton_taloopPID_get(instr)
     return "P:$p I:$i D:$d"
 end
 
-Triton_looptset_set(instr, val) = write(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
+Triton_looptset_set(instr, val) = query(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
 Triton_looptset_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:LOOP:TSET"), "TSET:")[end][1:end-1]
 
-Triton_looprange_set(instr, val) = write(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:$val")
+Triton_looprange_set(instr, val) = query(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:$val")
 Triton_looprange_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:LOOP:RANGE"), "RANGE:")[end][1:end-2]
 
-Triton_h2power_set(instr, val) = write(instr, "SET:DEV:H2:HTR:SIG:POWR:$val")
+Triton_h2power_set(instr, val) = query(instr, "SET:DEV:H2:HTR:SIG:POWR:$val")
 Triton_h2power_get(instr) = split(query(instr, "READ:DEV:H2:HTR:SIG:POWR"), "POWR:")[end][1:end-2]
 
-Triton_taexcitationtype_set(instr, val) = write(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:$val")
+Triton_taexcitationtype_set(instr, val) = query(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:$val")
 Triton_taexcitationtype_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:EXCT:TYPE"), "TYPE:")[end]
 
 function Triton_taexcitationcur_set(instr, val)
     type = split(query(instr, "READ:DEV:TA:TEMP:EXCT:TYPE"), "TYPE:")[end]
     @assert type == "CUR" "excitation is type of voltage"
-    write(instr, "SET:DEV:TA:TEMP:EXCT:MAG:$val")
+    query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:$val")
 end
 function Triton_taexcitationcur_get(instr)
     type = split(query(instr, "READ:DEV:TA:TEMP:EXCT:TYPE"), "TYPE:")[end]
@@ -69,7 +69,7 @@ end
 function Triton_taexcitationvolt_set(instr, val)
     type = split(query(instr, "READ:DEV:TA:TEMP:EXCT:TYPE"), "TYPE:")[end]
     @assert type == "VOLT" "excitation is type of current"
-    write(instr, "SET:DEV:TA:TEMP:EXCT:MAG:$val")
+    query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:$val")
 end
 function Triton_taexcitationvolt_get(instr)
     type = split(query(instr, "READ:DEV:TA:TEMP:EXCT:TYPE"), "TYPE:")[end]
@@ -83,29 +83,29 @@ let
         if hrtlm400tapbautotsetsw == "ON"
             sv = val isa Number ? val : parse(Float64, val)
             if sv < 0.07
-                write(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
-                write(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:CUR")
-                write(instr, "SET:DEV:TA:TEMP:EXCT:MAG:1nA")
-                write(instr, "SET:DEV:TA:TEMP:LOOP:P:4:I:8:D:0")
-                write(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:0.316")
-				write(instr, "SET:DEV:H2:HTR:SIG:POWR:8000")
-                write(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:CUR")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:1nA")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:P:4:I:8:D:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:0.316")
+				query(instr, "SET:DEV:H2:HTR:SIG:POWR:8000")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
             elseif 0.07 <= sv < 0.5
-                write(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
-                write(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:CUR")
-                write(instr, "SET:DEV:TA:TEMP:EXCT:MAG:10nA")
-                write(instr, "SET:DEV:TA:TEMP:LOOP:P:2:I:8:D:0")
-                write(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:3.16")
-                write(instr, "SET:DEV:H2:HTR:SIG:POWR:0")
-                write(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:CUR")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:10nA")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:P:2:I:8:D:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:3.16")
+                query(instr, "SET:DEV:H2:HTR:SIG:POWR:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
             elseif 0.5 <= sv < 1
-                write(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
-                write(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:CUR")
-                write(instr, "SET:DEV:TA:TEMP:EXCT:MAG:31.6nA")
-                write(instr, "SET:DEV:TA:TEMP:LOOP:P:2:I:8:D:0")
-                write(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:3.16")
-                write(instr, "SET:DEV:H2:HTR:SIG:POWR:0")
-                write(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:CUR")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:31.6nA")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:P:2:I:8:D:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:3.16")
+                query(instr, "SET:DEV:H2:HTR:SIG:POWR:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
             end
         end
     end
@@ -116,10 +116,10 @@ let
             hrtlm400tapbautotsetsw = "ON"
         elseif val == "OFF"
 			hrtlm400tapbautotsetsw = "OFF"
-            write(instr, "SET:DEV:TA:TEMP:LOOP:MODE:OFF")
-            write(instr, "SET:DEV:TA:TEMP:EXCT:MAG:316pA")
-            write(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:0")
-            write(instr, "SET:DEV:H2:HTR:SIG:POWR:8000")
+            query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:OFF")
+            query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:316pA")
+            query(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:0")
+            query(instr, "SET:DEV:H2:HTR:SIG:POWR:8000")
         end
     end
     global Triton_hrtlm400tapbautotsetsw_get(instr) = hrtlm400tapbautotsetsw
