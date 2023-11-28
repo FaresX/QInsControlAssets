@@ -1,11 +1,11 @@
-[levelv]
-alias = "输出电压"
+[measureprotv]
+alias = "测量电压保护"
 U = "V"
 optkeys = []
 help = ""
 optvalues = []
-type = "sweep"
-cmdheader = ":SOURce:VOLTage:LEVel"
+type = "set"
+cmdheader = ":SENSe:VOLTage:PROTection"
 
 [measurefuncon]
 alias = "启用测量模式"
@@ -28,9 +28,9 @@ cmdheader = ":OUTPut:STATe"
 [sourcerangei]
 alias = "输出电流范围"
 U = "A"
-optkeys = []
+optkeys = ["1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A"]
 help = ""
-optvalues = []
+optvalues = ["0.000001", "0.00001", "0.0001", "0.001", "0.01", "0.1", "1"]
 type = "set"
 cmdheader = ":SOURce:CURRent:RANGe"
 
@@ -64,9 +64,9 @@ cmdheader = ":READ?"
 [measurerangei]
 alias = "测量电流范围"
 U = "A"
-optkeys = []
+optkeys = ["1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A"]
 help = ""
-optvalues = []
+optvalues = ["0.000001", "0.00001", "0.0001", "0.001", "0.01", "0.1", "1"]
 type = "set"
 cmdheader = ":SENSe:CURRent:RANGe"
 
@@ -82,9 +82,9 @@ cmdheader = ":SOURce:FUNCtion:MODE"
 [measurerangev]
 alias = "测量电压范围"
 U = "V"
-optkeys = []
+optkeys = ["200mV", "2V", "20V", "200V"]
 help = ""
-optvalues = []
+optvalues = ["0.2", "2", "20", "200"]
 type = "set"
 cmdheader = ":SENSe:VOLTage:RANGe"
 
@@ -104,21 +104,21 @@ icon = ""
 input_labels = ["L", "LS"]
 cmdtype = "scpi"
 
-[measureprotv]
-alias = "测量电压保护"
+[levelv]
+alias = "输出电压"
 U = "V"
 optkeys = []
 help = ""
 optvalues = []
-type = "set"
-cmdheader = ":SENSe:VOLTage:PROTection"
+type = "sweep"
+cmdheader = ":SOURce:VOLTage:LEVel"
 
 [sourcerangev]
 alias = "输出电压范围"
 U = "V"
-optkeys = []
+optkeys = ["200mV", "2V", "20V", "200V"]
 help = ""
-optvalues = []
+optvalues = ["0.2", "2", "20", "200"]
 type = "set"
 cmdheader = ":SOURce:VOLTage:RANGe"
 
