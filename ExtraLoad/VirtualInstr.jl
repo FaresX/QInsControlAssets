@@ -40,7 +40,7 @@ let
                 return 600 * (1 + 0.005randn())
             end
         else
-            return 600 * 0.005randn()
+            return 600 * 0.001randn()
         end
     end
 
