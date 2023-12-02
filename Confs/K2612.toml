@@ -10,9 +10,9 @@ cmdheader = "smub.measure.iv()"
 [Bmeasurerangei]
 alias = "B测量电流范围"
 U = "A"
-optkeys = []
+optkeys = ["100nA", "1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A", "1.5A"]
 help = ""
-optvalues = []
+optvalues = ["1e-7", "1e-6", "1e-5", "1e-4", "0.001", "0.01", "0.1", "1", "1.5"]
 type = "set"
 cmdheader = "smub.measure.rangei"
 
@@ -37,9 +37,9 @@ cmdheader = "smub.measure.rangev"
 [Ameasurerangei]
 alias = "A测量电流范围"
 U = "A"
-optkeys = []
+optkeys = ["100nA", "1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A", "1.5A"]
 help = ""
-optvalues = []
+optvalues = ["1e-7", "1e-6", "1e-5", "1e-4", "0.001", "0.01", "0.1", "1", "1.5"]
 type = "set"
 cmdheader = "smua.measure.rangei"
 
@@ -55,9 +55,9 @@ cmdheader = "smua.measure.iv()"
 [Asourcerangev]
 alias = "A输出电压范围"
 U = "V"
-optkeys = []
+optkeys = ["200mV", "2V", "20V", "200V"]
 help = ""
-optvalues = []
+optvalues = ["0.2", "2", "20", "200"]
 type = "set"
 cmdheader = "smua.source.rangev"
 
@@ -118,9 +118,9 @@ cmdheader = "smub.source.limitv"
 [Bsourcerangev]
 alias = "B输出电压范围"
 U = "V"
-optkeys = []
+optkeys = ["200mV", "2V", "20V", "200V"]
 help = ""
-optvalues = []
+optvalues = ["0.2", "2", "20", "200"]
 type = "set"
 cmdheader = "smub.source.rangev"
 
@@ -145,9 +145,9 @@ cmdheader = "smub.source.output"
 [Asourcerangei]
 alias = "A输出电流范围"
 U = "A"
-optkeys = []
+optkeys = ["100nA", "1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A", "1.5A"]
 help = ""
-optvalues = []
+optvalues = ["1e-7", "1e-6", "1e-5", "1e-4", "0.001", "0.01", "0.1", "1", "1.5"]
 type = "set"
 cmdheader = "smua.source.rangei"
 
@@ -190,9 +190,9 @@ cmdheader = "smub.measure.i()"
 [Ameasurerangev]
 alias = "A测量电压范围"
 U = "V"
-optkeys = []
+optkeys = ["200mV", "2V", "20V", "200V"]
 help = ""
-optvalues = []
+optvalues = ["0.2", "2", "20", "200"]
 type = "set"
 cmdheader = "smua.measure.rangev"
 
@@ -208,9 +208,9 @@ cmdheader = "smub.source.limiti"
 [Bsourcerangei]
 alias = "B输出电流范围"
 U = "A"
-optkeys = []
+optkeys = ["100nA", "1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A", "1.5A"]
 help = ""
-optvalues = []
+optvalues = ["1e-7", "1e-6", "1e-5", "1e-4", "0.001", "0.01", "0.1", "1", "1.5"]
 type = "set"
 cmdheader = "smub.source.rangei"
 
