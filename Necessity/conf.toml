@@ -11,8 +11,8 @@ editor = "notepad"
 language = "English"
 
     [Basic.languages]
-    English = "D:\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\MyPackages\\QInsControl.jl\\../QInsControlAssets\\Languages\\English.toml"
-    "简体中文" = "D:\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\MyPackages\\QInsControl.jl\\../QInsControlAssets\\Languages\\SimplifiedChinese.toml"
+    English = ""
+    "简体中文" = ""
 
 [DtViewer]
 showdatarow = 10000
@@ -42,7 +42,7 @@ refreshrate = 1.0
     [InsBuf.unitlist]
 
 [Fonts]
-dir = "D:\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\MyPackages\\QInsControl.jl\\../QInsControlAssets\\Fonts"
+dir = ""
 size = 18
 plotfontsize = 30
 first = "ZaoZiGongFangShangHeiG0v1ChangGuiTi-1.otf"
@@ -53,26 +53,26 @@ plotfont = "arial.ttf"
 size = 18
 
 [Console]
-dir = "D:\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\MyPackages\\QInsControl.jl\\../QInsControlAssets\\IOs"
+dir = ""
 refreshrate = 60.0
 showioline = 100
 historylen = 120
 
 [Logs]
-dir = "D:\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\MyPackages\\QInsControl.jl\\../QInsControlAssets\\Logs"
+dir = ""
 refreshrate = 60.0
 showlogline = 600
 showloglength = 1000
 
 [BGImage]
-path = "D:\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\MyPackages\\QInsControl.jl\\../QInsControlAssets\\Necessity/defaultwallpaper.png"
+path = ""
 useall = true
 
 [ComAddr]
 addrs = []
 
 [Style]
-dir = "D:\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\MyPackages\\QInsControl.jl\\../QInsControlAssets\\Styles"
+dir = ""
 default = "WarmWinter"
 
 [U]
