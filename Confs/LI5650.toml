@@ -73,9 +73,9 @@ cmdheader = "FETCh?"
 [sensitivityipPSD]
 alias = "电流灵敏度pPSD"
 U = "A"
-optkeys = []
+optkeys = ["10fA", "20fA", "50fA", "100fA", "200fA", "500fA", "1pA", "2pA", "5pA", "10pA", "20pA", "50pA", "100pA", "200pA", "500pA", "1nA", "2nA", "5nA", "10nA", "20nA", "50nA", "100nA", "200nA", "500nA", "1μA"]
 help = ""
-optvalues = []
+optvalues = ["1e-14", "2e-14", "5e-14", "1e-13", "2e-13", "5e-13", "1e-12", "2e-12", "5e-12", "1e-11", "2e-11", "5e-11", "1e-10", "2e-10", "5e-10", "1e-9", "2e-9", "5e-9", "1e-8", "2e-8", "5e-8", "1e-7", "2e-7", "5e-7", "1e-6"]
 type = "set"
 cmdheader = ":SENSe:CURRent1:AC:RANGe:UPPer"
 
@@ -91,9 +91,9 @@ cmdheader = ":SOURce6:VOLTage:LEVel:IMMediate:OFFSet"
 [tconstpPSD]
 alias = "时间常数pPSD"
 U = "s"
-optkeys = []
+optkeys = ["5μs", "10μs", "20μs", "50μs", "100μs", "200μs", "500μs", "1ms", "2ms", "5ms", "10ms", "20ms", "50ms", "100ms", "200ms", "500ms", "1s", "2s", "5s", "10s", "20s", "50s", "100s", "200s", "500s", "1ks", "2ks", "5ks", "10ks", "20ks", "50ks"]
 help = ""
-optvalues = []
+optvalues = ["5e-6", "1e-5", "2e-5", "5e-5", "1e-4", "2e-4", "5e-4", "0.001", "0.002", "0.005", "0.01", "0.02", "0.05", "0.1", "0.2", "0.5", "1", "2", "5", "10", "20", "50", "100", "200", "500", "1000", "2000", "5000", "1e4", "2e4", "5e4"]
 type = "set"
 cmdheader = ":SENSe:FILTer1:LPASs:TCONstant"
 
@@ -118,9 +118,9 @@ cmdheader = ":SENSe:PHASe1"
 [sensitivityvpPSD]
 alias = "电压灵敏度pPSD"
 U = "V"
-optkeys = []
+optkeys = ["10nV", "20nV", "50nV", "100nV", "200nV", "500nV", "1μV", "2μV", "5μV", "10μV", "20μV", "50μV", "100μV", "200μV", "500μV", "1mV", "2mV", "5mV", "10mV", "20mV", "50mV", "100mV", "200mV", "500mV", "1V"]
 help = ""
-optvalues = []
+optvalues = ["1e-8", "2e-8", "5e-8", "1e-7", "2e-7", "5e-7", "1e-6", "2e-6", "5e-6", "1e-5", "2e-5", "5e-5", "1e-4", "2e-4", "5e-4", "0.001", "0.002", "0.005", "0.01", "0.02", "0.05", "0.1", "0.2", "0.5", "1"]
 type = "set"
 cmdheader = ":SENSe:VOLTage1:AC:RANGe:UPPer"
 
