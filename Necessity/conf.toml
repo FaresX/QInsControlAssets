@@ -1,0 +1,91 @@
+[Basic]
+isremote = true
+remoteprocessdata = false
+viewportenable = true
+scale = true
+hidewindow = false
+nthreads = 1
+windowsize = [1280, 720]
+encoding = "GBK"
+editor = "notepad"
+language = "English"
+
+    [Basic.languages]
+    English = "D:\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\MyPackages\\QInsControl.jl\\../QInsControlAssets\\Languages\\English.toml"
+    "简体中文" = "D:\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\MyPackages\\QInsControl.jl\\../QInsControlAssets\\Languages\\SimplifiedChinese.toml"
+
+[DtViewer]
+showdatarow = 10000
+
+[DAQ]
+saveimg = false
+logall = false
+equalstep = true
+showeditplotlayout = true
+freelayout = true
+savetime = 60
+channel_size = 512
+packsize = 6
+plotshowcol = 2
+pick_fps = [3, 36]
+historylen = 120
+retrysendtimes = 3
+retryconnecttimes = 3
+
+[InsBuf]
+showhelp = false
+showcol = 3
+refreshrate = 1.0
+
+    [InsBuf.disablelist]
+
+    [InsBuf.unitlist]
+
+[Fonts]
+dir = "D:\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\MyPackages\\QInsControl.jl\\../QInsControlAssets\\Fonts"
+size = 18
+plotfontsize = 30
+first = "ZaoZiGongFangShangHeiG0v1ChangGuiTi-1.otf"
+second = "arial.ttf"
+plotfont = "arial.ttf"
+
+[Icons]
+size = 18
+
+[Console]
+dir = "D:\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\MyPackages\\QInsControl.jl\\../QInsControlAssets\\IOs"
+refreshrate = 60.0
+showioline = 100
+historylen = 120
+
+[Logs]
+dir = "D:\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\MyPackages\\QInsControl.jl\\../QInsControlAssets\\Logs"
+refreshrate = 60.0
+showlogline = 600
+showloglength = 1000
+
+[BGImage]
+path = "D:\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\MyPackages\\QInsControl.jl\\../QInsControlAssets\\Necessity/defaultwallpaper.png"
+useall = true
+
+[ComAddr]
+addrs = []
+
+[Style]
+dir = "D:\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\MyPackages\\QInsControl.jl\\../QInsControlAssets\\Styles"
+default = "WarmWinter"
+
+[U]
+T = ["T", "mT", "Gauss"]
+V = ["V", "mV", "μV", "nV"]
+mA = ["mA", "μA"]
+Hz = ["Hz", "kHz", "MHz", "GHz"]
+"T/min" = ["T minute^-1"]
+s = ["s", "minute", "hr", "d", "ms", "μs"]
+A = ["A", "mA", "μA", "nA"]
+"μW" = ["μW"]
+dBm = ["dBm"]
+"°" = ["°", "rad"]
+"" = [""]
+K = ["K", "mK"]
+"Ω" = ["Ω", "kΩ", "MΩ"]
