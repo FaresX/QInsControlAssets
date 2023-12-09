@@ -1,0 +1,1 @@
+K2400_datareadCtrl_get(instr) = query(instr, ":OUTPut:STATe?") == "1" ? query(instr, ":READ?") : ""

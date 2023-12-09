@@ -1,11 +1,20 @@
-[measureprotv]
-alias = "测量电压保护"
+[sourcerangev]
+alias = "输出电压范围"
 U = "V"
+optkeys = ["200mV", "2V", "20V", "200V"]
+help = ""
+optvalues = ["0.2", "2", "20", "200"]
+type = "set"
+cmdheader = ":SOURce:VOLTage:RANGe"
+
+[datareadCtrl]
+alias = "读数据Ctrl"
+U = ""
 optkeys = []
 help = ""
 optvalues = []
-type = "set"
-cmdheader = ":SENSe:VOLTage:PROTection"
+type = "read"
+cmdheader = ""
 
 [measurefuncon]
 alias = "启用测量模式"
@@ -113,14 +122,14 @@ optvalues = []
 type = "sweep"
 cmdheader = ":SOURce:VOLTage:LEVel"
 
-[sourcerangev]
-alias = "输出电压范围"
+[measureprotv]
+alias = "测量电压保护"
 U = "V"
-optkeys = ["200mV", "2V", "20V", "200V"]
+optkeys = []
 help = ""
-optvalues = ["0.2", "2", "20", "200"]
+optvalues = []
 type = "set"
-cmdheader = ":SOURce:VOLTage:RANGe"
+cmdheader = ":SENSe:VOLTage:PROTection"
 
 [leveli]
 alias = "输出电流"

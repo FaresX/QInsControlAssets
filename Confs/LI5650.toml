@@ -25,6 +25,15 @@ optvalues = []
 type = "sweep"
 cmdheader = ":SOURce:FREQuency1:CW"
 
+[dataoutCtrl]
+alias = "DATA-Ctrl"
+U = ""
+optkeys = []
+help = ""
+optvalues = []
+type = "read"
+cmdheader = ""
+
 [ground]
 alias = "接地"
 U = ""
