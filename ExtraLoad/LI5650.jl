@@ -1,1 +1,3 @@
-LI5650_dataoutCtrl_get(instr) = join(split(query(instr, "FETCh?"), ','), '\n')
+LI5650_dataout1Ctrl_get(instr) = string(split(query(instr, "FETCh?"), ',')[1])
+
+LI5650_dataout2Ctrl_get(instr) = string(split(query(instr, "FETCh?"), ',')[2])

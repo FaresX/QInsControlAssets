@@ -25,8 +25,8 @@ optvalues = []
 type = "sweep"
 cmdheader = ":SOURce:FREQuency1:CW"
 
-[dataoutCtrl]
-alias = "DATA-Ctrl"
+[dataout1Ctrl]
+alias = "DATA1Ctrl"
 U = ""
 optkeys = []
 help = ""
@@ -51,6 +51,15 @@ help = ""
 optvalues = []
 type = "sweep"
 cmdheader = ":SOURce5:VOLTage:LEVel:IMMediate:OFFSet"
+
+[dataout2Ctrl]
+alias = "DATA2Ctrl"
+U = ""
+optkeys = []
+help = ""
+optvalues = []
+type = "read"
+cmdheader = ""
 
 [acvoltage]
 alias = "交流电压"
