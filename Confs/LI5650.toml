@@ -118,9 +118,9 @@ cmdheader = ":SENSe:FILTer1:LPASs:TCONstant"
 [dynres]
 alias = "动态储量"
 U = ""
-optkeys = ["HIGH", "MEDIUM", "LOW"]
+optkeys = ["HIGH", "MED", "LOW"]
 help = ""
-optvalues = ["HIGH", "MEDium", "LOW"]
+optvalues = ["HIGH", "MED", "LOW"]
 type = "set"
 cmdheader = ":SENSe:DREServe"
 
@@ -130,7 +130,7 @@ U = "°"
 optkeys = []
 help = ""
 optvalues = []
-type = "set"
+type = "sweep"
 cmdheader = ":SENSe:PHASe1"
 
 [sensitivityvpPSD]

@@ -1,0 +1,15 @@
+[sourcefunc]
+alias = "输出模式"
+U = ""
+optkeys = ["CURR", "VOLT"]
+help = ""
+optvalues = ["smu.FUNC_DC_CURRENT", "smu.FUNC_DC_VOLTAGE"]
+type = "set"
+cmdheader = "smu.source.func"
+
+[conf]
+idn = "MODEL 2450"
+output_labels = []
+icon = ""
+input_labels = []
+cmdtype = "tsp"
