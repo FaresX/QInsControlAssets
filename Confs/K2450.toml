@@ -61,20 +61,11 @@ optvalues = ["CURR", "VOLT"]
 type = "set"
 cmdheader = ":SOURce1:FUNCtion:MODE"
 
-[sourcelimitv]
-alias = "输出电压限制"
-U = "V"
-optkeys = []
-help = ""
-optvalues = []
-type = "set"
-cmdheader = ":SOURce1:CURRent:VLIMit:LEVel"
-
 [conf]
 idn = "MODEL 2450"
-output_labels = []
+output_labels = ["H", "HS"]
 icon = ""
-input_labels = []
+input_labels = ["L", "LS"]
 cmdtype = "scpi"
 
 [levelv]
@@ -85,6 +76,15 @@ help = "Set amplitude for fixed source\r\n\r\n[:IMMediate][:AMPLitude] <n>\r\n\r
 optvalues = []
 type = "sweep"
 cmdheader = ":SOURce1:VOLTage:LEVel:IMMediate:AMPLitude"
+
+[sourcelimitv]
+alias = "输出电压限制"
+U = "V"
+optkeys = []
+help = ""
+optvalues = []
+type = "set"
+cmdheader = ":SOURce1:CURRent:VLIMit:LEVel"
 
 [leveli]
 alias = "输出电流"
