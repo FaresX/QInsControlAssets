@@ -1,96 +1,15 @@
-[sourcerangev]
-alias = "输出电压范围"
-U = "V"
-optkeys = ["20mV", "200mV", "2V", "20V", "200V"]
-help = ""
-optvalues = ["0.02", "0.2", "2.0", "20.0", "200.0"]
-type = "set"
-cmdheader = ":SOURce1:VOLTage:RANGe"
-
-[measurei]
-alias = "测量电流"
-U = "A"
-optkeys = []
-help = ""
-optvalues = []
-type = "read"
-cmdheader = ":MEASure:CURRent?"
-
-[output]
-alias = "输出"
-U = ""
-optkeys = ["ON", "OFF"]
-help = "Turn source on or off\r\n\r\n[:STATe] <b>\r\n\r\n:OUTPut[1][:STATe] <b>                      Turn source on or off\r\n\r\nParameters <b> = 0 or OFF                   Turn source off (standby)\r\n                 1 or ON                    Turn source on (operate)\r\n\r\nQuery      :OUTPut?                         Query state of source\r\n\r\nDescription     \r\nThis command is used to turn the source output on or off. \\\nMeasurements cannot be made while the source is off. \r\nTurning the source off places the SourceMeter in the idle state. \\\nThe only exception to this is when source auto clear is enabled. \\\nIn this mode, the source turns on during each source phase of \\\nthe SDM cycle and turns off after each measurement. \\\n(See “:SOURce[1]:CLEar:AUTO <b> Control auto out-put off,” page 18-72.)\r\n\r\nNOTE        The :SOURce:CLEar command will also turn the source off.   \r\n\r\nFor the Model 2430 Pulse Mode, the instrument is taken out of \\\nthe idle state when the output is turned on.     \r\n"
-optvalues = ["1", "0"]
-type = "set"
-cmdheader = ":OUTPut1:STATe"
-
-[sourcelimit]
-alias = "输出电流限制"
-U = "A"
-optkeys = []
-help = ""
-optvalues = []
-type = "set"
-cmdheader = ":SOURce1:VOLTage:ILIMit:LEVel"
-
-[sourcerangei]
-alias = "输出电流范围"
-U = "A"
-optkeys = ["10nA", "100nA", "1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A"]
-help = ""
-optvalues = ["1.0e-8", "1.0e-7", "1.0e-6", "1.0e-5", "0.0001", "0.001", "0.01", "0.1", "1.0"]
-type = "set"
-cmdheader = ":SOURce1:CURRent:RANGe"
-
-[measurev]
-alias = "测量电压"
-U = "V"
-optkeys = []
-help = ""
-optvalues = []
-type = "read"
-cmdheader = ":MEASure:VOLTage?"
-
 [sourcefunc]
 alias = "输出模式"
 U = ""
 optkeys = ["CURR", "VOLT"]
 help = ""
-optvalues = ["CURR", "VOLT"]
+optvalues = ["smu.FUNC_DC_CURRENT", "smu.FUNC_DC_VOLTAGE"]
 type = "set"
-cmdheader = ":SOURce1:FUNCtion:MODE"
+cmdheader = "smu.source.func"
 
 [conf]
 idn = "MODEL 2450"
-output_labels = ["H", "HS"]
+output_labels = []
 icon = ""
-input_labels = ["L", "LS"]
-cmdtype = "scpi"
-
-[levelv]
-alias = "输出电压"
-U = "V"
-optkeys = []
-help = "Set amplitude for fixed source\r\n\r\n[:IMMediate][:AMPLitude] <n>\r\n\r\n:SOURce[1]:CURRent[:LEVel][:IMMediate][:AMPLitude] <n> Set fixed I-Source amplitude immediately\r\n\r\n:SOURce[1]:VOLTage[:LEVel][:IMMediate][:AMPLitude] <n> Set fixed V-Source amplitude immediately\r\n\r\nParameters      2400/2400-LV/2401\r\n                <n> =   -1.05 to 1.05   Set I-Source amplitude (amps)\r\n                        -210 to 210     Set V-Source amplitude (volts)\r\n                                        (-21 to 21, 2400-LV and 2401)\r\n                        DEFault         0A or 0V     \r\n                        MINimum         -1.05A or -210V\r\n                        MAXimum         +1.05A or +210V (+21V, 2400-LV and 2401)\r\n\r\nQuery           :CURRent?               Query programmed amplitude of I-Source\r\n                :CURRent? DEFault       Query *RST default amplitude\r\n                :CURRent? MINimum       Query lowest allowable amplitude\r\n                :CURRent? MAXimum       Query highest allowable amplitude\r\n                :VOLTage?               Query programmed amplitude of V-Source\r\n                :VOLTage? DEFault       Query *RST default amplitude\r\n                :VOLTage? MINimum       Query lowest allowable amplitude\r\n                :VOLTage? MAXimum       Query highest allowable amplitude\r\n\r\nDescription     This command is used to immediately update the amplitude of a fixed source. \\\nThis command is not valid for the list or sweep mode.\r\n\r\nNOTE        The sourcing :MODE command is used to select a fixed source. \\\n(See “Select sourcing mode,” page 18-73.)\r\n\r\nIf a manual source range is presently selected, then the specified amplitude cannot exceed that range. \\\nFor example, if the V-Source is on the 2V range (auto range disabled), \\\nyou will not be able to set the V-Source amplitude to 3V. In auto range, \\\nthe amplitude can be set to any level that is within the capabilities of the source. \\\nThe MINimum and MAXimum parameters are only valid if the highest source range is presently selected. \\\nSending the MINimum or MAXimum parameters on a lower source range will generate error -221 \\\n(Setting Conflict).\r\n"
-optvalues = []
-type = "sweep"
-cmdheader = ":SOURce1:VOLTage:LEVel:IMMediate:AMPLitude"
-
-[sourcelimitv]
-alias = "输出电压限制"
-U = "V"
-optkeys = []
-help = ""
-optvalues = []
-type = "set"
-cmdheader = ":SOURce1:CURRent:VLIMit:LEVel"
-
-[leveli]
-alias = "输出电流"
-U = "A"
-optkeys = []
-help = "Set amplitude for fixed source\r\n\r\n[:IMMediate][:AMPLitude] <n>\r\n\r\n:SOURce[1]:CURRent[:LEVel][:IMMediate][:AMPLitude] <n> Set fixed I-Source amplitude immediately\r\n\r\n:SOURce[1]:VOLTage[:LEVel][:IMMediate][:AMPLitude] <n> Set fixed V-Source amplitude immediately\r\n\r\nParameters      2400/2400-LV/2401\r\n                <n> =   -1.05 to 1.05   Set I-Source amplitude (amps)\r\n                        -210 to 210     Set V-Source amplitude (volts)\r\n                                        (-21 to 21, 2400-LV and 2401)\r\n                        DEFault         0A or 0V     \r\n                        MINimum         -1.05A or -210V\r\n                        MAXimum         +1.05A or +210V (+21V, 2400-LV and 2401)\r\n\r\nQuery           :CURRent?               Query programmed amplitude of I-Source\r\n                :CURRent? DEFault       Query *RST default amplitude\r\n                :CURRent? MINimum       Query lowest allowable amplitude\r\n                :CURRent? MAXimum       Query highest allowable amplitude\r\n                :VOLTage?               Query programmed amplitude of V-Source\r\n                :VOLTage? DEFault       Query *RST default amplitude\r\n                :VOLTage? MINimum       Query lowest allowable amplitude\r\n                :VOLTage? MAXimum       Query highest allowable amplitude\r\n\r\nDescription     This command is used to immediately update the amplitude of a fixed source. \\\nThis command is not valid for the list or sweep mode.\r\n\r\nNOTE        The sourcing :MODE command is used to select a fixed source. \\\n(See “Select sourcing mode,” page 18-73.)\r\n\r\nIf a manual source range is presently selected, then the specified amplitude cannot exceed that range. \\\nFor example, if the V-Source is on the 2V range (auto range disabled), \\\nyou will not be able to set the V-Source amplitude to 3V. In auto range, \\\nthe amplitude can be set to any level that is within the capabilities of the source. \\\nThe MINimum and MAXimum parameters are only valid if the highest source range is presently selected. \\\nSending the MINimum or MAXimum parameters on a lower source range will generate error -221 \\\n(Setting Conflict).\r\n"
-optvalues = []
-type = "sweep"
-cmdheader = ":SOURce1:CURRent:LEVel:IMMediate:AMPLitude"
+input_labels = []
+cmdtype = "tsp"
