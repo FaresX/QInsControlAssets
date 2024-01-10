@@ -16,6 +16,15 @@ optvalues = ["0", "1"]
 type = "set"
 cmdheader = "ICPL"
 
+[acvoltagerangeCtrl]
+alias = "交流电压范围Ctrl"
+U = ""
+optkeys = ["50mV", "500mV", "5V"]
+help = ""
+optvalues = ["0", "1", "2"]
+type = "set"
+cmdheader = ""
+
 [acfrequency]
 alias = "交流频率"
 U = "Hz"
@@ -33,6 +42,24 @@ help = ""
 optvalues = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26"]
 type = "set"
 cmdheader = "VSEN"
+
+[acvoltageCtrl]
+alias = "交流电压Ctrl"
+U = "V"
+optkeys = []
+help = ""
+optvalues = []
+type = "sweep"
+cmdheader = ""
+
+[dataout1Ctrl]
+alias = "DATA1Ctrl"
+U = ""
+optkeys = []
+help = ""
+optvalues = []
+type = "read"
+cmdheader = ""
 
 [ground]
 alias = "接地"
@@ -60,6 +87,15 @@ help = ""
 optvalues = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26"]
 type = "set"
 cmdheader = "ISEN"
+
+[dataout2Ctrl]
+alias = "DATA2Ctrl"
+U = ""
+optkeys = []
+help = ""
+optvalues = []
+type = "read"
+cmdheader = ""
 
 [acvoltage]
 alias = "交流电压"
@@ -112,7 +148,7 @@ U = "°"
 optkeys = []
 help = ""
 optvalues = []
-type = "set"
+type = "sweep"
 cmdheader = "PHAS"
 
 [conf]
