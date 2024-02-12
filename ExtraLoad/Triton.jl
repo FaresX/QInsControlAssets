@@ -122,5 +122,5 @@ let
             query(instr, "SET:DEV:H2:HTR:SIG:POWR:8000")
         end
     end
-    global Triton_hrtlm400tapbautotsetsw_get(instr) = hrtlm400tapbautotsetsw
+    global Triton_hrtlm400tapbautotsetsw_get(_) = hrtlm400tapbautotsetsw
 end

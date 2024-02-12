@@ -1,26 +1,26 @@
-["new widget 1"]
+["远控"]
 instrnm = "ESG-Series"
-name = "new widget 1"
+name = "远控"
 windowsize = [430.0, 226.0]
 usewallpaper = false
 wallpaperpath = ""
 windowbgcolor = [0.0, 0.5215686559677124, 0.572549045085907, 1.0]
 bgtintcolor = [1.0, 1.0, 1.0, 1.0]
 qtlist = []
-showcols = 3
 
-    [["new widget 1".qtws]]
+    [["远控".qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
     numoptvs = 0
     hold = true
 
-        ["new widget 1".qtws.options]
+        ["远控".qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
         useimage = false
+        autorefresh = false
         textsize = "normal"
         textscale = 1.0
         textinside = true
@@ -59,18 +59,19 @@ showcols = 3
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["new widget 1".qtws]]
+    [["远控".qtws]]
     name = "_QuantitySelector_"
     alias = "功率"
     qtype = "none"
     numoptvs = 0
     hold = true
 
-        ["new widget 1".qtws.options]
+        ["远控".qtws.options]
         uitype = "vslider"
         globaloptions = false
         allowoverlap = false
         useimage = false
+        autorefresh = false
         textsize = "normal"
         textscale = 1.0
         textinside = true
@@ -109,18 +110,19 @@ showcols = 3
         bdcolor = [0.0, 0.0, 0.0, 1.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["new widget 1".qtws]]
+    [["远控".qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
     numoptvs = 0
     hold = true
 
-        ["new widget 1".qtws.options]
+        ["远控".qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
         useimage = false
+        autorefresh = false
         textsize = "normal"
         textscale = 1.0
         textinside = true
@@ -159,18 +161,19 @@ showcols = 3
         bdcolor = [0.0, 0.0, 0.0, 1.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["new widget 1".qtws]]
+    [["远控".qtws]]
     name = "frequency"
     alias = "频率"
     qtype = "sweep"
     numoptvs = 0
     hold = true
 
-        ["new widget 1".qtws.options]
+        ["远控".qtws.options]
         uitype = "readunit"
         globaloptions = false
         allowoverlap = false
         useimage = false
+        autorefresh = false
         textsize = "big"
         textscale = 1.0
         textinside = true
@@ -209,18 +212,19 @@ showcols = 3
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["new widget 1".qtws]]
+    [["远控".qtws]]
     name = "power"
     alias = "功率"
     qtype = "sweep"
     numoptvs = 0
     hold = true
 
-        ["new widget 1".qtws.options]
+        ["远控".qtws.options]
         uitype = "readunit"
         globaloptions = false
         allowoverlap = false
         useimage = false
+        autorefresh = false
         textsize = "big"
         textscale = 1.0
         textinside = true
@@ -259,18 +263,19 @@ showcols = 3
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["new widget 1".qtws]]
+    [["远控".qtws]]
     name = "power"
     alias = "功率"
     qtype = "sweep"
     numoptvs = 0
     hold = true
 
-        ["new widget 1".qtws.options]
+        ["远控".qtws.options]
         uitype = "inputstep"
         globaloptions = false
         allowoverlap = false
         useimage = false
+        autorefresh = false
         textsize = "normal"
         textscale = 1.0
         textinside = true
@@ -309,18 +314,19 @@ showcols = 3
         bdcolor = [0.0, 0.0, 0.0, 1.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["new widget 1".qtws]]
+    [["远控".qtws]]
     name = "power"
     alias = "功率"
     qtype = "sweep"
     numoptvs = 0
     hold = true
 
-        ["new widget 1".qtws.options]
+        ["远控".qtws.options]
         uitype = "inputstop"
         globaloptions = false
         allowoverlap = false
         useimage = false
+        autorefresh = false
         textsize = "normal"
         textscale = 1.0
         textinside = true
@@ -359,18 +365,19 @@ showcols = 3
         bdcolor = [0.0, 0.0, 0.0, 1.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["new widget 1".qtws]]
+    [["远控".qtws]]
     name = "power"
     alias = "功率"
     qtype = "sweep"
     numoptvs = 0
     hold = true
 
-        ["new widget 1".qtws.options]
+        ["远控".qtws.options]
         uitype = "dragdelay"
         globaloptions = false
         allowoverlap = false
         useimage = false
+        autorefresh = false
         textsize = "normal"
         textscale = 1.0
         textinside = true
@@ -409,18 +416,19 @@ showcols = 3
         bdcolor = [0.0, 0.0, 0.0, 1.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["new widget 1".qtws]]
+    [["远控".qtws]]
     name = "output"
     alias = "射频输出"
     qtype = "set"
     numoptvs = 2
     hold = true
 
-        ["new widget 1".qtws.options]
+        ["远控".qtws.options]
         uitype = "toggle"
         globaloptions = false
         allowoverlap = false
         useimage = false
+        autorefresh = false
         textsize = "big"
         textscale = 1.0
         textinside = true
@@ -459,18 +467,19 @@ showcols = 3
         bdcolor = [0.11764705926179886, 0.3333333432674408, 0.6745098233222961, 1.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["new widget 1".qtws]]
+    [["远控".qtws]]
     name = "power"
     alias = "功率"
     qtype = "sweep"
     numoptvs = 0
     hold = true
 
-        ["new widget 1".qtws.options]
+        ["远控".qtws.options]
         uitype = "ctrlsweep"
         globaloptions = false
         allowoverlap = false
         useimage = false
+        autorefresh = false
         textsize = "big"
         textscale = 1.0
         textinside = true
@@ -510,11 +519,12 @@ showcols = 3
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
 
-    ["new widget 1".options]
+    ["远控".options]
     uitype = "none"
     globaloptions = false
     allowoverlap = false
     useimage = false
+    autorefresh = false
     textsize = "normal"
     textscale = 1.0
     textinside = true
