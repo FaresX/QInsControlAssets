@@ -1,30 +1,3 @@
-[B]
-alias = "JJ B"
-U = "T"
-optkeys = []
-help = "仅作为测试"
-optvalues = []
-type = "sweep"
-cmdheader = ""
-
-[SystemTime]
-alias = "系统时间"
-U = "s"
-optkeys = []
-help = "Get the system time in seconds since the epoch, with fairly high (typically, microsecond) resolution."
-optvalues = []
-type = "read"
-cmdheader = ""
-
-[I]
-alias = "JJ I"
-U = "A"
-optkeys = []
-help = "仅作为测试"
-optvalues = []
-type = "sweep"
-cmdheader = ""
-
 [Date]
 alias = "日期"
 U = ""
@@ -32,6 +5,24 @@ optkeys = []
 help = "Return a Date corresponding to the user's system time including the system timezone locale."
 optvalues = []
 type = "read"
+cmdheader = ""
+
+[Vac]
+alias = "JJ Vac"
+U = "V"
+optkeys = []
+help = "仅作为测试"
+optvalues = []
+type = "read"
+cmdheader = ""
+
+[B]
+alias = "JJ B"
+U = "T"
+optkeys = []
+help = "仅作为测试"
+optvalues = []
+type = "sweep"
 cmdheader = ""
 
 [Time]
@@ -43,6 +34,15 @@ optvalues = []
 type = "read"
 cmdheader = ""
 
+[SystemTime]
+alias = "系统时间"
+U = "s"
+optkeys = []
+help = "Get the system time in seconds since the epoch, with fairly high (typically, microsecond) resolution."
+optvalues = []
+type = "read"
+cmdheader = ""
+
 [power]
 alias = "Power"
 U = ""
@@ -50,22 +50,6 @@ optkeys = ["ON", "OFF"]
 help = "仅作为设置测试"
 optvalues = ["1", "0"]
 type = "set"
-cmdheader = ""
-
-[conf]
-idn = "VirtualInstr"
-output_labels = []
-icon = ""
-input_labels = []
-cmdtype = ""
-
-[Vac]
-alias = "JJ Vac"
-U = "V"
-optkeys = []
-help = "仅作为测试"
-optvalues = []
-type = "read"
 cmdheader = ""
 
 [Iac]
@@ -85,3 +69,37 @@ help = "Return a DateTime corresponding to the user's system time including the 
 optvalues = []
 type = "read"
 cmdheader = ""
+
+[Vacrange]
+alias = "JJ Vac Range"
+U = "V"
+optkeys = ["1V", "1mV", "1μV"]
+help = "仅作为测试"
+optvalues = ["1", "1e-3", "1e-6"]
+type = "set"
+cmdheader = ""
+
+[VacCtrl]
+alias = "JJ Vac Ctrl"
+U = "V"
+optkeys = []
+help = "仅作为测试"
+optvalues = []
+type = "read"
+cmdheader = ""
+
+[I]
+alias = "JJ I"
+U = "A"
+optkeys = []
+help = "仅作为测试"
+optvalues = []
+type = "sweep"
+cmdheader = ""
+
+[conf]
+idn = "VirtualInstr"
+output_labels = []
+icon = ""
+input_labels = []
+cmdtype = ""

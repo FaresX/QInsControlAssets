@@ -27,6 +27,7 @@ let
     Vac::Float64 = 0
     B::Float64 = 0
     Power::String = "0"
+    Vacrange::Float64 = 1
 
     Ic(b) = 1e-6 * abs(sinc(1e3b))
     function IR(i)
@@ -44,15 +45,43 @@ let
         end
     end
 
-    global VirtualInstr_I_set(_, setv) = (I = parse(Float64, setv))
+    global VirtualInstr_I_set(_, setv) = (Iparse = tryparse(Float64, setv); I = isnothing(Iparse) ? 0 : Iparse)
     global VirtualInstr_I_get(_) = string(I)
 
-    global VirtualInstr_Iac_set(_, setv) = (Iac = parse(Float64, setv))
+    global VirtualInstr_Iac_set(_, setv) = (Iacparse = tryparse(Float64, setv); Iac = isnothing(Iacparse) ? 0 : Iacparse)
     global VirtualInstr_Iac_get(_) = string(Iac)
 
-    global VirtualInstr_Vac_get(_) = string(IR(I) * Iac)
+    global function VirtualInstr_Vacrange_set(_, setv)
+        Vacrangeparse = tryparse(Float64, setv)
+        if isnothing(Vacrangeparse)
+            Vacrange = 1
+        else
+            Vacrange = if abs(Vacrangeparse) <= 1e-6
+                1e-6
+            elseif abs(Vacrangeparse) <= 1e-3
+                1e-3
+            else
+                1
+            end
+        end
+    end
+    global VirtualInstr_Vacrange_get(_) = string(Vacrange)
 
-    global VirtualInstr_B_set(_, setv) = (B = parse(Float64, setv))
+    global function VirtualInstr_Vac_get(_)
+        vac = IR(I) * Iac
+        vac > Vacrange && (vac = Vacrange)
+        vac < -Vacrange && (vac = -Vacrange)
+        return string(vac)
+    end
+
+    global function VirtualInstr_VacCtrl_get(_)
+        vac = IR(I) * Iac
+        vac > Vacrange && (vac = Vacrange)
+        vac < -Vacrange && (vac = -Vacrange)
+        return string(vac, ",", -Vacrange, ",", Vacrange, ",", Power == "1")
+    end
+
+    global VirtualInstr_B_set(_, setv) = (Bparse = tryparse(Float64, setv); B = isnothing(Bparse) ? 0 : Bparse)
     global VirtualInstr_B_get(_) = string(B)
 
     global function VirtualInstr_power_set(_, setv)
