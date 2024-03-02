@@ -1,6 +1,6 @@
 function queryproteox(instr,
     cmd;
-    python="C:/Users/Proteox/anaconda3/python.exe",
+    python="C:/Users/Proteox/anaconda3/python.exe"
 )
     ss = string.(split(instr.addr, "::"))
     @assert length(ss) == 6 "unavailable address"
