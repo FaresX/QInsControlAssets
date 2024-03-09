@@ -1,6 +1,7 @@
 ["XYZ Control"]
 instrnm = "MercuryIPS"
 name = "XYZ Control"
+windowflags = 0
 windowsize = [485.0, 636.0]
 usewallpaper = false
 wallpaperpath = ""
@@ -1978,3 +1979,5 @@ qtlist = []
     bdcolor = [0.0, 0.0, 0.0, 0.0]
     grabcolor = [0.0, 0.2775566875934601, 0.6055777072906494, 0.7799999713897705]
     grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
+
+    
