@@ -8,6 +8,8 @@ wallpaperpath = ""
 windowbgcolor = [0.0, 0.5113253593444824, 0.7051792740821838, 1.0]
 bgtintcolor = [1.0, 1.0, 1.0, 1.0]
 qtlist = []
+posoffset = [0.0, 0.0]
+sizeoffset = [0.0, 0.0]
 
     [["远控".qtws]]
     name = "_Shape_"
@@ -15,6 +17,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "rect"
@@ -67,6 +72,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "read"
@@ -119,6 +127,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "read"
@@ -171,6 +182,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "line"
@@ -223,6 +237,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "none"
@@ -275,6 +292,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "readunit"
@@ -327,6 +347,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "none"
@@ -379,6 +402,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "readunit"
@@ -431,6 +457,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "none"
@@ -483,6 +512,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "readunit"
@@ -535,6 +567,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "none"
@@ -587,6 +622,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "readunit"
@@ -639,6 +677,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "none"
@@ -691,6 +732,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "readunit"
@@ -743,6 +787,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "rect"
@@ -795,6 +842,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "rect"
@@ -847,6 +897,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "radio"
@@ -899,6 +952,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "radio"
@@ -951,6 +1007,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "radio"
@@ -1003,6 +1062,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "radio"
@@ -1055,6 +1117,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 3
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "slider"
@@ -1107,6 +1172,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 20
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "combo"
@@ -1159,6 +1227,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 26
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "combo"
@@ -1211,6 +1282,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 27
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "combo"
@@ -1263,6 +1337,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 4
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "vslider"
@@ -1315,6 +1392,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "rect"
@@ -1367,6 +1447,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "none"
@@ -1419,6 +1502,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 3
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "vslider"
@@ -1471,6 +1557,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "read"
@@ -1523,6 +1612,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "unit"
@@ -1575,6 +1667,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "combo"
@@ -1627,6 +1722,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "inputstep"
@@ -1679,6 +1777,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "inputstop"
@@ -1731,6 +1832,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "dragdelay"
@@ -1783,6 +1887,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["远控".qtws.options]
         uitype = "ctrlsweep"
@@ -1875,5 +1982,3 @@ qtlist = []
     bdcolor = [0.0, 0.0, 0.0, 0.0]
     grabcolor = [0.25999999046325684, 0.5411155819892883, 0.9800000190734863, 0.7799999713897705]
     grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-
-   

@@ -8,6 +8,8 @@ wallpaperpath = ""
 windowbgcolor = [0.23094868659973145, 0.5850577354431152, 0.7729083299636841, 1.0]
 bgtintcolor = [1.0, 1.0, 1.0, 1.0]
 qtlist = []
+posoffset = [0.0, 0.0]
+sizeoffset = [0.0, 0.0]
 
     [["A通道".qtws]]
     name = "_Shape_"
@@ -15,6 +17,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "rect"
@@ -67,6 +72,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "readunit"
@@ -119,6 +127,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "readunit"
@@ -171,6 +182,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "line"
@@ -223,6 +237,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "none"
@@ -275,6 +292,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "readunit"
@@ -327,6 +347,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "none"
@@ -379,6 +402,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "readunit"
@@ -431,6 +457,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "vslider"
@@ -483,6 +512,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "rect"
@@ -535,6 +567,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "inputstep"
@@ -587,6 +622,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "readunit"
@@ -639,6 +677,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "inputstop"
@@ -691,6 +732,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "dragdelay"
@@ -743,6 +787,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "ctrlsweep"
@@ -795,6 +842,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "rect"
@@ -847,6 +897,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "none"
@@ -899,6 +952,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 4
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "combo"
@@ -951,6 +1007,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "none"
@@ -1003,6 +1062,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "inputctrlset"
@@ -1055,6 +1117,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "unit"
@@ -1107,6 +1172,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "toggle"
@@ -1159,6 +1227,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
         uitype = "vslider"
@@ -1252,7 +1323,6 @@ qtlist = []
     grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
     grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
 
-
 ["B通道"]
 instrnm = "K2612"
 name = "B通道"
@@ -1263,6 +1333,8 @@ wallpaperpath = ""
 windowbgcolor = [0.23094868659973145, 0.5850577354431152, 0.7729083299636841, 1.0]
 bgtintcolor = [1.0, 1.0, 1.0, 1.0]
 qtlist = []
+posoffset = [0.0, 0.0]
+sizeoffset = [0.0, 0.0]
 
     [["B通道".qtws]]
     name = "_Shape_"
@@ -1270,6 +1342,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "rect"
@@ -1322,6 +1397,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "readunit"
@@ -1374,6 +1452,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "readunit"
@@ -1426,6 +1507,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "line"
@@ -1478,6 +1562,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "none"
@@ -1530,6 +1617,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "readunit"
@@ -1582,6 +1672,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "none"
@@ -1634,6 +1727,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "readunit"
@@ -1686,6 +1782,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "vslider"
@@ -1738,6 +1837,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "rect"
@@ -1790,6 +1892,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "inputstep"
@@ -1842,6 +1947,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "readunit"
@@ -1894,6 +2002,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "inputstop"
@@ -1946,6 +2057,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "dragdelay"
@@ -1998,6 +2112,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "ctrlsweep"
@@ -2050,6 +2167,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "rect"
@@ -2102,6 +2222,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "none"
@@ -2154,6 +2277,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 4
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "combo"
@@ -2206,6 +2332,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "none"
@@ -2258,6 +2387,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "inputctrlset"
@@ -2310,6 +2442,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "unit"
@@ -2362,6 +2497,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "toggle"
@@ -2414,6 +2552,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["B通道".qtws.options]
         uitype = "vslider"
@@ -2506,5 +2647,3 @@ qtlist = []
     bdcolor = [0.0, 0.0, 0.0, 0.0]
     grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
     grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-
-    

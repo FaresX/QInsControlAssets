@@ -8,6 +8,8 @@ wallpaperpath = ""
 windowbgcolor = [0.1257122904062271, 0.5545502305030823, 0.717131495475769, 1.0]
 bgtintcolor = [1.0, 1.0, 1.0, 1.0]
 qtlist = []
+posoffset = [0.0, 0.0]
+sizeoffset = [0.0, 0.0]
 
     [["Demo 2".qtws]]
     name = "VacCtrl"
@@ -15,6 +17,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "readdashboard"
@@ -67,6 +72,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "unit"
@@ -119,6 +127,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "readdashboarddigits"
@@ -171,6 +182,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "rect"
@@ -223,6 +237,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "read"
@@ -275,6 +292,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "line"
@@ -327,6 +347,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "none"
@@ -379,6 +402,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "readunit"
@@ -431,6 +457,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "none"
@@ -483,6 +512,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "readunit"
@@ -535,6 +567,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "none"
@@ -587,6 +622,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "readunit"
@@ -639,6 +677,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "rect"
@@ -691,6 +732,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "vslider"
@@ -743,6 +787,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "read"
@@ -795,6 +842,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "unit"
@@ -847,6 +897,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "inputstep"
@@ -899,6 +952,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "inputstop"
@@ -951,6 +1007,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "dragdelay"
@@ -1003,6 +1062,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "ctrlsweep"
@@ -1055,6 +1117,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "rect"
@@ -1107,6 +1172,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 3
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "slider"
@@ -1159,6 +1227,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "radio"
@@ -1211,6 +1282,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "radio"
@@ -1263,6 +1337,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 2".qtws.options]
         uitype = "toggle"
@@ -1356,8 +1433,6 @@ qtlist = []
     grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
     grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
 
-    
-
 ["Demo 3"]
 instrnm = "VirtualInstr"
 name = "Demo 3"
@@ -1368,6 +1443,8 @@ wallpaperpath = ""
 windowbgcolor = [0.1257122904062271, 0.5545502305030823, 0.717131495475769, 1.0]
 bgtintcolor = [1.0, 1.0, 1.0, 1.0]
 qtlist = []
+posoffset = [0.0, 0.0]
+sizeoffset = [0.0, 0.0]
 
     [["Demo 3".qtws]]
     name = "VacCtrl"
@@ -1375,6 +1452,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "readdashboard"
@@ -1427,6 +1507,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "unit"
@@ -1479,6 +1562,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "readdashboarddigits"
@@ -1531,6 +1617,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "rect"
@@ -1583,6 +1672,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "read"
@@ -1635,6 +1727,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "line"
@@ -1687,6 +1782,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "none"
@@ -1739,6 +1837,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "readunit"
@@ -1791,6 +1892,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "none"
@@ -1843,6 +1947,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "readunit"
@@ -1895,6 +2002,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "none"
@@ -1947,6 +2057,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "readunit"
@@ -1999,6 +2112,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "rect"
@@ -2051,6 +2167,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "vslider"
@@ -2103,6 +2222,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "read"
@@ -2155,6 +2277,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "unit"
@@ -2207,6 +2332,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "inputstep"
@@ -2259,6 +2387,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "inputstop"
@@ -2311,6 +2442,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "dragdelay"
@@ -2363,6 +2497,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "ctrlsweep"
@@ -2415,6 +2552,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "rect"
@@ -2467,6 +2607,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 3
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "slider"
@@ -2519,6 +2662,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "radio"
@@ -2571,6 +2717,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "radio"
@@ -2623,6 +2772,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 3".qtws.options]
         uitype = "toggle"
@@ -2716,224 +2868,6 @@ qtlist = []
     grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
     grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
 
-    
-
-["new widget 4"]
-instrnm = "VirtualInstr"
-name = "new widget 4"
-windowflags = 0
-windowsize = [600.0, 600.0]
-usewallpaper = false
-wallpaperpath = ""
-windowbgcolor = [1.0, 1.0, 1.0, 1.0]
-bgtintcolor = [1.0, 1.0, 1.0, 1.0]
-qtlist = []
-
-    [["new widget 4".qtws]]
-    name = "_Panel_"
-    alias = ""
-    qtype = "none"
-    numoptvs = 0
-    hold = false
-
-        ["new widget 4".qtws.options]
-        uitype = "none"
-        globaloptions = false
-        allowoverlap = false
-        useimage = false
-        autorefresh = false
-        textsize = "normal"
-        textscale = 1.0
-        textinside = true
-        itemsize = [80.0, 46.0]
-        rounding = 4.0
-        grabrounding = 6.0
-        bdrounding = 0.0
-        bdthickness = 0.0
-        comboflags = 0
-        uv0 = [0.0, 0.0]
-        uv1 = [1.0, 1.0]
-        framepadding = -1.0
-        vertices = [[150.0, 30.0], [0.0, 0.0], [0.0, 0.0]]
-        circlesegments = 24
-        ticknum = 6
-        starttext = "Start"
-        stoptext = "Stop"
-        bindingidx = 1
-        selectornum = 1
-        selectedidx = 1
-        selectorlabels = ["option 1"]
-        selectorlist = []
-        bindingqtwidxes = []
-        bindingonoff = [1, 2]
-        textcolor = [0.0, 0.0, 0.0, 1.0]
-        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
-        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
-        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 1.0]
-        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
-        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
-        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
-        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
-        oncolor = [0.0, 1.0, 0.0, 1.0]
-        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
-        hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
-        activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
-        bdcolor = [0.0, 0.0, 0.0, 0.0]
-        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
-        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["new widget 4".qtws]]
-    name = "_Panel_"
-    alias = ""
-    qtype = "none"
-    numoptvs = 0
-    hold = false
-
-        ["new widget 4".qtws.options]
-        uitype = "none"
-        globaloptions = false
-        allowoverlap = false
-        useimage = false
-        autorefresh = false
-        textsize = "normal"
-        textscale = 1.0
-        textinside = true
-        itemsize = [45.0, 50.0]
-        rounding = 4.0
-        grabrounding = 6.0
-        bdrounding = 0.0
-        bdthickness = 0.0
-        comboflags = 0
-        uv0 = [0.0, 0.0]
-        uv1 = [1.0, 1.0]
-        framepadding = -1.0
-        vertices = [[18.0, 86.0], [0.0, 0.0], [0.0, 0.0]]
-        circlesegments = 24
-        ticknum = 6
-        starttext = "Start"
-        stoptext = "Stop"
-        bindingidx = 1
-        selectornum = 1
-        selectedidx = 1
-        selectorlabels = ["option 1"]
-        selectorlist = []
-        bindingqtwidxes = []
-        bindingonoff = [1, 2]
-        textcolor = [0.0, 0.0, 0.0, 1.0]
-        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
-        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
-        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 1.0]
-        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
-        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
-        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
-        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
-        oncolor = [0.0, 1.0, 0.0, 1.0]
-        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
-        hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
-        activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
-        bdcolor = [0.0, 0.0, 0.0, 0.0]
-        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
-        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["new widget 4".qtws]]
-    name = "_Panel_"
-    alias = ""
-    qtype = "none"
-    numoptvs = 0
-    hold = false
-
-        ["new widget 4".qtws.options]
-        uitype = "none"
-        globaloptions = false
-        allowoverlap = false
-        useimage = false
-        autorefresh = false
-        textsize = "normal"
-        textscale = 1.0
-        textinside = true
-        itemsize = [116.0, 73.0]
-        rounding = 4.0
-        grabrounding = 6.0
-        bdrounding = 0.0
-        bdthickness = 0.0
-        comboflags = 0
-        uv0 = [0.0, 0.0]
-        uv1 = [1.0, 1.0]
-        framepadding = -1.0
-        vertices = [[285.0, 185.0], [0.0, 0.0], [0.0, 0.0]]
-        circlesegments = 24
-        ticknum = 6
-        starttext = "Start"
-        stoptext = "Stop"
-        bindingidx = 1
-        selectornum = 1
-        selectedidx = 1
-        selectorlabels = ["option 1"]
-        selectorlist = []
-        bindingqtwidxes = []
-        bindingonoff = [1, 2]
-        textcolor = [0.0, 0.0, 0.0, 1.0]
-        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
-        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
-        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 1.0]
-        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
-        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
-        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
-        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
-        oncolor = [0.0, 1.0, 0.0, 1.0]
-        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
-        hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
-        activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
-        bdcolor = [0.0, 0.0, 0.0, 0.0]
-        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
-        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-
-    ["new widget 4".options]
-    uitype = "none"
-    globaloptions = false
-    allowoverlap = false
-    useimage = false
-    autorefresh = false
-    textsize = "normal"
-    textscale = 1.0
-    textinside = true
-    itemsize = [0.0, 0.0]
-    rounding = 4.0
-    grabrounding = 6.0
-    bdrounding = 0.0
-    bdthickness = 0.0
-    comboflags = 0
-    uv0 = [0.0, 0.0]
-    uv1 = [1.0, 1.0]
-    framepadding = -1.0
-    vertices = [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
-    circlesegments = 24
-    ticknum = 6
-    starttext = "Start"
-    stoptext = "Stop"
-    bindingidx = 1
-    selectornum = 1
-    selectedidx = 1
-    selectorlabels = ["option 1"]
-    selectorlist = []
-    bindingqtwidxes = []
-    bindingonoff = [1, 2]
-    textcolor = [0.0, 0.0, 0.0, 1.0]
-    hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
-    checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
-    bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 1.0]
-    popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
-    imgbgcolor = [0.0, 0.0, 0.0, 0.0]
-    imgtintcolor = [1.0, 1.0, 1.0, 1.0]
-    combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
-    oncolor = [0.0, 1.0, 0.0, 1.0]
-    offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
-    hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
-    activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
-    bdcolor = [0.0, 0.0, 0.0, 0.0]
-    grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
-    grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-
-    
-
 ["Demo 1"]
 instrnm = "VirtualInstr"
 name = "Demo 1"
@@ -2944,6 +2878,8 @@ wallpaperpath = ""
 windowbgcolor = [0.1257122904062271, 0.5545502305030823, 0.717131495475769, 1.0]
 bgtintcolor = [1.0, 1.0, 1.0, 1.0]
 qtlist = []
+posoffset = [0.0, 0.0]
+sizeoffset = [0.0, 0.0]
 
     [["Demo 1".qtws]]
     name = "_Shape_"
@@ -2951,6 +2887,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "rect"
@@ -3003,6 +2942,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "read"
@@ -3055,6 +2997,9 @@ qtlist = []
     qtype = "read"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "read"
@@ -3107,6 +3052,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "line"
@@ -3159,6 +3107,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "none"
@@ -3211,6 +3162,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "readunit"
@@ -3263,6 +3217,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "none"
@@ -3315,6 +3272,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "readunit"
@@ -3367,6 +3327,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "none"
@@ -3419,6 +3382,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "readunit"
@@ -3471,6 +3437,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "rect"
@@ -3523,6 +3492,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "vslider"
@@ -3575,6 +3547,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "read"
@@ -3627,6 +3602,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "unit"
@@ -3679,6 +3657,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "inputstep"
@@ -3731,6 +3712,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "inputstop"
@@ -3783,6 +3767,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "dragdelay"
@@ -3835,6 +3822,9 @@ qtlist = []
     qtype = "sweep"
     numoptvs = 0
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "ctrlsweep"
@@ -3887,6 +3877,9 @@ qtlist = []
     qtype = "none"
     numoptvs = 0
     hold = true
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "rect"
@@ -3939,6 +3932,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "radio"
@@ -3991,6 +3987,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "radio"
@@ -4043,6 +4042,9 @@ qtlist = []
     qtype = "set"
     numoptvs = 2
     hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
 
         ["Demo 1".qtws.options]
         uitype = "toggle"
@@ -4135,5 +4137,3 @@ qtlist = []
     bdcolor = [0.0, 0.0, 0.0, 0.0]
     grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
     grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-
-    
