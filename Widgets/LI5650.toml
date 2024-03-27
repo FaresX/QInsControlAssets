@@ -1,7 +1,7 @@
 ["远控"]
 instrnm = "LI5650"
 name = "远控"
-windowflags = 0
+windowflags = 2097186
 windowsize = [562.0, 510.0]
 usewallpaper = false
 wallpaperpath = ""
@@ -71,11 +71,11 @@ sizeoffset = [0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
     [["远控".qtws]]
-    name = "dataout1Ctrl"
-    alias = "DATA1Ctrl"
+    name = "dataout"
+    alias = "DATA"
     qtype = "read"
     numoptvs = 0
-    numread = 1
+    numread = 2
     hold = false
     selected = false
     posbuf = [0.0, 0.0]
@@ -129,11 +129,11 @@ sizeoffset = [0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
     [["远控".qtws]]
-    name = "dataout2Ctrl"
-    alias = "DATA2Ctrl"
+    name = "dataout"
+    alias = "DATA"
     qtype = "read"
     numoptvs = 0
-    numread = 1
+    numread = 2
     hold = false
     selected = false
     posbuf = [0.0, 0.0]
@@ -164,7 +164,7 @@ sizeoffset = [0.0, 0.0]
         ticknum = 6
         starttext = "Start"
         stoptext = "Stop"
-        bindingidx = 1
+        bindingidx = 2
         selectornum = 1
         selectedidx = 1
         selectorlabels = ["option 1"]

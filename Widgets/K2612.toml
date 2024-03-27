@@ -1,7 +1,7 @@
 ["A通道"]
 instrnm = "K2612"
 name = "A通道"
-windowflags = 0
+windowflags = 2097186
 windowsize = [560.0, 414.0]
 usewallpaper = false
 wallpaperpath = ""

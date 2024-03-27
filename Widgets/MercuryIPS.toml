@@ -1,7 +1,7 @@
 ["XYZ Control"]
 instrnm = "MercuryIPS"
 name = "XYZ Control"
-windowflags = 0
+windowflags = 2097186
 windowsize = [485.0, 636.0]
 usewallpaper = false
 wallpaperpath = ""

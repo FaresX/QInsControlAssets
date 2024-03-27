@@ -1,7 +1,7 @@
 ["Demo 1"]
 instrnm = "VirtualInstr"
 name = "Demo 1"
-windowflags = 34
+windowflags = 2097186
 windowsize = [500.0, 386.0]
 usewallpaper = false
 wallpaperpath = ""
@@ -1340,7 +1340,7 @@ sizeoffset = [0.0, 0.0]
 ["Demo 2"]
 instrnm = "VirtualInstr"
 name = "Demo 2"
-windowflags = 0
+windowflags = 2097186
 windowsize = [498.0, 514.0]
 usewallpaper = false
 wallpaperpath = ""
