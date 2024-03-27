@@ -1,198 +1,242 @@
 [temperatureT5]
 alias = "温度T5"
 U = "K"
+numread = 1
 optkeys = []
 help = "MC Plate Cernox"
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [temperatureT4]
 alias = "温度T4"
 U = "K"
+numread = 1
 optkeys = []
 help = "Cold Plate"
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [hrtlm400tapbautotsetsw]
 alias = "怀柔TLM400TAProbeB自动控温开关"
 U = ""
+numread = 1
 optkeys = ["ON", "OFF"]
 help = ""
 optvalues = ["ON", "OFF"]
+separator = ""
 type = "set"
 cmdheader = ""
 
 [taloopP]
 alias = "TAPID - P"
 U = ""
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [hrtlm400tapbautotset]
 alias = "怀柔TLM400TAProbeB自动控温"
 U = "K"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [taloopI]
 alias = "TAPID - I"
 U = ""
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [temperatureT1]
 alias = "温度T1"
 U = "K"
+numread = 1
 optkeys = []
 help = "PT2 Head"
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [h2power]
 alias = "加热器H2功率"
 U = "μW"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [taloopPID]
 alias = "TAPID"
 U = ""
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [temperatureT6]
 alias = "温度T6"
 U = "K"
+numread = 1
 optkeys = []
 help = "PT1 Head"
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [temperatureT13]
 alias = "温度T13"
 U = "K"
+numread = 1
 optkeys = []
 help = "Magnet"
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [temperatureT3]
 alias = "温度T3"
 U = "K"
+numread = 1
 optkeys = []
 help = "Still Plate"
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [taexcitationcur]
 alias = "TA激励电流"
 U = "A"
+numread = 1
 optkeys = ["316pA", "1nA", "3.16nA", "10nA", "31.6nA", "100nA"]
 help = ""
 optvalues = ["316pA", "1nA", "3.16nA", "10nA", "31.6nA", "100nA"]
+separator = ""
 type = "set"
 cmdheader = ""
 
 [temperatureT7]
 alias = "温度T7"
 U = "K"
+numread = 1
 optkeys = []
 help = "PT1 Plate"
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [looptset]
 alias = "温度设置"
 U = "K"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [temperatureT8]
 alias = "温度T8"
 U = "K"
+numread = 1
 optkeys = []
 help = "MC Plate RuO2"
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [taexcitationvolt]
 alias = "TA激励电压"
 U = "V"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [looprange]
 alias = "加热器范围"
 U = "mA"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [temperatureTA]
 alias = "温度TA"
 U = "K"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [temperatureT2]
 alias = "温度T2"
 U = "K"
+numread = 1
 optkeys = []
 help = "PT2 Plate"
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [taloopD]
 alias = "TAPID - D"
 U = ""
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [taexcitationtype]
 alias = "TA激励类型"
 U = ""
+numread = 1
 optkeys = ["电流", "电压"]
 help = ""
 optvalues = ["CUR", "VOLT"]
+separator = ""
 type = "set"
 cmdheader = ""
 
@@ -206,8 +250,10 @@ cmdtype = "scpi"
 [loopmode]
 alias = "闭合PID"
 U = ""
+numread = 1
 optkeys = ["ON", "OFF"]
 help = ""
 optvalues = ["ON", "OFF"]
+separator = ""
 type = "set"
 cmdheader = ""

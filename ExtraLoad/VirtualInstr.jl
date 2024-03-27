@@ -6,6 +6,14 @@ VirtualInstr_Date_get(_) = string(Date(now()))
 
 VirtualInstr_Time_get(_) = string(Time(now()))
 
+function VirtualInstr_YearMonthDayHMSM_get(_)
+    whole = now()
+    return string(
+        year(whole), ",", month(whole), ",", day(whole), ",",
+        hour(whole), ",", minute(whole), ",", second(whole), ",", millisecond(whole)
+    )
+end
+
 # let
 #     sweepv::String = "0"
 #     global VirtualInstr_SweepTest_set(_, setv) = (sweepv = string(setv))

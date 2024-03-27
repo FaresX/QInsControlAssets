@@ -1,45 +1,55 @@
 [setflowctl]
 alias = "流量控制"
 U = ""
+numread = 1
 optkeys = ["Manual", "Auto"]
 help = ""
 optvalues = ["OFF", "ON"]
+separator = ""
 type = "set"
 cmdheader = ""
 
 [enablepid]
 alias = "PID开关"
 U = ""
+numread = 1
 optkeys = ["Manual", "Auto"]
 help = ""
 optvalues = ["OFF", "ON"]
+separator = ""
 type = "set"
 cmdheader = ""
 
 [setheater]
 alias = "设置加热器"
 U = ""
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [setsweepmode]
 alias = "设置扫温模式"
 U = ""
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [settemp]
 alias = "设置温度"
 U = "K"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
@@ -53,17 +63,21 @@ cmdtype = "scpi"
 [temperature]
 alias = "温度"
 U = "K"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [setflow]
 alias = "设置流量"
 U = ""
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""

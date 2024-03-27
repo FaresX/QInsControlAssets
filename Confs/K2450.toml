@@ -1,9 +1,11 @@
 [sourcefunc]
 alias = "输出模式"
 U = ""
+numread = 1
 optkeys = ["CURR", "VOLT"]
 help = ""
 optvalues = ["smu.FUNC_DC_CURRENT", "smu.FUNC_DC_VOLTAGE"]
+separator = ""
 type = "set"
 cmdheader = "smu.source.func"
 

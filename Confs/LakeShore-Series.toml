@@ -1,18 +1,22 @@
 [inputA]
 alias = "A通道温度"
 U = "K"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = "KRDG? A"
 
 [inputB]
 alias = "B通道温度"
 U = "K"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = "KRDG? B"
 

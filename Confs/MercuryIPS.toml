@@ -1,135 +1,165 @@
 [sigactny]
 alias = "Y状态"
 U = ""
+numread = 1
 optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
 optvalues = ["HOLD", "RTOS", "RTOZ", "CLMP"]
+separator = ""
 type = "set"
 cmdheader = ""
 
 [sigfldy]
 alias = "Y当前场"
 U = "T"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [sigrfstz]
 alias = "Z扫描速率"
 U = "T/min"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [sigfsetx]
 alias = "X目标场"
 U = "T"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [sigfldx]
 alias = "X当前场"
 U = "T"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [sigrfsty]
 alias = "Y扫描速率"
 U = "T/min"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [sigactnx]
 alias = "X状态"
 U = ""
+numread = 1
 optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
 optvalues = ["HOLD", "RTOS", "RTOZ", "CLMP"]
+separator = ""
 type = "set"
 cmdheader = ""
 
 [sigpfldy]
 alias = "Y当前恒定场"
 U = "T"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [sigfsetz]
 alias = "Z目标场"
 U = "T"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [sigrfstx]
 alias = "X扫描速率"
 U = "T/min"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""
 
 [sigpfldz]
 alias = "Z当前恒定场"
 U = "T"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [sigpfldx]
 alias = "X当前恒定场"
 U = "T"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [sigfldz]
 alias = "Z当前场"
 U = "T"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 
 [sigactnz]
 alias = "Z状态"
 U = ""
+numread = 1
 optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
 optvalues = ["HOLD", "RTOS", "RTOZ", "CLMP"]
+separator = ""
 type = "set"
 cmdheader = ""
 
 [zheater]
 alias = "Z加热器"
 U = ""
+numread = 1
 optkeys = ["ON", "OFF"]
 help = ""
 optvalues = ["ON", "OFF"]
+separator = ""
 type = "set"
 cmdheader = ""
 
@@ -143,8 +173,10 @@ cmdtype = "scpi"
 [sigfsety]
 alias = "Y目标场"
 U = "T"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "set"
 cmdheader = ""

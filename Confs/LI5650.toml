@@ -1,144 +1,154 @@
 [coupling]
 alias = "耦合"
 U = ""
+numread = 1
 optkeys = ["AC", "DC"]
-help = ""
+separator = ""
 optvalues = ["AC", "DC"]
+help = ""
 type = "set"
 cmdheader = ":INPut1:COUPling"
 
 [acvoltagerange]
 alias = "交流电压范围"
 U = "V"
+numread = 1
 optkeys = ["10mV", "100mV", "1V"]
-help = ""
+separator = ""
 optvalues = ["0.01", "0.1", "1.0"]
+help = ""
 type = "set"
 cmdheader = ":SOURce:VOLTage:RANGe"
 
 [acfrequency]
 alias = "交流频率"
 U = "Hz"
+numread = 1
 optkeys = []
-help = ""
+separator = ""
 optvalues = []
+help = ""
 type = "sweep"
 cmdheader = ":SOURce:FREQuency1:CW"
-
-[dataout1Ctrl]
-alias = "DATA1Ctrl"
-U = ""
-optkeys = []
-help = ""
-optvalues = []
-type = "read"
-cmdheader = ""
 
 [ground]
 alias = "接地"
 U = ""
+numread = 1
 optkeys = ["FLOAT", "GROUND"]
-help = ""
+separator = ""
 optvalues = ["FLO", "GRO"]
+help = ""
 type = "set"
 cmdheader = ":INPut1:LOW"
 
 [auxout1]
 alias = "附加输出1"
 U = "V"
+numread = 1
 optkeys = []
-help = ""
+separator = ""
 optvalues = []
+help = ""
 type = "sweep"
 cmdheader = ":SOURce5:VOLTage:LEVel:IMMediate:OFFSet"
-
-[dataout2Ctrl]
-alias = "DATA2Ctrl"
-U = ""
-optkeys = []
-help = ""
-optvalues = []
-type = "read"
-cmdheader = ""
 
 [acvoltage]
 alias = "交流电压"
 U = "V"
+numread = 1
 optkeys = []
-help = ""
+separator = ""
 optvalues = []
+help = ""
 type = "sweep"
 cmdheader = ":SOURce:VOLTage:LEVel:IMMediate:AMPLitude"
 
 [slopepPSD]
 alias = "衰减率pPSD"
 U = ""
+numread = 1
 optkeys = ["6dB", "12dB", "18dB", "24dB"]
-help = ""
+separator = ""
 optvalues = ["6", "12", "18", "24"]
+help = ""
 type = "set"
 cmdheader = ":SENSe:FILTer1:LPASs:SLOPe"
 
 [dataout]
 alias = "DATA"
 U = ""
+numread = 2
 optkeys = []
-help = ""
+separator = ","
 optvalues = []
+help = ""
 type = "read"
 cmdheader = "FETCh?"
 
 [sensitivityipPSD]
 alias = "电流灵敏度pPSD"
 U = "A"
+numread = 1
 optkeys = ["10fA", "20fA", "50fA", "100fA", "200fA", "500fA", "1pA", "2pA", "5pA", "10pA", "20pA", "50pA", "100pA", "200pA", "500pA", "1nA", "2nA", "5nA", "10nA", "20nA", "50nA", "100nA", "200nA", "500nA", "1μA"]
-help = ""
+separator = ""
 optvalues = ["1e-14", "2e-14", "5e-14", "1.0e-13", "2.0e-13", "5.0e-13", "1.0e-12", "2.0e-12", "5.0e-12", "1.0e-11", "2.0e-11", "5.0e-11", "1.0e-10", "2.0e-10", "5.0e-10", "1.0e-9", "2.0e-9", "5.0e-9", "1.0e-8", "2.0e-8", "5.0e-8", "1.0e-7", "2.0e-7", "5.0e-7", "1.0e-6"]
+help = ""
 type = "set"
 cmdheader = ":SENSe:CURRent1:AC:RANGe:UPPer"
 
 [auxout2]
 alias = "附加输出2"
 U = "V"
+numread = 1
 optkeys = []
-help = ""
+separator = ""
 optvalues = []
+help = ""
 type = "sweep"
 cmdheader = ":SOURce6:VOLTage:LEVel:IMMediate:OFFSet"
 
 [tconstpPSD]
 alias = "时间常数pPSD"
 U = "s"
+numread = 1
 optkeys = ["5μs", "10μs", "20μs", "50μs", "100μs", "200μs", "500μs", "1ms", "2ms", "5ms", "10ms", "20ms", "50ms", "100ms", "200ms", "500ms", "1s", "2s", "5s", "10s", "20s", "50s", "100s", "200s", "500s", "1ks", "2ks", "5ks", "10ks", "20ks", "50ks"]
-help = ""
+separator = ""
 optvalues = ["5.0e-6", "1.0e-5", "2.0e-5", "5.0e-5", "0.0001", "0.0002", "0.0005", "0.001", "0.002", "0.005", "0.01", "0.02", "0.05", "0.1", "0.2", "0.5", "1.0", "2.0", "5.0", "10.0", "20.0", "50.0", "100.0", "200.0", "500.0", "1000.0", "2000.0", "5000.0", "10000.0", "20000.0", "50000.0"]
+help = ""
 type = "set"
 cmdheader = ":SENSe:FILTer1:LPASs:TCONstant"
 
 [dynres]
 alias = "动态储量"
 U = ""
+numread = 1
 optkeys = ["HIGH", "MED", "LOW"]
-help = ""
+separator = ""
 optvalues = ["HIGH", "MED", "LOW"]
+help = ""
 type = "set"
 cmdheader = ":SENSe:DREServe"
 
 [acphasepPSD]
 alias = "交流相位pPSD"
 U = "°"
+numread = 1
 optkeys = []
-help = ""
+separator = ""
 optvalues = []
+help = ""
 type = "sweep"
 cmdheader = ":SENSe:PHASe1"
 
 [sensitivityvpPSD]
 alias = "电压灵敏度pPSD"
 U = "V"
+numread = 1
 optkeys = ["10nV", "20nV", "50nV", "100nV", "200nV", "500nV", "1μV", "2μV", "5μV", "10μV", "20μV", "50μV", "100μV", "200μV", "500μV", "1mV", "2mV", "5mV", "10mV", "20mV", "50mV", "100mV", "200mV", "500mV", "1V"]
-help = ""
+separator = ""
 optvalues = ["1.0e-8", "2.0e-8", "5.0e-8", "1.0e-7", "2.0e-7", "5.0e-7", "1.0e-6", "2.0e-6", "5.0e-6", "1.0e-5", "2.0e-5", "5.0e-5", "0.0001", "0.0002", "0.0005", "0.001", "0.002", "0.005", "0.01", "0.02", "0.05", "0.1", "0.2", "0.5", "1.0"]
+help = ""
 type = "set"
 cmdheader = ":SENSe:VOLTage1:AC:RANGe:UPPer"
 

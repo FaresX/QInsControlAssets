@@ -1,9 +1,11 @@
 [drimixs]
 alias = "混合室温度"
 U = "K"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "read"
 cmdheader = ""
 

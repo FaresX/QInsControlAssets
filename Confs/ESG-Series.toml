@@ -1,36 +1,44 @@
 [output]
 alias = "射频输出"
 U = ""
+numread = 1
 optkeys = ["ON", "OFF"]
 help = ""
 optvalues = ["1", "0"]
+separator = ""
 type = "set"
 cmdheader = ":OUTPut:STATe"
 
 [outputmod]
 alias = "调制输出"
 U = ""
+numread = 1
 optkeys = ["ON", "OFF"]
 help = ""
 optvalues = ["1", "0"]
+separator = ""
 type = "set"
 cmdheader = ":OUTPut:MODulation:STATe"
 
 [frequency]
 alias = "频率"
 U = "Hz"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "sweep"
 cmdheader = ":SOUR:FREQ"
 
 [power]
 alias = "功率"
 U = "dBm"
+numread = 1
 optkeys = []
 help = ""
 optvalues = []
+separator = ""
 type = "sweep"
 cmdheader = ":SOUR:POW"
 
