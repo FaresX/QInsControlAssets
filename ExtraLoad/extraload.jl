@@ -1,6 +1,0 @@
-include("MercuryIPS.jl")
-include("Proteox.jl")
-include("Triton.jl")
-include("VirtualInstr.jl")
-include("K2400.jl")
-include("LI5640.jl")
