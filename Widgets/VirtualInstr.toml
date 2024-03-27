@@ -1417,7 +1417,7 @@ sizeoffset = [0.0, 0.0]
     numread = 7
     hold = false
     selected = false
-    posbuf = [6.0, 6.0]
+    posbuf = [26.0, 6.0]
     sizebuf = [48.0, 60.0]
 
         ["Demo 2".qtws.options]
@@ -1440,7 +1440,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[26.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[36.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -1475,7 +1475,7 @@ sizeoffset = [0.0, 0.0]
     numread = 1
     hold = false
     selected = false
-    posbuf = [54.0, 6.0]
+    posbuf = [74.0, 6.0]
     sizebuf = [30.0, 60.0]
 
         ["Demo 2".qtws.options]
@@ -1498,7 +1498,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[74.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[84.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -1533,7 +1533,7 @@ sizeoffset = [0.0, 0.0]
     numread = 7
     hold = false
     selected = false
-    posbuf = [84.0, 6.0]
+    posbuf = [104.0, 6.0]
     sizebuf = [30.0, 60.0]
 
         ["Demo 2".qtws.options]
@@ -1556,7 +1556,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[104.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[114.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -1591,7 +1591,7 @@ sizeoffset = [0.0, 0.0]
     numread = 1
     hold = false
     selected = false
-    posbuf = [114.0, 6.0]
+    posbuf = [134.0, 6.0]
     sizebuf = [30.0, 60.0]
 
         ["Demo 2".qtws.options]
@@ -1614,7 +1614,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[134.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[144.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -1649,7 +1649,7 @@ sizeoffset = [0.0, 0.0]
     numread = 7
     hold = false
     selected = false
-    posbuf = [144.0, 6.0]
+    posbuf = [164.0, 6.0]
     sizebuf = [30.0, 60.0]
 
         ["Demo 2".qtws.options]
@@ -1672,7 +1672,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[164.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[174.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -1707,7 +1707,7 @@ sizeoffset = [0.0, 0.0]
     numread = 1
     hold = false
     selected = false
-    posbuf = [174.0, 6.0]
+    posbuf = [194.0, 6.0]
     sizebuf = [30.0, 60.0]
 
         ["Demo 2".qtws.options]
@@ -1730,7 +1730,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[194.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[204.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -1765,7 +1765,7 @@ sizeoffset = [0.0, 0.0]
     numread = 7
     hold = false
     selected = false
-    posbuf = [204.0, 6.0]
+    posbuf = [224.0, 6.0]
     sizebuf = [30.0, 60.0]
 
         ["Demo 2".qtws.options]
@@ -1788,7 +1788,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[224.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[234.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -1823,7 +1823,7 @@ sizeoffset = [0.0, 0.0]
     numread = 1
     hold = false
     selected = false
-    posbuf = [234.0, 6.0]
+    posbuf = [254.0, 6.0]
     sizebuf = [30.0, 60.0]
 
         ["Demo 2".qtws.options]
@@ -1846,7 +1846,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[254.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[264.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -1881,7 +1881,7 @@ sizeoffset = [0.0, 0.0]
     numread = 7
     hold = false
     selected = false
-    posbuf = [264.0, 6.0]
+    posbuf = [284.0, 6.0]
     sizebuf = [30.0, 60.0]
 
         ["Demo 2".qtws.options]
@@ -1904,7 +1904,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[284.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[294.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -1939,7 +1939,7 @@ sizeoffset = [0.0, 0.0]
     numread = 1
     hold = false
     selected = false
-    posbuf = [294.0, 6.0]
+    posbuf = [314.0, 6.0]
     sizebuf = [30.0, 60.0]
 
         ["Demo 2".qtws.options]
@@ -1962,7 +1962,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[314.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[324.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -1997,7 +1997,7 @@ sizeoffset = [0.0, 0.0]
     numread = 7
     hold = false
     selected = false
-    posbuf = [324.0, 6.0]
+    posbuf = [344.0, 6.0]
     sizebuf = [30.0, 60.0]
 
         ["Demo 2".qtws.options]
@@ -2020,7 +2020,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[344.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[354.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -2055,7 +2055,7 @@ sizeoffset = [0.0, 0.0]
     numread = 1
     hold = false
     selected = false
-    posbuf = [354.0, 6.0]
+    posbuf = [374.0, 6.0]
     sizebuf = [30.0, 60.0]
 
         ["Demo 2".qtws.options]
@@ -2078,7 +2078,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[374.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[384.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -2113,8 +2113,8 @@ sizeoffset = [0.0, 0.0]
     numread = 7
     hold = false
     selected = false
-    posbuf = [384.0, 6.0]
-    sizebuf = [60.0, 60.0]
+    posbuf = [404.0, 6.0]
+    sizebuf = [40.0, 60.0]
 
         ["Demo 2".qtws.options]
         uitype = "read"
@@ -2127,7 +2127,7 @@ sizeoffset = [0.0, 0.0]
         textsize = "normal"
         textscale = 1.0
         textinside = true
-        itemsize = [60.0, 60.0]
+        itemsize = [40.0, 60.0]
         rounding = 4.0
         grabrounding = 6.0
         bdrounding = 0.0
@@ -2136,7 +2136,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[404.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[414.0, 6.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -2958,7 +2958,7 @@ sizeoffset = [0.0, 0.0]
         selectedidx = 1
         selectorlabels = ["B", "I", "Iac"]
         selectorlist = [["JJ B", "JJ I", "JJ Iac"]]
-        bindingqtwidxes = [[15, 16, 17, 18, 19, 20]]
+        bindingqtwidxes = [[29, 30, 31, 32, 33, 34]]
         bindingonoff = [1, 2]
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
