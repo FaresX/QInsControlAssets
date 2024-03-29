@@ -1,6 +1,6 @@
-["远控"]
+[HR-TL400]
 instrnm = "Triton"
-name = "远控"
+name = "HR-TL400"
 windowflags = 2097186
 windowsize = [626.0, 428.0]
 usewallpaper = false
@@ -12,7 +12,7 @@ qtlist = []
 posoffset = [0.0, 0.0]
 sizeoffset = [0.0, 0.0]
 
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -23,7 +23,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
@@ -57,6 +57,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -72,18 +73,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Panel_"
-    alias = "T1"
+    alias = "Probe"
     qtype = "none"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [18.0, 16.0]
+    sizebuf = [120.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -96,7 +97,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 40.0]
+        itemsize = [132.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -117,6 +118,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -132,18 +134,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT1"
-    alias = "温度T1"
+    [[HR-TL400.qtws]]
+    name = "temperatureTA"
+    alias = "温度TA"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [138.0, 16.0]
+    sizebuf = [140.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -156,7 +158,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [140.0, 40.0]
+        itemsize = [128.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -165,7 +167,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[138.0, 16.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[150.0, 16.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -177,6 +179,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -192,18 +195,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT1"
-    alias = "温度T1"
+    [[HR-TL400.qtws]]
+    name = "temperatureTA"
+    alias = "温度TA"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [278.0, 336.0]
+    sizebuf = [40.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "unit"
         globaloptions = false
         allowoverlap = false
@@ -237,6 +240,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -252,18 +256,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Panel_"
-    alias = "T2"
+    alias = "IVC Sorb"
     qtype = "none"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [18.0, 56.0]
+    sizebuf = [120.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -276,7 +280,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 40.0]
+        itemsize = [132.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -297,6 +301,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -312,18 +317,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT2"
-    alias = "温度T2"
+    [[HR-TL400.qtws]]
+    name = "temperatureT1"
+    alias = "温度T1"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [138.0, 56.0]
+    sizebuf = [140.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -336,7 +341,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [140.0, 40.0]
+        itemsize = [128.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -345,7 +350,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[138.0, 56.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[150.0, 56.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -357,6 +362,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -372,18 +378,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT2"
-    alias = "温度T2"
+    [[HR-TL400.qtws]]
+    name = "temperatureT1"
+    alias = "温度T1"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [278.0, 16.0]
+    sizebuf = [40.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "unit"
         globaloptions = false
         allowoverlap = false
@@ -417,6 +423,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -432,18 +439,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Panel_"
-    alias = "T3"
+    alias = "1 K Pot"
     qtype = "none"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [18.0, 96.0]
+    sizebuf = [120.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -456,7 +463,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 40.0]
+        itemsize = [132.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -477,6 +484,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -492,18 +500,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT3"
-    alias = "温度T3"
+    [[HR-TL400.qtws]]
+    name = "temperatureT2"
+    alias = "温度T2"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [138.0, 96.0]
+    sizebuf = [140.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -516,7 +524,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [140.0, 40.0]
+        itemsize = [128.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -525,7 +533,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[138.0, 96.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[150.0, 96.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -537,6 +545,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -552,18 +561,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT3"
-    alias = "温度T3"
+    [[HR-TL400.qtws]]
+    name = "temperatureT2"
+    alias = "温度T2"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [278.0, 56.0]
+    sizebuf = [40.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "unit"
         globaloptions = false
         allowoverlap = false
@@ -597,6 +606,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -612,18 +622,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Panel_"
-    alias = "T4"
+    alias = "Still"
     qtype = "none"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [18.0, 136.0]
+    sizebuf = [120.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -636,7 +646,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 40.0]
+        itemsize = [132.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -657,6 +667,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -672,18 +683,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT4"
-    alias = "温度T4"
+    [[HR-TL400.qtws]]
+    name = "temperatureT3"
+    alias = "温度T3"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [138.0, 136.0]
+    sizebuf = [140.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -696,7 +707,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [140.0, 40.0]
+        itemsize = [128.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -705,7 +716,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[138.0, 136.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[150.0, 136.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -717,6 +728,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -732,18 +744,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT4"
-    alias = "温度T4"
+    [[HR-TL400.qtws]]
+    name = "temperatureT3"
+    alias = "温度T3"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [278.0, 96.0]
+    sizebuf = [40.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "unit"
         globaloptions = false
         allowoverlap = false
@@ -777,6 +789,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -792,18 +805,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Panel_"
-    alias = "T5"
+    alias = "Cold Plate"
     qtype = "none"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [18.0, 176.0]
+    sizebuf = [120.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -816,7 +829,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 40.0]
+        itemsize = [132.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -837,6 +850,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -852,18 +866,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT5"
-    alias = "温度T5"
+    [[HR-TL400.qtws]]
+    name = "temperatureT4"
+    alias = "温度T4"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [138.0, 176.0]
+    sizebuf = [140.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -876,7 +890,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [140.0, 40.0]
+        itemsize = [128.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -885,7 +899,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[138.0, 176.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[150.0, 176.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -897,6 +911,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -912,18 +927,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT5"
-    alias = "温度T5"
+    [[HR-TL400.qtws]]
+    name = "temperatureT4"
+    alias = "温度T4"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [278.0, 136.0]
+    sizebuf = [40.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "unit"
         globaloptions = false
         allowoverlap = false
@@ -957,6 +972,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -972,18 +988,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Panel_"
-    alias = "T6"
+    alias = "MC Concentrated"
     qtype = "none"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [18.0, 216.0]
+    sizebuf = [120.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -996,7 +1012,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 40.0]
+        itemsize = [132.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -1017,6 +1033,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1032,18 +1049,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT6"
-    alias = "温度T6"
+    [[HR-TL400.qtws]]
+    name = "temperatureT5"
+    alias = "温度T5"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [138.0, 216.0]
+    sizebuf = [140.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -1056,7 +1073,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [140.0, 40.0]
+        itemsize = [128.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -1065,7 +1082,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[138.0, 216.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[150.0, 216.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -1077,6 +1094,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1092,18 +1110,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT6"
-    alias = "温度T6"
+    [[HR-TL400.qtws]]
+    name = "temperatureT5"
+    alias = "温度T5"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [278.0, 176.0]
+    sizebuf = [40.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "unit"
         globaloptions = false
         allowoverlap = false
@@ -1137,6 +1155,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1152,18 +1171,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Panel_"
-    alias = "T7"
+    alias = "MC Tail Top"
     qtype = "none"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [18.0, 256.0]
+    sizebuf = [120.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -1176,7 +1195,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 40.0]
+        itemsize = [132.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -1197,6 +1216,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1212,18 +1232,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT7"
-    alias = "温度T7"
+    [[HR-TL400.qtws]]
+    name = "temperatureT6"
+    alias = "温度T6"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [138.0, 256.0]
+    sizebuf = [140.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -1236,7 +1256,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [140.0, 40.0]
+        itemsize = [128.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -1245,7 +1265,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[138.0, 256.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[150.0, 256.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -1257,6 +1277,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1272,18 +1293,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT7"
-    alias = "温度T7"
+    [[HR-TL400.qtws]]
+    name = "temperatureT6"
+    alias = "温度T6"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [278.0, 216.0]
+    sizebuf = [40.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "unit"
         globaloptions = false
         allowoverlap = false
@@ -1317,6 +1338,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1332,18 +1354,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Panel_"
-    alias = "T8"
+    alias = "MC Tail Bottom"
     qtype = "none"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [18.0, 296.0]
+    sizebuf = [120.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -1356,7 +1378,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 40.0]
+        itemsize = [132.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -1377,6 +1399,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1392,18 +1415,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT8"
-    alias = "温度T8"
+    [[HR-TL400.qtws]]
+    name = "temperatureT7"
+    alias = "温度T7"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [138.0, 296.0]
+    sizebuf = [140.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -1416,7 +1439,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [140.0, 40.0]
+        itemsize = [128.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -1425,7 +1448,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[138.0, 296.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[150.0, 296.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -1437,6 +1460,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1452,18 +1476,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT8"
-    alias = "温度T8"
+    [[HR-TL400.qtws]]
+    name = "temperatureT7"
+    alias = "温度T7"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [278.0, 256.0]
+    sizebuf = [40.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "unit"
         globaloptions = false
         allowoverlap = false
@@ -1497,6 +1521,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1512,18 +1537,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Panel_"
-    alias = "T13"
+    alias = "MC Dilute"
     qtype = "none"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [18.0, 336.0]
+    sizebuf = [120.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -1536,7 +1561,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 40.0]
+        itemsize = [132.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -1557,6 +1582,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1572,18 +1598,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT13"
-    alias = "温度T13"
+    [[HR-TL400.qtws]]
+    name = "temperatureT8"
+    alias = "温度T8"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [138.0, 336.0]
+    sizebuf = [140.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -1596,7 +1622,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [140.0, 40.0]
+        itemsize = [128.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -1605,7 +1631,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[138.0, 336.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[150.0, 336.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -1617,6 +1643,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1632,18 +1659,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "temperatureT13"
-    alias = "温度T13"
+    [[HR-TL400.qtws]]
+    name = "temperatureT8"
+    alias = "温度T8"
     qtype = "read"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [278.0, 296.0]
+    sizebuf = [40.0, 40.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "unit"
         globaloptions = false
         allowoverlap = false
@@ -1677,6 +1704,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1692,7 +1720,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Panel_"
     alias = "手动"
     qtype = "none"
@@ -1703,7 +1731,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -1737,6 +1765,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1752,7 +1781,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -1763,7 +1792,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
@@ -1797,6 +1826,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1812,7 +1842,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "looptset"
     alias = "温度设置"
     qtype = "set"
@@ -1823,7 +1853,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "inputctrlset"
         globaloptions = false
         allowoverlap = false
@@ -1831,8 +1861,8 @@ sizeoffset = [0.0, 0.0]
         autorefresh = false
         pathes = []
         rate = 1
-        textsize = "big"
-        textscale = 1.0
+        textsize = "normal"
+        textscale = 1.2000000476837158
         textinside = true
         notimes = false
         notime = false
@@ -1848,7 +1878,7 @@ sizeoffset = [0.0, 0.0]
         vertices = [[354.0, 46.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
-        starttext = "Start"
+        starttext = "目标温度"
         stoptext = "Stop"
         bindingidx = 1
         selectornum = 1
@@ -1857,6 +1887,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1872,7 +1903,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "looptset"
     alias = "温度设置"
     qtype = "set"
@@ -1883,7 +1914,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "unit"
         globaloptions = false
         allowoverlap = false
@@ -1917,6 +1948,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1932,7 +1964,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Panel_"
     alias = "P I D"
     qtype = "none"
@@ -1943,7 +1975,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -1956,7 +1988,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [48.0, 30.0]
+        itemsize = [48.0, 60.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -1977,6 +2009,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -1992,7 +2025,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -2003,7 +2036,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
@@ -2016,7 +2049,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [6.0, 30.0]
+        itemsize = [6.0, 60.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -2037,6 +2070,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -2052,7 +2086,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "taloopP"
     alias = "TAPID - P"
     qtype = "set"
@@ -2063,8 +2097,8 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
-        uitype = "inputctrlset"
+        [HR-TL400.qtws.options]
+        uitype = "read"
         globaloptions = false
         allowoverlap = false
         useimage = false
@@ -2097,6 +2131,68 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
+        textcolor = [0.0, 0.0, 0.0, 1.0]
+        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
+        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
+        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 0.7051792740821838]
+        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
+        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
+        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
+        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
+        oncolor = [0.0, 1.0, 0.0, 1.0]
+        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
+        hoveredcolor = [0.9529411792755127, 0.9529411792755127, 0.9529411792755127, 0.7058823704719543]
+        activecolor = [0.9529411792755127, 0.9529411792755127, 0.9529411792755127, 0.7058823704719543]
+        bdcolor = [0.0, 0.0, 0.0, 0.0]
+        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
+    [[HR-TL400.qtws]]
+    name = "taloopP"
+    alias = "TAPID - P"
+    qtype = "set"
+    numoptvs = 0
+    numread = 1
+    hold = false
+    selected = false
+    posbuf = [408.0, 92.0]
+    sizebuf = [60.0, 30.0]
+
+        [HR-TL400.qtws.options]
+        uitype = "inputctrlset"
+        globaloptions = false
+        allowoverlap = false
+        useimage = false
+        autorefresh = false
+        pathes = []
+        rate = 1
+        textsize = "normal"
+        textscale = 1.0
+        textinside = true
+        notimes = false
+        notime = false
+        itemsize = [60.0, 30.0]
+        rounding = 0.0
+        grabrounding = 0.0
+        bdrounding = 0.0
+        bdthickness = 0.0
+        comboflags = 0
+        uv0 = [0.0, 0.0]
+        uv1 = [1.0, 1.0]
+        framepadding = [6.0, 6.0]
+        vertices = [[408.0, 122.0], [0.0, 0.0], [0.0, 0.0]]
+        circlesegments = 24
+        ticknum = 6
+        starttext = "P"
+        stoptext = "Stop"
+        bindingidx = 1
+        selectornum = 1
+        selectedidx = 1
+        selectorlabels = ["option 1"]
+        selectorlist = []
+        bindingqtwidxes = []
+        bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -2112,7 +2208,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -2123,7 +2219,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
@@ -2136,7 +2232,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [6.0, 30.0]
+        itemsize = [6.0, 60.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -2157,6 +2253,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -2172,7 +2269,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "taloopI"
     alias = "TAPID - I"
     qtype = "set"
@@ -2183,8 +2280,8 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
-        uitype = "inputctrlset"
+        [HR-TL400.qtws.options]
+        uitype = "read"
         globaloptions = false
         allowoverlap = false
         useimage = false
@@ -2217,6 +2314,68 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
+        textcolor = [0.0, 0.0, 0.0, 1.0]
+        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
+        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
+        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 0.7051792740821838]
+        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
+        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
+        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
+        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
+        oncolor = [0.0, 1.0, 0.0, 1.0]
+        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
+        hoveredcolor = [0.9529411792755127, 0.9529411792755127, 0.9529411792755127, 0.7058823704719543]
+        activecolor = [0.9529411792755127, 0.9529411792755127, 0.9529411792755127, 0.7058823704719543]
+        bdcolor = [0.0, 0.0, 0.0, 0.0]
+        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
+    [[HR-TL400.qtws]]
+    name = "taloopI"
+    alias = "TAPID - I"
+    qtype = "set"
+    numoptvs = 0
+    numread = 1
+    hold = false
+    selected = false
+    posbuf = [474.0, 92.0]
+    sizebuf = [60.0, 30.0]
+
+        [HR-TL400.qtws.options]
+        uitype = "inputctrlset"
+        globaloptions = false
+        allowoverlap = false
+        useimage = false
+        autorefresh = false
+        pathes = []
+        rate = 1
+        textsize = "normal"
+        textscale = 1.0
+        textinside = true
+        notimes = false
+        notime = false
+        itemsize = [60.0, 30.0]
+        rounding = 0.0
+        grabrounding = 0.0
+        bdrounding = 0.0
+        bdthickness = 0.0
+        comboflags = 0
+        uv0 = [0.0, 0.0]
+        uv1 = [1.0, 1.0]
+        framepadding = [6.0, 6.0]
+        vertices = [[474.0, 122.0], [0.0, 0.0], [0.0, 0.0]]
+        circlesegments = 24
+        ticknum = 6
+        starttext = "I"
+        stoptext = "Stop"
+        bindingidx = 1
+        selectornum = 1
+        selectedidx = 1
+        selectorlabels = ["option 1"]
+        selectorlist = []
+        bindingqtwidxes = []
+        bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -2232,7 +2391,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -2243,7 +2402,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
@@ -2256,7 +2415,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [6.0, 30.0]
+        itemsize = [6.0, 60.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -2277,6 +2436,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -2292,7 +2452,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "taloopD"
     alias = "TAPID - D"
     qtype = "set"
@@ -2303,8 +2463,8 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
-        uitype = "inputctrlset"
+        [HR-TL400.qtws.options]
+        uitype = "read"
         globaloptions = false
         allowoverlap = false
         useimage = false
@@ -2337,6 +2497,68 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
+        textcolor = [0.0, 0.0, 0.0, 1.0]
+        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
+        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
+        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 0.7051792740821838]
+        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
+        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
+        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
+        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
+        oncolor = [0.0, 1.0, 0.0, 1.0]
+        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
+        hoveredcolor = [0.9529411792755127, 0.9529411792755127, 0.9529411792755127, 0.7058823704719543]
+        activecolor = [0.9529411792755127, 0.9529411792755127, 0.9529411792755127, 0.7058823704719543]
+        bdcolor = [0.0, 0.0, 0.0, 0.0]
+        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
+    [[HR-TL400.qtws]]
+    name = "taloopD"
+    alias = "TAPID - D"
+    qtype = "set"
+    numoptvs = 0
+    numread = 1
+    hold = false
+    selected = false
+    posbuf = [540.0, 92.0]
+    sizebuf = [60.0, 30.0]
+
+        [HR-TL400.qtws.options]
+        uitype = "inputctrlset"
+        globaloptions = false
+        allowoverlap = false
+        useimage = false
+        autorefresh = false
+        pathes = []
+        rate = 1
+        textsize = "normal"
+        textscale = 1.0
+        textinside = true
+        notimes = false
+        notime = false
+        itemsize = [60.0, 30.0]
+        rounding = 0.0
+        grabrounding = 0.0
+        bdrounding = 0.0
+        bdthickness = 0.0
+        comboflags = 0
+        uv0 = [0.0, 0.0]
+        uv1 = [1.0, 1.0]
+        framepadding = [6.0, 6.0]
+        vertices = [[540.0, 122.0], [0.0, 0.0], [0.0, 0.0]]
+        circlesegments = 24
+        ticknum = 6
+        starttext = "D"
+        stoptext = "Stop"
+        bindingidx = 1
+        selectornum = 1
+        selectedidx = 1
+        selectorlabels = ["option 1"]
+        selectorlist = []
+        bindingqtwidxes = []
+        bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -2352,7 +2574,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "taexcitationtype"
     alias = "TA激励类型"
     qtype = "set"
@@ -2360,10 +2582,10 @@ sizeoffset = [0.0, 0.0]
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [354.0, 158.0]
+    sizebuf = [60.0, 30.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "slider"
         globaloptions = true
         allowoverlap = false
@@ -2376,67 +2598,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [180.0, 30.0]
-        rounding = 0.0
-        grabrounding = 0.0
-        bdrounding = 0.0
-        bdthickness = 0.0
-        comboflags = 0
-        uv0 = [0.0, 0.0]
-        uv1 = [1.0, 1.0]
-        framepadding = [6.0, 6.0]
-        vertices = [[354.0, 128.0], [0.0, 0.0], [0.0, 0.0]]
-        circlesegments = 24
-        ticknum = 6
-        starttext = "Start"
-        stoptext = "Stop"
-        bindingidx = 1
-        selectornum = 1
-        selectedidx = 1
-        selectorlabels = ["option 1"]
-        selectorlist = []
-        bindingqtwidxes = []
-        bindingonoff = [1, 2]
-        textcolor = [0.0, 0.0, 0.0, 1.0]
-        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
-        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
-        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 1.0]
-        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
-        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
-        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
-        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
-        oncolor = [0.0, 1.0, 0.0, 1.0]
-        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
-        hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
-        activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
-        bdcolor = [0.0, 0.0, 0.0, 0.0]
-        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
-        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "taexcitationcur"
-    alias = "TA激励电流"
-    qtype = "set"
-    numoptvs = 6
-    numread = 1
-    hold = false
-    selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
-
-        ["远控".qtws.options]
-        uitype = "combo"
-        globaloptions = false
-        allowoverlap = false
-        useimage = false
-        autorefresh = false
-        pathes = []
-        rate = 1
-        textsize = "normal"
-        textscale = 1.0
-        textinside = true
-        notimes = false
-        notime = false
-        itemsize = [180.0, 30.0]
+        itemsize = [60.0, 30.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -2457,6 +2619,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -2472,7 +2635,68 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
+    name = "taexcitationcur"
+    alias = "TA激励电流"
+    qtype = "set"
+    numoptvs = 6
+    numread = 1
+    hold = false
+    selected = false
+    posbuf = [414.0, 158.0]
+    sizebuf = [120.0, 30.0]
+
+        [HR-TL400.qtws.options]
+        uitype = "combo"
+        globaloptions = false
+        allowoverlap = false
+        useimage = false
+        autorefresh = false
+        pathes = []
+        rate = 1
+        textsize = "normal"
+        textscale = 1.0
+        textinside = true
+        notimes = false
+        notime = false
+        itemsize = [120.0, 30.0]
+        rounding = 0.0
+        grabrounding = 0.0
+        bdrounding = 0.0
+        bdthickness = 0.0
+        comboflags = 0
+        uv0 = [0.0, 0.0]
+        uv1 = [1.0, 1.0]
+        framepadding = [6.0, 6.0]
+        vertices = [[414.0, 158.0], [0.0, 0.0], [0.0, 0.0]]
+        circlesegments = 24
+        ticknum = 6
+        starttext = "Start"
+        stoptext = "Stop"
+        bindingidx = 1
+        selectornum = 1
+        selectedidx = 1
+        selectorlabels = ["option 1"]
+        selectorlist = []
+        bindingqtwidxes = []
+        bindingonoff = [1, 2]
+        readorinput = true
+        textcolor = [0.0, 0.0, 0.0, 1.0]
+        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
+        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
+        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 1.0]
+        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
+        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
+        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
+        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
+        oncolor = [0.0, 1.0, 0.0, 1.0]
+        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
+        hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
+        activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
+        bdcolor = [0.0, 0.0, 0.0, 0.0]
+        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
+    [[HR-TL400.qtws]]
     name = "loopmode"
     alias = "闭合PID"
     qtype = "set"
@@ -2480,10 +2704,10 @@ sizeoffset = [0.0, 0.0]
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [540.0, 158.0]
+    sizebuf = [60.0, 100.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "vslider"
         globaloptions = true
         allowoverlap = false
@@ -2496,7 +2720,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [60.0, 144.0]
+        itemsize = [60.0, 114.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -2505,7 +2729,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[540.0, 128.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[540.0, 158.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -2517,6 +2741,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -2532,18 +2757,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Panel_"
-    alias = "H2"
+    alias = "蒸馏室"
     qtype = "none"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [354.0, 194.0]
+    sizebuf = [60.0, 36.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -2556,7 +2781,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [30.0, 36.0]
+        itemsize = [60.0, 36.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -2577,6 +2802,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -2592,7 +2818,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "h2power"
     alias = "加热器H2功率"
     qtype = "set"
@@ -2600,11 +2826,11 @@ sizeoffset = [0.0, 0.0]
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [414.0, 194.0]
+    sizebuf = [120.0, 36.0]
 
-        ["远控".qtws.options]
-        uitype = "inputctrlset"
+        [HR-TL400.qtws.options]
+        uitype = "readinputctrlset"
         globaloptions = false
         allowoverlap = false
         useimage = false
@@ -2616,7 +2842,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [114.0, 36.0]
+        itemsize = [120.0, 36.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -2625,10 +2851,10 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[384.0, 194.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[414.0, 194.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
-        starttext = "Start"
+        starttext = "功率"
         stoptext = "Stop"
         bindingidx = 1
         selectornum = 1
@@ -2637,6 +2863,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -2652,91 +2879,31 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "h2power"
-    alias = "加热器H2功率"
-    qtype = "set"
+    [[HR-TL400.qtws]]
+    name = "_Panel_"
+    alias = "加热挡"
+    qtype = "none"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [354.0, 236.0]
+    sizebuf = [100.0, 38.0]
 
-        ["远控".qtws.options]
-        uitype = "ctrlset"
+        [HR-TL400.qtws.options]
+        uitype = "none"
         globaloptions = false
         allowoverlap = false
         useimage = false
         autorefresh = false
-        pathes = []
+        pathes = [""]
         rate = 1
         textsize = "normal"
         textscale = 1.0
         textinside = true
         notimes = false
         notime = false
-        itemsize = [36.0, 36.0]
-        rounding = 0.0
-        grabrounding = 0.0
-        bdrounding = 0.0
-        bdthickness = 0.0
-        comboflags = 0
-        uv0 = [0.0, 0.0]
-        uv1 = [1.0, 1.0]
-        framepadding = [6.0, 6.0]
-        vertices = [[498.0, 194.0], [0.0, 0.0], [0.0, 0.0]]
-        circlesegments = 24
-        ticknum = 6
-        starttext = ""
-        stoptext = "Stop"
-        bindingidx = 1
-        selectornum = 1
-        selectedidx = 1
-        selectorlabels = ["option 1"]
-        selectorlist = []
-        bindingqtwidxes = []
-        bindingonoff = [1, 2]
-        textcolor = [0.0, 0.0, 0.0, 1.0]
-        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
-        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
-        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 0.47011953592300415]
-        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
-        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
-        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
-        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
-        oncolor = [0.0, 1.0, 0.0, 1.0]
-        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
-        hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
-        activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
-        bdcolor = [0.0, 0.0, 0.0, 0.0]
-        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
-        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "looprange"
-    alias = "加热器范围"
-    qtype = "set"
-    numoptvs = 0
-    numread = 1
-    hold = false
-    selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
-
-        ["远控".qtws.options]
-        uitype = "read"
-        globaloptions = false
-        allowoverlap = false
-        useimage = false
-        autorefresh = false
-        pathes = []
-        rate = 1
-        textsize = "normal"
-        textscale = 1.0
-        textinside = true
-        notimes = false
-        notime = false
-        itemsize = [180.0, 36.0]
+        itemsize = [60.0, 36.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -2757,10 +2924,72 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
         bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 1.0]
+        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
+        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
+        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
+        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
+        oncolor = [0.0, 1.0, 0.0, 1.0]
+        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
+        hoveredcolor = [0.9529411792755127, 0.9529411792755127, 0.9529411792755127, 1.0]
+        activecolor = [0.9529411792755127, 0.9529411792755127, 0.9529411792755127, 1.0]
+        bdcolor = [0.0, 0.0, 0.0, 0.0]
+        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
+    [[HR-TL400.qtws]]
+    name = "looprange"
+    alias = "加热器范围"
+    qtype = "set"
+    numoptvs = 9
+    numread = 1
+    hold = false
+    selected = false
+    posbuf = [464.0, 236.0]
+    sizebuf = [70.0, 36.0]
+
+        [HR-TL400.qtws.options]
+        uitype = "combo"
+        globaloptions = false
+        allowoverlap = false
+        useimage = false
+        autorefresh = false
+        pathes = []
+        rate = 1
+        textsize = "normal"
+        textscale = 1.0
+        textinside = true
+        notimes = false
+        notime = false
+        itemsize = [120.0, 36.0]
+        rounding = 0.0
+        grabrounding = 0.0
+        bdrounding = 0.0
+        bdthickness = 0.0
+        comboflags = 0
+        uv0 = [0.0, 0.0]
+        uv1 = [1.0, 1.0]
+        framepadding = [6.0, 6.0]
+        vertices = [[414.0, 236.0], [0.0, 0.0], [0.0, 0.0]]
+        circlesegments = 24
+        ticknum = 6
+        starttext = "Start"
+        stoptext = "Stop"
+        bindingidx = 1
+        selectornum = 1
+        selectedidx = 1
+        selectorlabels = ["option 1"]
+        selectorlist = []
+        bindingqtwidxes = []
+        bindingonoff = [1, 2]
+        readorinput = true
+        textcolor = [0.0, 0.0, 0.0, 1.0]
+        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
+        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
+        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 0.7051792740821838]
         popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
         imgbgcolor = [0.0, 0.0, 0.0, 0.0]
         imgtintcolor = [1.0, 1.0, 1.0, 1.0]
@@ -2772,7 +3001,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Panel_"
     alias = "自动"
     qtype = "none"
@@ -2783,7 +3012,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -2817,6 +3046,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -2832,7 +3062,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
+    [[HR-TL400.qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -2843,7 +3073,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
@@ -2877,6 +3107,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -2892,18 +3123,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "hrtlm400tapbautotset"
-    alias = "怀柔TLM400TAProbeB自动控温"
+    [[HR-TL400.qtws]]
+    name = "tlm400probeaautotset"
+    alias = "TLM400样品杆A自动控温"
     qtype = "set"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [394.0, 338.0]
+    sizebuf = [120.0, 38.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "inputctrlset"
         globaloptions = false
         allowoverlap = false
@@ -2916,7 +3147,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [160.0, 38.0]
+        itemsize = [120.0, 38.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -2925,10 +3156,10 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[354.0, 338.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[404.0, 338.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
-        starttext = "Start"
+        starttext = "目标温度"
         stoptext = "Stop"
         bindingidx = 1
         selectornum = 1
@@ -2937,6 +3168,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -2952,18 +3184,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "hrtlm400tapbautotset"
-    alias = "怀柔TLM400TAProbeB自动控温"
+    [[HR-TL400.qtws]]
+    name = "tlm400probeaautotset"
+    alias = "TLM400样品杆A自动控温"
     qtype = "set"
     numoptvs = 0
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [514.0, 338.0]
+    sizebuf = [38.0, 38.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "unit"
         globaloptions = false
         allowoverlap = false
@@ -2976,7 +3208,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [48.0, 38.0]
+        itemsize = [38.0, 38.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -2985,7 +3217,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[514.0, 338.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[524.0, 338.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -2997,6 +3229,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -3012,9 +3245,9 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["远控".qtws]]
-    name = "hrtlm400tapbautotsetsw"
-    alias = "怀柔TLM400TAProbeB自动控温开关"
+    [[HR-TL400.qtws]]
+    name = "tlm400probeautotsetsw"
+    alias = "TLM400样品杆自动控温开关"
     qtype = "set"
     numoptvs = 2
     numread = 1
@@ -3023,7 +3256,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["远控".qtws.options]
+        [HR-TL400.qtws.options]
         uitype = "toggle"
         globaloptions = false
         allowoverlap = false
@@ -3057,6 +3290,7 @@ sizeoffset = [0.0, 0.0]
         selectorlist = []
         bindingqtwidxes = []
         bindingonoff = [1, 2]
+        readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
         hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
         checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
@@ -3073,7 +3307,7 @@ sizeoffset = [0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
 
-    ["远控".options]
+    [HR-TL400.options]
     uitype = "vslider"
     globaloptions = true
     allowoverlap = false
@@ -3086,7 +3320,7 @@ sizeoffset = [0.0, 0.0]
     textinside = true
     notimes = false
     notime = false
-    itemsize = [60.0, 144.0]
+    itemsize = [60.0, 114.0]
     rounding = 0.0
     grabrounding = 0.0
     bdrounding = 0.0
@@ -3095,7 +3329,7 @@ sizeoffset = [0.0, 0.0]
     uv0 = [0.0, 0.0]
     uv1 = [1.0, 1.0]
     framepadding = [6.0, 6.0]
-    vertices = [[540.0, 128.0], [0.0, 0.0], [0.0, 0.0]]
+    vertices = [[540.0, 158.0], [0.0, 0.0], [0.0, 0.0]]
     circlesegments = 24
     ticknum = 6
     starttext = "Start"
@@ -3107,6 +3341,7 @@ sizeoffset = [0.0, 0.0]
     selectorlist = []
     bindingqtwidxes = []
     bindingonoff = [1, 2]
+    readorinput = true
     textcolor = [0.0, 0.0, 0.0, 1.0]
     hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
     checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
