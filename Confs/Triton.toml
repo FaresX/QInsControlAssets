@@ -1,11 +1,33 @@
+[tlm400probebautotset]
+alias = "TLM400样品杆B自动控温"
+U = "K"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[tlm400probeautotsetsw]
+alias = "TLM400样品杆自动控温开关"
+U = ""
+numread = 1
+optkeys = ["ON", "OFF"]
+separator = ""
+optvalues = ["ON", "OFF"]
+help = ""
+type = "set"
+cmdheader = ""
+
 [temperatureT5]
 alias = "温度T5"
 U = "K"
 numread = 1
 optkeys = []
-help = "MC Plate Cernox"
-optvalues = []
 separator = ""
+optvalues = []
+help = "MC Plate Cernox"
 type = "read"
 cmdheader = ""
 
@@ -14,21 +36,10 @@ alias = "温度T4"
 U = "K"
 numread = 1
 optkeys = []
-help = "Cold Plate"
+separator = ""
 optvalues = []
-separator = ""
+help = "Cold Plate"
 type = "read"
-cmdheader = ""
-
-[hrtlm400tapbautotsetsw]
-alias = "怀柔TLM400TAProbeB自动控温开关"
-U = ""
-numread = 1
-optkeys = ["ON", "OFF"]
-help = ""
-optvalues = ["ON", "OFF"]
-separator = ""
-type = "set"
 cmdheader = ""
 
 [taloopP]
@@ -36,20 +47,9 @@ alias = "TAPID - P"
 U = ""
 numread = 1
 optkeys = []
-help = ""
-optvalues = []
 separator = ""
-type = "set"
-cmdheader = ""
-
-[hrtlm400tapbautotset]
-alias = "怀柔TLM400TAProbeB自动控温"
-U = "K"
-numread = 1
-optkeys = []
-help = ""
 optvalues = []
-separator = ""
+help = ""
 type = "set"
 cmdheader = ""
 
@@ -58,9 +58,9 @@ alias = "TAPID - I"
 U = ""
 numread = 1
 optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
+help = ""
 type = "set"
 cmdheader = ""
 
@@ -69,9 +69,9 @@ alias = "温度T1"
 U = "K"
 numread = 1
 optkeys = []
-help = "PT2 Head"
-optvalues = []
 separator = ""
+optvalues = []
+help = "PT2 Head"
 type = "read"
 cmdheader = ""
 
@@ -80,9 +80,9 @@ alias = "加热器H2功率"
 U = "μW"
 numread = 1
 optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
+help = ""
 type = "set"
 cmdheader = ""
 
@@ -91,9 +91,9 @@ alias = "TAPID"
 U = ""
 numread = 1
 optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
+help = ""
 type = "set"
 cmdheader = ""
 
@@ -102,9 +102,9 @@ alias = "温度T6"
 U = "K"
 numread = 1
 optkeys = []
-help = "PT1 Head"
-optvalues = []
 separator = ""
+optvalues = []
+help = "PT1 Head"
 type = "read"
 cmdheader = ""
 
@@ -113,9 +113,9 @@ alias = "温度T13"
 U = "K"
 numread = 1
 optkeys = []
-help = "Magnet"
-optvalues = []
 separator = ""
+optvalues = []
+help = "Magnet"
 type = "read"
 cmdheader = ""
 
@@ -124,9 +124,9 @@ alias = "温度T3"
 U = "K"
 numread = 1
 optkeys = []
-help = "Still Plate"
-optvalues = []
 separator = ""
+optvalues = []
+help = "Still Plate"
 type = "read"
 cmdheader = ""
 
@@ -135,9 +135,9 @@ alias = "TA激励电流"
 U = "A"
 numread = 1
 optkeys = ["316pA", "1nA", "3.16nA", "10nA", "31.6nA", "100nA"]
-help = ""
-optvalues = ["316pA", "1nA", "3.16nA", "10nA", "31.6nA", "100nA"]
 separator = ""
+optvalues = ["316pA", "1nA", "3.16nA", "10nA", "31.6nA", "100nA"]
+help = ""
 type = "set"
 cmdheader = ""
 
@@ -146,9 +146,9 @@ alias = "温度T7"
 U = "K"
 numread = 1
 optkeys = []
-help = "PT1 Plate"
-optvalues = []
 separator = ""
+optvalues = []
+help = "PT1 Plate"
 type = "read"
 cmdheader = ""
 
@@ -157,9 +157,31 @@ alias = "温度设置"
 U = "K"
 numread = 1
 optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[tlm400probeaautotset]
+alias = "TLM400样品杆A自动控温"
+U = "K"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[tlm400probecautotset]
+alias = "TLM400样品杆C自动控温"
+U = "K"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
 type = "set"
 cmdheader = ""
 
@@ -168,9 +190,9 @@ alias = "温度T8"
 U = "K"
 numread = 1
 optkeys = []
-help = "MC Plate RuO2"
-optvalues = []
 separator = ""
+optvalues = []
+help = "MC Plate RuO2"
 type = "read"
 cmdheader = ""
 
@@ -179,9 +201,9 @@ alias = "TA激励电压"
 U = "V"
 numread = 1
 optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
+help = ""
 type = "set"
 cmdheader = ""
 
@@ -189,10 +211,10 @@ cmdheader = ""
 alias = "加热器范围"
 U = "mA"
 numread = 1
-optkeys = []
-help = ""
-optvalues = []
+optkeys = ["0", "31.6 μA", "100 μA", "316 μA", "1 mA", "3.16 mA", "10 mA", "31.6 mA", "100 mA"]
 separator = ""
+optvalues = ["0", "0.0316", "0.1", "0.316", "1", "3.16", "10", "31.6", "100"]
+help = ""
 type = "set"
 cmdheader = ""
 
@@ -201,9 +223,9 @@ alias = "温度TA"
 U = "K"
 numread = 1
 optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
+help = ""
 type = "read"
 cmdheader = ""
 
@@ -212,9 +234,9 @@ alias = "温度T2"
 U = "K"
 numread = 1
 optkeys = []
-help = "PT2 Plate"
-optvalues = []
 separator = ""
+optvalues = []
+help = "PT2 Plate"
 type = "read"
 cmdheader = ""
 
@@ -223,9 +245,9 @@ alias = "TAPID - D"
 U = ""
 numread = 1
 optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
+help = ""
 type = "set"
 cmdheader = ""
 
@@ -234,9 +256,9 @@ alias = "TA激励类型"
 U = ""
 numread = 1
 optkeys = ["电流", "电压"]
-help = ""
-optvalues = ["CUR", "VOLT"]
 separator = ""
+optvalues = ["CUR", "VOLT"]
+help = ""
 type = "set"
 cmdheader = ""
 
@@ -252,8 +274,8 @@ alias = "闭合PID"
 U = ""
 numread = 1
 optkeys = ["ON", "OFF"]
-help = ""
-optvalues = ["ON", "OFF"]
 separator = ""
+optvalues = ["ON", "OFF"]
+help = ""
 type = "set"
 cmdheader = ""

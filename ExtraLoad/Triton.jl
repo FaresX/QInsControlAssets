@@ -78,9 +78,9 @@ function Triton_taexcitationvolt_get(instr)
 end
 
 let
-    hrtlm400tapbautotsetsw::String = "OFF"
-    global function Triton_hrtlm400tapbautotset_set(instr, val)
-        if hrtlm400tapbautotsetsw == "ON"
+    tlm400probeautotsetsw::String = "OFF"
+    global function Triton_tlm400probeaautotset_set(instr, val)
+        if tlm400probeautotsetsw == "ON"
             sv = val isa Number ? val : parse(Float64, val)
             if sv < 0.07
                 query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
@@ -109,18 +109,82 @@ let
             end
         end
     end
-    global Triton_hrtlm400tapbautotset_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:SIG:TEMP"), "TEMP:")[end][1:end-1]
+    global Triton_tlm400probeaautotset_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:SIG:TEMP"), "TEMP:")[end][1:end-1]
 
-    global function Triton_hrtlm400tapbautotsetsw_set(instr, val)
+    global function Triton_tlm400probebautotset_set(instr, val)
+        if tlm400probeautotsetsw == "ON"
+            sv = val isa Number ? val : parse(Float64, val)
+            if sv < 0.07
+                query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:CUR")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:1nA")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:P:4:I:8:D:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:0.316")
+				query(instr, "SET:DEV:H2:HTR:SIG:POWR:8000")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
+            elseif 0.07 <= sv < 0.5
+                query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:CUR")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:10nA")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:P:2:I:8:D:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:3.16")
+                query(instr, "SET:DEV:H2:HTR:SIG:POWR:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
+            elseif 0.5 <= sv < 1
+                query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:CUR")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:31.6nA")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:P:2:I:8:D:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:3.16")
+                query(instr, "SET:DEV:H2:HTR:SIG:POWR:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
+            end
+        end
+    end
+    global Triton_tlm400probebautotset_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:SIG:TEMP"), "TEMP:")[end][1:end-1]
+
+    global function Triton_tlm400probecautotset_set(instr, val)
+        if tlm400probeautotsetsw == "ON"
+            sv = val isa Number ? val : parse(Float64, val)
+            if sv < 0.07
+                query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:CUR")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:1nA")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:P:64:I:1024:D:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:1")
+				query(instr, "SET:DEV:H2:HTR:SIG:POWR:8000")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
+            elseif 0.07 <= sv < 0.5
+                query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:CUR")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:10nA")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:P:2:I:64:D:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:3.16")
+                query(instr, "SET:DEV:H2:HTR:SIG:POWR:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
+            elseif 0.5 <= sv < 1
+                query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:ON")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:TYPE:CUR")
+                query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:31.6nA")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:P:2:I:64:D:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:3.16")
+                query(instr, "SET:DEV:H2:HTR:SIG:POWR:0")
+                query(instr, "SET:DEV:TA:TEMP:LOOP:TSET:$val")
+            end
+        end
+    end
+    global Triton_tlm400probecautotset_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:SIG:TEMP"), "TEMP:")[end][1:end-1]
+
+    global function Triton_tlm400probeaautotsetsw_set(instr, val)
         if val == "ON"
-            hrtlm400tapbautotsetsw = "ON"
+            tlm400probeautotsetsw = "ON"
         elseif val == "OFF"
-			hrtlm400tapbautotsetsw = "OFF"
+			tlm400probeautotsetsw = "OFF"
             query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:OFF")
             query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:316pA")
             query(instr, "SET:DEV:TA:TEMP:LOOP:RANGE:0")
             query(instr, "SET:DEV:H2:HTR:SIG:POWR:8000")
         end
     end
-    global Triton_hrtlm400tapbautotsetsw_get(_) = hrtlm400tapbautotsetsw
+    global Triton_tlm400probeautotsetsw_get(_) = tlm400probeautotsetsw
 end
