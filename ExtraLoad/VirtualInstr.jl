@@ -14,6 +14,8 @@ function VirtualInstr_YearMonthDayHMSM_get(_)
     )
 end
 
+VirtualInstr_HourMinuteSecond_get(_) = (whole = now(); string(hour(whole), ":", minute(whole), ":", second(whole)))
+
 # let
 #     sweepv::String = "0"
 #     global VirtualInstr_SweepTest_set(_, setv) = (sweepv = string(setv))

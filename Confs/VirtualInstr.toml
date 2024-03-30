@@ -53,6 +53,17 @@ help = "Return a Time corresponding to the user's system time including the syst
 type = "read"
 cmdheader = ""
 
+[HourMinuteSecond]
+alias = "时分秒"
+U = ""
+numread = 3
+optkeys = []
+separator = ":"
+optvalues = []
+help = "Return a DateTime corresponding to the user's system time including the system timezone locale."
+type = "read"
+cmdheader = ""
+
 [SystemTime]
 alias = "系统时间"
 U = "s"
