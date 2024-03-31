@@ -1409,7 +1409,7 @@ sizeoffset = [0.0, 0.0]
 ["Demo 2"]
 instrnm = "VirtualInstr"
 name = "Demo 2"
-windowflags = 2097184
+windowflags = 2097186
 windowsize = [498.0, 512.0]
 usewallpaper = false
 wallpaperpath = ""
@@ -3110,7 +3110,7 @@ sizeoffset = [0.0, 0.0]
         selectedidx = 1
         selectorlabels = ["B", "I", "Iac"]
         selectorlist = [["JJ B", "JJ I", "JJ Iac"]]
-        bindingqtwidxes = [[29, 30, 31, 32, 33, 34]]
+        bindingqtwidxes = [[29, 30, 31, 32, 33, 34, 35]]
         bindingonoff = [1, 2]
         readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
