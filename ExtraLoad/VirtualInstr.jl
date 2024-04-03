@@ -105,3 +105,6 @@ let
     end
     global VirtualInstr_power_get(_) = Power
 end
+
+VirtualInstr_testerr_set(_, val) = (wait(Timer(6)); error("testerr timeout !"))
+VirtualInstr_testerr_get(_) = (wait(Timer(6)); error("testerr timeout !"))
