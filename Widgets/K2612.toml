@@ -90,7 +90,7 @@ sizeoffset = [0.0, 0.0]
         globaloptions = false
         allowoverlap = false
         useimage = false
-        autorefresh = false
+        autorefresh = true
         refreshrate = 1.0
         pathes = []
         rate = 1
@@ -152,7 +152,7 @@ sizeoffset = [0.0, 0.0]
         globaloptions = false
         allowoverlap = false
         useimage = false
-        autorefresh = false
+        autorefresh = true
         refreshrate = 1.0
         pathes = []
         rate = 1
@@ -552,7 +552,7 @@ sizeoffset = [0.0, 0.0]
         selectedidx = 1
         selectorlabels = ["电 流", "电 压"]
         selectorlist = [["A输出电流", "A输出电压"], ["电 流 范 围", "电 压 范 围"], ["A输出电流范围", "A输出电压范围"], ["限          压", "限          流"], ["A输出电压限制", "A输出电流限制"]]
-        bindingqtwidxes = [[11, 12, 13, 14, 15], [17], [18], [19], [20, 21]]
+        bindingqtwidxes = [[11, 12, 13, 14, 15, 16, 17], [19], [20], [21], [22, 23]]
         bindingonoff = [1, 2]
         readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
@@ -568,7 +568,7 @@ sizeoffset = [0.0, 0.0]
         hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
         activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
         bdcolor = [0.0, 0.0, 0.0, 1.0]
-        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabcolor = [0.0, 0.46396103501319885, 0.737051784992218, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
     [["A通道".qtws]]
     name = "_Shape_"
@@ -644,7 +644,7 @@ sizeoffset = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
         ["A通道".qtws.options]
-        uitype = "inputstep"
+        uitype = "read"
         globaloptions = false
         allowoverlap = false
         useimage = false
@@ -657,69 +657,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 36.0]
-        rounding = 0.0
-        grabrounding = 0.0
-        bdrounding = 0.0
-        bdthickness = 0.0
-        comboflags = 0
-        uv0 = [0.0, 0.0]
-        uv1 = [1.0, 1.0]
-        framepadding = [6.0, 6.0]
-        vertices = [[78.0, 248.0], [0.0, 0.0], [0.0, 0.0]]
-        circlesegments = 24
-        ticknum = 6
-        starttext = "Start"
-        stoptext = "Stop"
-        bindingidx = 1
-        selectornum = 1
-        selectedidx = 1
-        selectorlabels = ["option 1"]
-        selectorlist = []
-        bindingqtwidxes = []
-        bindingonoff = [1, 2]
-        readorinput = true
-        textcolor = [0.0, 0.0, 0.0, 1.0]
-        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
-        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
-        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 1.0]
-        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
-        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
-        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
-        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
-        oncolor = [0.0, 1.0, 0.0, 1.0]
-        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
-        hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
-        activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
-        bdcolor = [0.0, 0.0, 0.0, 0.0]
-        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
-        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["A通道".qtws]]
-    name = "Asourceleveli"
-    alias = "A输出电流"
-    qtype = "sweep"
-    numoptvs = 0
-    numread = 1
-    hold = false
-    selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
-
-        ["A通道".qtws.options]
-        uitype = "readunit"
-        globaloptions = false
-        allowoverlap = false
-        useimage = false
-        autorefresh = false
-        refreshrate = 1.0
-        pathes = []
-        rate = 1
-        textsize = "normal"
-        textscale = 1.0
-        textinside = true
-        notimes = false
-        notime = false
-        itemsize = [220.0, 40.0]
+        itemsize = [180.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -764,8 +702,194 @@ sizeoffset = [0.0, 0.0]
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [258.0, 202.0]
+    sizebuf = [40.0, 40.0]
+
+        ["A通道".qtws.options]
+        uitype = "unit"
+        globaloptions = false
+        allowoverlap = false
+        useimage = false
+        autorefresh = false
+        refreshrate = 1.0
+        pathes = []
+        rate = 1
+        textsize = "normal"
+        textscale = 1.0
+        textinside = true
+        notimes = false
+        notime = false
+        itemsize = [40.0, 40.0]
+        rounding = 0.0
+        grabrounding = 0.0
+        bdrounding = 0.0
+        bdthickness = 0.0
+        comboflags = 0
+        uv0 = [0.0, 0.0]
+        uv1 = [1.0, 1.0]
+        framepadding = [6.0, 6.0]
+        vertices = [[258.0, 202.0], [0.0, 0.0], [0.0, 0.0]]
+        circlesegments = 24
+        ticknum = 6
+        starttext = "Start"
+        stoptext = "Stop"
+        bindingidx = 1
+        selectornum = 1
+        selectedidx = 1
+        selectorlabels = ["option 1"]
+        selectorlist = []
+        bindingqtwidxes = []
+        bindingonoff = [1, 2]
+        readorinput = true
+        textcolor = [0.0, 0.0, 0.0, 1.0]
+        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
+        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
+        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 1.0]
+        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
+        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
+        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
+        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
+        oncolor = [0.0, 1.0, 0.0, 1.0]
+        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
+        hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
+        activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
+        bdcolor = [0.0, 0.0, 0.0, 0.0]
+        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
+    [["A通道".qtws]]
+    name = "Asourceleveli"
+    alias = "A输出电流"
+    qtype = "sweep"
+    numoptvs = 0
+    numread = 1
+    hold = false
+    selected = false
+    posbuf = [78.0, 248.0]
+    sizebuf = [60.0, 36.0]
+
+        ["A通道".qtws.options]
+        uitype = "progressbar"
+        globaloptions = false
+        allowoverlap = false
+        useimage = false
+        autorefresh = false
+        refreshrate = 1.0
+        pathes = []
+        rate = 1
+        textsize = "normal"
+        textscale = 1.0
+        textinside = true
+        notimes = false
+        notime = false
+        itemsize = [220.0, 36.0]
+        rounding = 0.0
+        grabrounding = 0.0
+        bdrounding = 0.0
+        bdthickness = 0.0
+        comboflags = 0
+        uv0 = [0.0, 0.0]
+        uv1 = [1.0, 1.0]
+        framepadding = [6.0, 6.0]
+        vertices = [[78.0, 248.0], [0.0, 0.0], [0.0, 0.0]]
+        circlesegments = 24
+        ticknum = 6
+        starttext = "Start"
+        stoptext = "Stop"
+        bindingidx = 1
+        selectornum = 1
+        selectedidx = 1
+        selectorlabels = ["option 1"]
+        selectorlist = []
+        bindingqtwidxes = []
+        bindingonoff = [1, 2]
+        readorinput = true
+        textcolor = [0.0, 0.0, 0.0, 1.0]
+        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
+        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
+        bgcolor = [0.08728431165218353, 0.48803073167800903, 0.56175297498703, 0.0]
+        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
+        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
+        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
+        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
+        oncolor = [0.0, 1.0, 0.0, 1.0]
+        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
+        hoveredcolor = [0.29256680607795715, 0.42142200469970703, 0.5737051963806152, 0.800000011920929]
+        activecolor = [0.0, 0.8525896072387695, 0.8016379475593567, 1.0]
+        bdcolor = [0.8047808408737183, 1.0, 0.0, 1.0]
+        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
+    [["A通道".qtws]]
+    name = "Asourceleveli"
+    alias = "A输出电流"
+    qtype = "sweep"
+    numoptvs = 0
+    numread = 1
+    hold = false
+    selected = false
+    posbuf = [78.0, 290.0]
+    sizebuf = [68.0, 36.0]
+
+        ["A通道".qtws.options]
+        uitype = "inputstep"
+        globaloptions = false
+        allowoverlap = false
+        useimage = false
+        autorefresh = false
+        refreshrate = 1.0
+        pathes = []
+        rate = 1
+        textsize = "normal"
+        textscale = 1.0
+        textinside = true
+        notimes = false
+        notime = false
+        itemsize = [68.0, 36.0]
+        rounding = 0.0
+        grabrounding = 0.0
+        bdrounding = 0.0
+        bdthickness = 0.0
+        comboflags = 0
+        uv0 = [0.0, 0.0]
+        uv1 = [1.0, 1.0]
+        framepadding = [6.0, 6.0]
+        vertices = [[78.0, 290.0], [0.0, 0.0], [0.0, 0.0]]
+        circlesegments = 24
+        ticknum = 6
+        starttext = "Start"
+        stoptext = "Stop"
+        bindingidx = 1
+        selectornum = 1
+        selectedidx = 1
+        selectorlabels = ["option 1"]
+        selectorlist = []
+        bindingqtwidxes = []
+        bindingonoff = [1, 2]
+        readorinput = true
+        textcolor = [0.0, 0.0, 0.0, 1.0]
+        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
+        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
+        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 1.0]
+        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
+        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
+        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
+        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
+        oncolor = [0.0, 1.0, 0.0, 1.0]
+        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
+        hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
+        activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
+        bdcolor = [0.0, 0.0, 0.0, 0.0]
+        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
+    [["A通道".qtws]]
+    name = "Asourceleveli"
+    alias = "A输出电流"
+    qtype = "sweep"
+    numoptvs = 0
+    numread = 1
+    hold = false
+    selected = false
+    posbuf = [146.0, 290.0]
+    sizebuf = [68.0, 36.0]
 
         ["A通道".qtws.options]
         uitype = "inputstop"
@@ -781,7 +905,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 36.0]
+        itemsize = [68.0, 36.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -790,7 +914,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[78.0, 290.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[146.0, 290.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = "Start"
@@ -843,7 +967,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 36.0]
+        itemsize = [136.0, 36.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -888,8 +1012,8 @@ sizeoffset = [0.0, 0.0]
     numread = 1
     hold = false
     selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
+    posbuf = [220.0, 290.0]
+    sizebuf = [78.0, 78.0]
 
         ["A通道".qtws.options]
         uitype = "ctrlsweep"
@@ -905,7 +1029,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [94.0, 120.0]
+        itemsize = [78.0, 78.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -914,7 +1038,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[204.0, 248.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[220.0, 290.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = ""
@@ -1436,7 +1560,7 @@ sizeoffset = [0.0, 0.0]
         hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
         activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
         bdcolor = [0.0, 0.0, 0.0, 1.0]
-        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabcolor = [0.0, 0.4627451002597809, 0.7372549176216125, 0.7803921699523926]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
 
     ["A通道".options]
@@ -1491,10 +1615,10 @@ sizeoffset = [0.0, 0.0]
     grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
     grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
 
-["B通道"]
+["A通道 复制"]
 instrnm = "K2612"
-name = "B通道"
-windowflags = 0
+name = "A通道 复制"
+windowflags = 2097186
 windowsize = [560.0, 414.0]
 usewallpaper = false
 wallpaperpath = ""
@@ -1505,7 +1629,7 @@ qtlist = []
 posoffset = [0.0, 0.0]
 sizeoffset = [0.0, 0.0]
 
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -1516,7 +1640,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
@@ -1567,7 +1691,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [1.0, 0.6812748908996582, 0.8412724137306213, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "Bmeasurei"
     alias = "B测量电流"
     qtype = "read"
@@ -1578,12 +1702,12 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "readunit"
         globaloptions = false
         allowoverlap = false
         useimage = false
-        autorefresh = false
+        autorefresh = true
         refreshrate = 1.0
         pathes = []
         rate = 1
@@ -1629,7 +1753,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "Bmeasurev"
     alias = "B测量电压"
     qtype = "read"
@@ -1640,12 +1764,12 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "readunit"
         globaloptions = false
         allowoverlap = false
         useimage = false
-        autorefresh = false
+        autorefresh = true
         refreshrate = 1.0
         pathes = []
         rate = 1
@@ -1691,7 +1815,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -1702,7 +1826,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "line"
         globaloptions = false
         allowoverlap = false
@@ -1753,7 +1877,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.9686274528503418, 1.0, 0.3921568691730499, 1.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "_Panel_"
     alias = "Limit I"
     qtype = "none"
@@ -1764,7 +1888,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -1815,7 +1939,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "Bsourcelimiti"
     alias = "B输出电流限制"
     qtype = "set"
@@ -1826,7 +1950,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "readunit"
         globaloptions = false
         allowoverlap = false
@@ -1877,7 +2001,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "_Panel_"
     alias = "Limit V"
     qtype = "none"
@@ -1888,7 +2012,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -1939,7 +2063,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "Bsourcelimitv"
     alias = "B输出电压限制"
     qtype = "set"
@@ -1950,7 +2074,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "readunit"
         globaloptions = false
         allowoverlap = false
@@ -2001,9 +2125,9 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "_QuantitySelector_"
-    alias = "电 流"
+    alias = "电 压"
     qtype = "none"
     numoptvs = 0
     numread = 1
@@ -2012,7 +2136,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "vslider"
         globaloptions = false
         allowoverlap = false
@@ -2042,10 +2166,10 @@ sizeoffset = [0.0, 0.0]
         stoptext = "Stop"
         bindingidx = 1
         selectornum = 2
-        selectedidx = 1
+        selectedidx = 2
         selectorlabels = ["电 流", "电 压"]
         selectorlist = [["B输出电流", "B输出电压"], ["电 流 范 围", "电 压 范 围"], ["B输出电流范围", "B输出电压范围"], ["限          压", "限          流"], ["B输出电压限制", "B输出电流限制"]]
-        bindingqtwidxes = [[11, 12, 13, 14, 15], [17], [18], [19], [20, 21]]
+        bindingqtwidxes = [[11, 12, 13, 14, 15, 16, 17], [19], [20], [21], [22, 23]]
         bindingonoff = [1, 2]
         readorinput = true
         textcolor = [0.0, 0.0, 0.0, 1.0]
@@ -2061,9 +2185,9 @@ sizeoffset = [0.0, 0.0]
         hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
         activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
         bdcolor = [0.0, 0.0, 0.0, 1.0]
-        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabcolor = [0.0, 0.46396103501319885, 0.737051784992218, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -2074,7 +2198,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
@@ -2125,9 +2249,9 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
-    name = "Bsourceleveli"
-    alias = "B输出电流"
+    [["A通道 复制".qtws]]
+    name = "Bsourcelevelv"
+    alias = "B输出电压"
     qtype = "sweep"
     numoptvs = 0
     numread = 1
@@ -2136,8 +2260,8 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
-        uitype = "inputstep"
+        ["A通道 复制".qtws.options]
+        uitype = "read"
         globaloptions = false
         allowoverlap = false
         useimage = false
@@ -2150,69 +2274,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 36.0]
-        rounding = 0.0
-        grabrounding = 0.0
-        bdrounding = 0.0
-        bdthickness = 0.0
-        comboflags = 0
-        uv0 = [0.0, 0.0]
-        uv1 = [1.0, 1.0]
-        framepadding = [6.0, 6.0]
-        vertices = [[78.0, 248.0], [0.0, 0.0], [0.0, 0.0]]
-        circlesegments = 24
-        ticknum = 6
-        starttext = "Start"
-        stoptext = "Stop"
-        bindingidx = 1
-        selectornum = 1
-        selectedidx = 1
-        selectorlabels = ["option 1"]
-        selectorlist = []
-        bindingqtwidxes = []
-        bindingonoff = [1, 2]
-        readorinput = true
-        textcolor = [0.0, 0.0, 0.0, 1.0]
-        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
-        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
-        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 1.0]
-        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
-        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
-        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
-        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
-        oncolor = [0.0, 1.0, 0.0, 1.0]
-        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
-        hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
-        activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
-        bdcolor = [0.0, 0.0, 0.0, 0.0]
-        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
-        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
-    name = "Bsourceleveli"
-    alias = "B输出电流"
-    qtype = "sweep"
-    numoptvs = 0
-    numread = 1
-    hold = false
-    selected = false
-    posbuf = [0.0, 0.0]
-    sizebuf = [0.0, 0.0]
-
-        ["B通道".qtws.options]
-        uitype = "readunit"
-        globaloptions = false
-        allowoverlap = false
-        useimage = false
-        autorefresh = false
-        refreshrate = 1.0
-        pathes = []
-        rate = 1
-        textsize = "normal"
-        textscale = 1.0
-        textinside = true
-        notimes = false
-        notime = false
-        itemsize = [220.0, 40.0]
+        itemsize = [180.0, 40.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -2249,9 +2311,9 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
-    name = "Bsourceleveli"
-    alias = "B输出电流"
+    [["A通道 复制".qtws]]
+    name = "Bsourcelevelv"
+    alias = "B输出电压"
     qtype = "sweep"
     numoptvs = 0
     numread = 1
@@ -2260,8 +2322,8 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
-        uitype = "inputstop"
+        ["A通道 复制".qtws.options]
+        uitype = "unit"
         globaloptions = false
         allowoverlap = false
         useimage = false
@@ -2274,7 +2336,131 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 36.0]
+        itemsize = [40.0, 40.0]
+        rounding = 0.0
+        grabrounding = 0.0
+        bdrounding = 0.0
+        bdthickness = 0.0
+        comboflags = 0
+        uv0 = [0.0, 0.0]
+        uv1 = [1.0, 1.0]
+        framepadding = [6.0, 6.0]
+        vertices = [[258.0, 202.0], [0.0, 0.0], [0.0, 0.0]]
+        circlesegments = 24
+        ticknum = 6
+        starttext = "Start"
+        stoptext = "Stop"
+        bindingidx = 1
+        selectornum = 1
+        selectedidx = 1
+        selectorlabels = ["option 1"]
+        selectorlist = []
+        bindingqtwidxes = []
+        bindingonoff = [1, 2]
+        readorinput = true
+        textcolor = [0.0, 0.0, 0.0, 1.0]
+        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
+        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
+        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 1.0]
+        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
+        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
+        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
+        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
+        oncolor = [0.0, 1.0, 0.0, 1.0]
+        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
+        hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
+        activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
+        bdcolor = [0.0, 0.0, 0.0, 0.0]
+        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
+    [["A通道 复制".qtws]]
+    name = "Bsourcelevelv"
+    alias = "B输出电压"
+    qtype = "sweep"
+    numoptvs = 0
+    numread = 1
+    hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
+
+        ["A通道 复制".qtws.options]
+        uitype = "progressbar"
+        globaloptions = false
+        allowoverlap = false
+        useimage = false
+        autorefresh = false
+        refreshrate = 1.0
+        pathes = []
+        rate = 1
+        textsize = "normal"
+        textscale = 1.0
+        textinside = true
+        notimes = false
+        notime = false
+        itemsize = [220.0, 36.0]
+        rounding = 0.0
+        grabrounding = 0.0
+        bdrounding = 0.0
+        bdthickness = 0.0
+        comboflags = 0
+        uv0 = [0.0, 0.0]
+        uv1 = [1.0, 1.0]
+        framepadding = [6.0, 6.0]
+        vertices = [[78.0, 248.0], [0.0, 0.0], [0.0, 0.0]]
+        circlesegments = 24
+        ticknum = 6
+        starttext = "Start"
+        stoptext = "Stop"
+        bindingidx = 1
+        selectornum = 1
+        selectedidx = 1
+        selectorlabels = ["option 1"]
+        selectorlist = []
+        bindingqtwidxes = []
+        bindingonoff = [1, 2]
+        readorinput = true
+        textcolor = [0.0, 0.0, 0.0, 1.0]
+        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
+        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
+        bgcolor = [0.08728431165218353, 0.48803073167800903, 0.56175297498703, 0.0]
+        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
+        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
+        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
+        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
+        oncolor = [0.0, 1.0, 0.0, 1.0]
+        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
+        hoveredcolor = [0.29256680607795715, 0.42142200469970703, 0.5737051963806152, 0.800000011920929]
+        activecolor = [0.0, 0.8525896072387695, 0.8016379475593567, 1.0]
+        bdcolor = [0.8047808408737183, 1.0, 0.0, 1.0]
+        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
+    [["A通道 复制".qtws]]
+    name = "Bsourcelevelv"
+    alias = "B输出电压"
+    qtype = "sweep"
+    numoptvs = 0
+    numread = 1
+    hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
+
+        ["A通道 复制".qtws.options]
+        uitype = "inputstep"
+        globaloptions = false
+        allowoverlap = false
+        useimage = false
+        autorefresh = false
+        refreshrate = 1.0
+        pathes = []
+        rate = 1
+        textsize = "normal"
+        textscale = 1.0
+        textinside = true
+        notimes = false
+        notime = false
+        itemsize = [68.0, 36.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -2311,9 +2497,9 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
-    name = "Bsourceleveli"
-    alias = "B输出电流"
+    [["A通道 复制".qtws]]
+    name = "Bsourcelevelv"
+    alias = "B输出电压"
     qtype = "sweep"
     numoptvs = 0
     numread = 1
@@ -2322,7 +2508,69 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
+        uitype = "inputstop"
+        globaloptions = false
+        allowoverlap = false
+        useimage = false
+        autorefresh = false
+        refreshrate = 1.0
+        pathes = []
+        rate = 1
+        textsize = "normal"
+        textscale = 1.0
+        textinside = true
+        notimes = false
+        notime = false
+        itemsize = [68.0, 36.0]
+        rounding = 0.0
+        grabrounding = 0.0
+        bdrounding = 0.0
+        bdthickness = 0.0
+        comboflags = 0
+        uv0 = [0.0, 0.0]
+        uv1 = [1.0, 1.0]
+        framepadding = [6.0, 6.0]
+        vertices = [[146.0, 290.0], [0.0, 0.0], [0.0, 0.0]]
+        circlesegments = 24
+        ticknum = 6
+        starttext = "Start"
+        stoptext = "Stop"
+        bindingidx = 1
+        selectornum = 1
+        selectedidx = 1
+        selectorlabels = ["option 1"]
+        selectorlist = []
+        bindingqtwidxes = []
+        bindingonoff = [1, 2]
+        readorinput = true
+        textcolor = [0.0, 0.0, 0.0, 1.0]
+        hintcolor = [0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 1.0]
+        checkedcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 1.0]
+        bgcolor = [0.9509999752044678, 0.9509999752044678, 0.9509999752044678, 1.0]
+        popupcolor = [1.0, 1.0, 1.0, 0.6000000238418579]
+        imgbgcolor = [0.0, 0.0, 0.0, 0.0]
+        imgtintcolor = [1.0, 1.0, 1.0, 1.0]
+        combobtcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.4000000059604645]
+        oncolor = [0.0, 1.0, 0.0, 1.0]
+        offcolor = [0.0, 0.0, 0.0, 0.4000000059604645]
+        hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
+        activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
+        bdcolor = [0.0, 0.0, 0.0, 0.0]
+        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
+    [["A通道 复制".qtws]]
+    name = "Bsourcelevelv"
+    alias = "B输出电压"
+    qtype = "sweep"
+    numoptvs = 0
+    numread = 1
+    hold = false
+    selected = false
+    posbuf = [0.0, 0.0]
+    sizebuf = [0.0, 0.0]
+
+        ["A通道 复制".qtws.options]
         uitype = "dragdelay"
         globaloptions = false
         allowoverlap = false
@@ -2336,7 +2584,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [120.0, 36.0]
+        itemsize = [136.0, 36.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -2373,9 +2621,9 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
-    name = "Bsourceleveli"
-    alias = "B输出电流"
+    [["A通道 复制".qtws]]
+    name = "Bsourcelevelv"
+    alias = "B输出电压"
     qtype = "sweep"
     numoptvs = 0
     numread = 1
@@ -2384,7 +2632,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "ctrlsweep"
         globaloptions = false
         allowoverlap = false
@@ -2398,7 +2646,7 @@ sizeoffset = [0.0, 0.0]
         textinside = true
         notimes = false
         notime = false
-        itemsize = [94.0, 120.0]
+        itemsize = [78.0, 78.0]
         rounding = 0.0
         grabrounding = 0.0
         bdrounding = 0.0
@@ -2407,7 +2655,7 @@ sizeoffset = [0.0, 0.0]
         uv0 = [0.0, 0.0]
         uv1 = [1.0, 1.0]
         framepadding = [6.0, 6.0]
-        vertices = [[204.0, 248.0], [0.0, 0.0], [0.0, 0.0]]
+        vertices = [[220.0, 290.0], [0.0, 0.0], [0.0, 0.0]]
         circlesegments = 24
         ticknum = 6
         starttext = ""
@@ -2435,7 +2683,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 1.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -2446,7 +2694,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
@@ -2497,9 +2745,9 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "_Panel_"
-    alias = "电 流 范 围"
+    alias = "电 压 范 围"
     qtype = "none"
     numoptvs = 0
     numread = 1
@@ -2508,7 +2756,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -2559,18 +2807,18 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
-    name = "Bsourcerangei"
-    alias = "B输出电流范围"
+    [["A通道 复制".qtws]]
+    name = "Bsourcerangev"
+    alias = "B输出电压范围"
     qtype = "set"
-    numoptvs = 4
+    numoptvs = 9
     numread = 1
     hold = false
     selected = false
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "combo"
         globaloptions = false
         allowoverlap = false
@@ -2621,9 +2869,9 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "_Panel_"
-    alias = "限          压"
+    alias = "限          流"
     qtype = "none"
     numoptvs = 0
     numread = 1
@@ -2632,7 +2880,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -2683,9 +2931,9 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
-    name = "Bsourcelimitv"
-    alias = "B输出电压限制"
+    [["A通道 复制".qtws]]
+    name = "Bsourcelimiti"
+    alias = "B输出电流限制"
     qtype = "set"
     numoptvs = 0
     numread = 1
@@ -2694,7 +2942,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "inputctrlset"
         globaloptions = false
         allowoverlap = false
@@ -2745,9 +2993,9 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
-    name = "Bsourcelimitv"
-    alias = "B输出电压限制"
+    [["A通道 复制".qtws]]
+    name = "Bsourcelimiti"
+    alias = "B输出电流限制"
     qtype = "set"
     numoptvs = 0
     numread = 1
@@ -2756,7 +3004,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "unit"
         globaloptions = false
         allowoverlap = false
@@ -2807,7 +3055,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "Boutput"
     alias = "B输出"
     qtype = "set"
@@ -2818,7 +3066,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "toggle"
         globaloptions = false
         allowoverlap = false
@@ -2869,7 +3117,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 1.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["B通道".qtws]]
+    [["A通道 复制".qtws]]
     name = "Bsourcefunc"
     alias = "B输出模式"
     qtype = "set"
@@ -2880,7 +3128,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["B通道".qtws.options]
+        ["A通道 复制".qtws.options]
         uitype = "vslider"
         globaloptions = false
         allowoverlap = false
@@ -2929,10 +3177,10 @@ sizeoffset = [0.0, 0.0]
         hoveredcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.800000011920929]
         activecolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.6700000166893005]
         bdcolor = [0.0, 0.0, 0.0, 1.0]
-        grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
+        grabcolor = [0.0, 0.4627451002597809, 0.7372549176216125, 0.7803921699523926]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
 
-    ["B通道".options]
+    ["A通道 复制".options]
     uitype = "none"
     globaloptions = false
     allowoverlap = false
