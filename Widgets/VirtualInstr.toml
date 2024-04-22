@@ -1,12 +1,12 @@
-["Demo 2"]
+[Demo]
 instrnm = "VirtualInstr"
-name = "Demo 2"
+name = "Demo"
 windowflags = 2097186
 windowsize = [498.0, 512.0]
 usewallpaper = false
 wallpaperpath = ""
 rate = 1
-windowbgcolor = [0.1257122904062271, 0.5545502305030823, 0.717131495475769, 1.0]
+windowbgcolor = [0.08799859881401062, 0.6799481511116028, 0.7888445854187012, 1.0]
 bgtintcolor = [1.0, 1.0, 1.0, 1.0]
 titlebgcolor = [0.0, 0.6555450558662415, 0.6972111463546753, 1.0]
 titlebgactivecolor = [0.0, 0.7820193767547607, 0.9003983736038208, 1.0]
@@ -16,7 +16,7 @@ qtlist = []
 posoffset = [0.0, 0.0]
 sizeoffset = [0.0, 0.0]
 
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -27,7 +27,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
@@ -78,7 +78,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 1.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "YearMonthDayHMSM"
     alias = "年月日时分秒毫秒"
     qtype = "read"
@@ -89,7 +89,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [26.0, 6.0]
     sizebuf = [48.0, 60.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -140,7 +140,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_Panel_"
     alias = "年"
     qtype = "none"
@@ -151,7 +151,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [74.0, 6.0]
     sizebuf = [30.0, 60.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -202,7 +202,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "YearMonthDayHMSM"
     alias = "年月日时分秒毫秒"
     qtype = "read"
@@ -213,7 +213,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [104.0, 6.0]
     sizebuf = [30.0, 60.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -264,7 +264,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_Panel_"
     alias = "月"
     qtype = "none"
@@ -275,7 +275,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [134.0, 6.0]
     sizebuf = [30.0, 60.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -326,7 +326,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "YearMonthDayHMSM"
     alias = "年月日时分秒毫秒"
     qtype = "read"
@@ -337,7 +337,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [164.0, 6.0]
     sizebuf = [30.0, 60.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -388,7 +388,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_Panel_"
     alias = "日"
     qtype = "none"
@@ -399,7 +399,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [194.0, 6.0]
     sizebuf = [30.0, 60.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -450,7 +450,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "YearMonthDayHMSM"
     alias = "年月日时分秒毫秒"
     qtype = "read"
@@ -461,7 +461,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [224.0, 6.0]
     sizebuf = [30.0, 60.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -512,7 +512,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_Panel_"
     alias = "时"
     qtype = "none"
@@ -523,7 +523,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [254.0, 6.0]
     sizebuf = [30.0, 60.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -574,7 +574,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "YearMonthDayHMSM"
     alias = "年月日时分秒毫秒"
     qtype = "read"
@@ -585,7 +585,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [284.0, 6.0]
     sizebuf = [30.0, 60.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -636,7 +636,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_Panel_"
     alias = "分"
     qtype = "none"
@@ -647,7 +647,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [314.0, 6.0]
     sizebuf = [30.0, 60.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -698,7 +698,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "YearMonthDayHMSM"
     alias = "年月日时分秒毫秒"
     qtype = "read"
@@ -709,7 +709,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [344.0, 6.0]
     sizebuf = [30.0, 60.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -760,7 +760,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_Panel_"
     alias = "秒"
     qtype = "none"
@@ -771,7 +771,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [374.0, 6.0]
     sizebuf = [30.0, 60.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -822,7 +822,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "YearMonthDayHMSM"
     alias = "年月日时分秒毫秒"
     qtype = "read"
@@ -833,7 +833,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [404.0, 6.0]
     sizebuf = [40.0, 60.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -884,7 +884,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "VacCtrl"
     alias = "JJ Vac Ctrl"
     qtype = "read"
@@ -895,7 +895,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [6.0, 66.0]
     sizebuf = [240.0, 220.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "readdashboard"
         globaloptions = false
         allowoverlap = true
@@ -946,7 +946,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.5461254715919495, 1.0, 0.6935091018676758, 1.0]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "VacCtrl"
     alias = "JJ Vac Ctrl"
     qtype = "read"
@@ -957,7 +957,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [96.0, 130.0]
     sizebuf = [60.0, 60.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "unit"
         globaloptions = false
         allowoverlap = false
@@ -1008,7 +1008,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "VacCtrl"
     alias = "JJ Vac Ctrl"
     qtype = "read"
@@ -1019,7 +1019,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [85.0, 250.0]
     sizebuf = [80.0, 0.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "readdashboarddigits"
         globaloptions = false
         allowoverlap = false
@@ -1070,7 +1070,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -1081,7 +1081,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [258.0, 66.0]
     sizebuf = [226.0, 220.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
@@ -1132,7 +1132,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "DateTime"
     alias = "日期和时间"
     qtype = "read"
@@ -1143,7 +1143,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [258.0, 72.0]
     sizebuf = [226.0, 40.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -1194,7 +1194,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -1205,7 +1205,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [258.0, 120.0]
     sizebuf = [0.0, 0.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "line"
         globaloptions = false
         allowoverlap = false
@@ -1256,7 +1256,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 1.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_Panel_"
     alias = "B"
     qtype = "none"
@@ -1267,7 +1267,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [270.0, 138.0]
     sizebuf = [36.0, 36.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -1318,7 +1318,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "B"
     alias = "JJ B"
     qtype = "sweep"
@@ -1329,7 +1329,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [306.0, 138.0]
     sizebuf = [166.0, 36.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "readunit"
         globaloptions = false
         allowoverlap = false
@@ -1380,7 +1380,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_Panel_"
     alias = "I"
     qtype = "none"
@@ -1391,7 +1391,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [270.0, 188.0]
     sizebuf = [36.0, 36.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -1442,7 +1442,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "I"
     alias = "JJ I"
     qtype = "sweep"
@@ -1453,7 +1453,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [306.0, 188.0]
     sizebuf = [166.0, 36.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "readunit"
         globaloptions = false
         allowoverlap = false
@@ -1504,7 +1504,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_Panel_"
     alias = "Iac"
     qtype = "none"
@@ -1515,7 +1515,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [270.0, 238.0]
     sizebuf = [36.0, 36.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "none"
         globaloptions = false
         allowoverlap = false
@@ -1566,7 +1566,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "Iac"
     alias = "JJ Iac"
     qtype = "sweep"
@@ -1577,7 +1577,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [306.0, 238.0]
     sizebuf = [166.0, 36.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "readunit"
         globaloptions = false
         allowoverlap = false
@@ -1628,7 +1628,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -1639,7 +1639,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [6.0, 298.0]
     sizebuf = [318.0, 168.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
@@ -1690,7 +1690,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 1.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_QuantitySelector_"
     alias = "B"
     qtype = "none"
@@ -1701,7 +1701,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [16.0, 310.0]
     sizebuf = [60.0, 144.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "vslider"
         globaloptions = true
         allowoverlap = false
@@ -1752,7 +1752,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.0, 0.34329378604888916, 0.7490040063858032, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "B"
     alias = "JJ B"
     qtype = "sweep"
@@ -1763,7 +1763,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [82.0, 316.0]
     sizebuf = [180.0, 36.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "read"
         globaloptions = false
         allowoverlap = false
@@ -1814,7 +1814,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "B"
     alias = "JJ B"
     qtype = "sweep"
@@ -1825,7 +1825,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [262.0, 316.0]
     sizebuf = [48.0, 36.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "unit"
         globaloptions = false
         allowoverlap = false
@@ -1876,7 +1876,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "B"
     alias = "JJ B"
     qtype = "sweep"
@@ -1887,7 +1887,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [82.0, 358.0]
     sizebuf = [228.0, 30.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "progressbar"
         globaloptions = false
         allowoverlap = false
@@ -1938,7 +1938,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.8047808408737183, 1.0, 0.0, 1.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "B"
     alias = "JJ B"
     qtype = "sweep"
@@ -1949,7 +1949,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [82.0, 394.0]
     sizebuf = [78.0, 30.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "inputstep"
         globaloptions = true
         allowoverlap = false
@@ -2000,7 +2000,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "B"
     alias = "JJ B"
     qtype = "sweep"
@@ -2011,7 +2011,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [160.0, 394.0]
     sizebuf = [78.0, 30.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "inputstop"
         globaloptions = true
         allowoverlap = false
@@ -2062,7 +2062,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "B"
     alias = "JJ B"
     qtype = "sweep"
@@ -2073,7 +2073,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [82.0, 430.0]
     sizebuf = [156.0, 30.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "dragdelay"
         globaloptions = true
         allowoverlap = false
@@ -2124,7 +2124,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "B"
     alias = "JJ B"
     qtype = "sweep"
@@ -2135,7 +2135,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [244.0, 394.0]
     sizebuf = [66.0, 66.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "ctrlsweep"
         globaloptions = false
         allowoverlap = false
@@ -2186,7 +2186,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "_Shape_"
     alias = ""
     qtype = "none"
@@ -2197,7 +2197,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [334.0, 298.0]
     sizebuf = [150.0, 168.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "rect"
         globaloptions = false
         allowoverlap = false
@@ -2248,7 +2248,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 1.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "Vacrange"
     alias = "JJ Vac Range"
     qtype = "set"
@@ -2259,7 +2259,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [346.0, 310.0]
     sizebuf = [126.0, 30.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "slider"
         globaloptions = false
         allowoverlap = false
@@ -2310,7 +2310,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.0, 0.32979732751846313, 0.7195571660995483, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "power"
     alias = "Power"
     qtype = "set"
@@ -2321,7 +2321,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [346.0, 346.0]
     sizebuf = [52.0, 26.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "radio"
         globaloptions = false
         allowoverlap = false
@@ -2372,7 +2372,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "power"
     alias = "Power"
     qtype = "set"
@@ -2383,7 +2383,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [408.0, 346.0]
     sizebuf = [64.0, 28.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "radio"
         globaloptions = false
         allowoverlap = false
@@ -2434,7 +2434,7 @@ sizeoffset = [0.0, 0.0]
         bdcolor = [0.0, 0.0, 0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
-    [["Demo 2".qtws]]
+    [[Demo.qtws]]
     name = "power"
     alias = "Power"
     qtype = "set"
@@ -2445,7 +2445,7 @@ sizeoffset = [0.0, 0.0]
     posbuf = [346.0, 378.0]
     sizebuf = [126.0, 76.0]
 
-        ["Demo 2".qtws.options]
+        [Demo.qtws.options]
         uitype = "toggle"
         globaloptions = false
         allowoverlap = false
