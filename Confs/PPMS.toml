@@ -1,0 +1,237 @@
+[fieldread]
+alias = "磁场读取"
+U = "Oe"
+numread = 4
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[positionmode]
+alias = "转角模式"
+U = ""
+numread = 1
+optkeys = ["Move", "Cal Limit", "Cal Present"]
+separator = ""
+optvalues = ["0", "1", "2"]
+help = ""
+type = "set"
+cmdheader = ""
+
+[fieldrate]
+alias = "磁场速率"
+U = "Oe/s"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[positionpos]
+alias = "角度设置"
+U = "°"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[temperaturerate]
+alias = "温度速率"
+U = "K/min"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[positionread]
+alias = "角度读取"
+U = "°"
+numread = 4
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[temperature]
+alias = "温度"
+U = ""
+numread = 3
+optkeys = []
+separator = ","
+optvalues = []
+help = ""
+type = "set"
+cmdheader = "TEMP"
+
+[channel1]
+alias = "通道1"
+U = "Ω"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[temperatureAC]
+alias = "温度接近方式"
+U = ""
+numread = 1
+optkeys = ["Fast Settle", "No Overshoot"]
+separator = ""
+optvalues = ["0", "1"]
+help = ""
+type = "set"
+cmdheader = ""
+
+[field]
+alias = "磁场"
+U = ""
+numread = 4
+optkeys = []
+separator = ","
+optvalues = []
+help = ""
+type = "set"
+cmdheader = "FIELD"
+
+[position]
+alias = "角度"
+U = ""
+numread = 3
+optkeys = []
+separator = ","
+optvalues = []
+help = ""
+type = "set"
+cmdheader = "MOVE"
+
+[channel2]
+alias = "通道2"
+U = "Ω"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[fieldfield]
+alias = "磁场设置值"
+U = "Oe"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[positionSDC]
+alias = "转角减速方式"
+U = ""
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[channel3]
+alias = "通道3"
+U = "Ω"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[tempread]
+alias = "温度读取"
+U = "K"
+numread = 4
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[fieldMM]
+alias = "磁场模式"
+U = ""
+numread = 1
+optkeys = ["Persistent", "Driven"]
+separator = ""
+optvalues = ["0", "1"]
+help = ""
+type = "set"
+cmdheader = ""
+
+[fieldAM]
+alias = "磁场接近模式"
+U = ""
+numread = 1
+optkeys = ["Linear", "No Overshoot", "Oscillate"]
+separator = ""
+optvalues = ["0", "1", "2"]
+help = ""
+type = "set"
+cmdheader = ""
+
+[chamber]
+alias = "腔体"
+U = ""
+numread = 1
+optkeys = ["Seal Immediately", "Purge and Seal", "Vent and Seal", "Pump Continuously", "Vent Continuously"]
+separator = ""
+optvalues = ["0", "1", "2", "3", "4"]
+help = ""
+type = "set"
+cmdheader = "CHAMBER"
+
+[channel4]
+alias = "通道4"
+U = "Ω"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[conf]
+idn = "PPMS"
+output_labels = []
+icon = ""
+input_labels = []
+cmdtype = "scpi"
+
+[temperaturetemp]
+alias = "温度设置"
+U = "K"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
