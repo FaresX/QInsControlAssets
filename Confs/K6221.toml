@@ -1,0 +1,61 @@
+[sensedata]
+alias = "读数据"
+U = ""
+numread = 2
+optkeys = []
+separator = ","
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ":SENSE:DATA?"
+
+[deltaarm]
+alias = "δ装备"
+U = ""
+numread = 1
+optkeys = ["To Be Armed", "Armed", "Not Armed"]
+separator = ""
+optvalues = [" ", "1", "0"]
+help = ""
+type = "set"
+cmdheader = ":DELta:ARM"
+
+[output]
+alias = "输出"
+U = ""
+numread = 1
+optkeys = ["ON", "OFF"]
+separator = ""
+optvalues = ["1", "0"]
+help = ""
+type = "set"
+cmdheader = ":OUTPut1:STATe"
+
+[deltahigh]
+alias = "δ高电平"
+U = "A"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ":DELta:HIGH"
+
+[deltalow]
+alias = "δ低电平"
+U = "A"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ":DELta:LOW"
+
+[conf]
+idn = "MODEL 6221"
+output_labels = []
+icon = ""
+input_labels = []
+cmdtype = "scpi"

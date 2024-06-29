@@ -3,9 +3,9 @@ alias = "流量控制"
 U = ""
 numread = 1
 optkeys = ["Manual", "Auto"]
-help = ""
-optvalues = ["OFF", "ON"]
 separator = ""
+optvalues = ["OFF", "ON"]
+help = ""
 type = "set"
 cmdheader = ""
 
@@ -14,10 +14,21 @@ alias = "PID开关"
 U = ""
 numread = 1
 optkeys = ["Manual", "Auto"]
-help = ""
-optvalues = ["OFF", "ON"]
 separator = ""
+optvalues = ["OFF", "ON"]
+help = ""
 type = "set"
+cmdheader = ""
+
+[angleread]
+alias = "读角度"
+U = "°"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
 cmdheader = ""
 
 [setheater]
@@ -25,9 +36,9 @@ alias = "设置加热器"
 U = ""
 numread = 1
 optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
+help = ""
 type = "set"
 cmdheader = ""
 
@@ -36,9 +47,9 @@ alias = "设置扫温模式"
 U = ""
 numread = 1
 optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
+help = ""
 type = "set"
 cmdheader = ""
 
@@ -47,9 +58,9 @@ alias = "设置温度"
 U = "K"
 numread = 1
 optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
+help = ""
 type = "set"
 cmdheader = ""
 
@@ -65,9 +76,9 @@ alias = "温度"
 U = "K"
 numread = 1
 optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
+help = ""
 type = "read"
 cmdheader = ""
 
@@ -76,8 +87,8 @@ alias = "设置流量"
 U = ""
 numread = 1
 optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
+help = ""
 type = "set"
 cmdheader = ""
