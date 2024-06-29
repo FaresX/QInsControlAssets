@@ -35,7 +35,7 @@ function PPMS_positionmode_set(instr, val)
     p, _, sdc = split(rstrip(query(instr, "MOVE?"), ';'), ",")
     write(instr, "MOVE $p,$val,$sdc")
 end
-PPMS_positionSDC_get(instr) = split(query(instr, "MOVE?"), ",")[2]
+PPMS_positionmode_get(instr) = split(query(instr, "MOVE?"), ",")[2]
 function PPMS_positionSDC_set(instr, val)
     p, m, _ = split(query(instr, "MOVE?"), ",")
     write(instr, "MOVE $p,$m,$val")
@@ -53,11 +53,11 @@ function PPMS_temperaturerate_set(instr, val)
     t, _, ac = split(rstrip(query(instr, "TEMP?"), ';'), ",")
     write(instr, "MOVE $t,$val,$ac")
 end
-PPMS_temperaturetemp_get(instr) = split(query(instr, "TEMP?"), ",")[2]
+PPMS_temperaturerate_get(instr) = split(query(instr, "TEMP?"), ",")[2]
 function PPMS_temperatureAC_set(instr, val)
     t, r, _ = split(query(instr, "TEMP?"), ",")
     write(instr, "MOVE $t,$r,$val")
 end
-PPMS_temperaturetemp_get(instr) = split(rstrip(query(instr, "TEMP?"), ';'), ",")[end]
+PPMS_temperatureAC_get(instr) = split(rstrip(query(instr, "TEMP?"), ';'), ",")[end]
 
 PPMS_tempread_get(instr) = split(rstrip(query(instr, "GETDAT? 2"), ';'), ",")[end]
