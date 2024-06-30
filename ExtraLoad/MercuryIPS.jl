@@ -41,17 +41,18 @@ MercuryIPS_sigpfldz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:PFLD"
 MercuryIPS_sigfldz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:PFLD"), "FLD:")[end][1:end-1]
 
 let
-    stabilizationtime::Float64 = 36
+    stabilizationtime::Float64 = 60
     timespent::Float64 = 0
     global function MercuryIPS_zheater_set(instr, val)
         heaterstate = MercuryIPS_zheater_get(instr)
-        if heaterstate != val
+        if timespent == 0 && heaterstate != val
             query(instr, "SET:DEV:GRPZ:PSU:SIG:SWHT:$val")
             timespent = 0
+            t1 = time()
             @async begin
                 while timespent < stabilizationtime
                     sleep(1)
-                    timespent += 1
+                    timespent = time() - t1
                 end
                 timespent = 0
             end
@@ -63,5 +64,5 @@ let
     global MercuryIPS_zheatertime_set(_, val) = (t = tryparse(Float64, val); isnothing(t) || (stabilizationtime = t))
     global MercuryIPS_zheatertime_get(_) = string(stabilizationtime)
 
-    global MercuryIPS_zheatertimespent_get(_) = string(timespent)
+    global MercuryIPS_zheatertimespent_get(_) = string(floor(Int, timespent))
 end
