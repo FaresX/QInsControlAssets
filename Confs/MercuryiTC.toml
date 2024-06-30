@@ -53,6 +53,17 @@ help = ""
 type = "set"
 cmdheader = ""
 
+[angleset]
+alias = "角度设置"
+U = "°"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
 [settemp]
 alias = "设置温度"
 U = "K"

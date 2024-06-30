@@ -18,4 +18,7 @@ MercuryiTC_setflow_get(instr) = split(query(instr, "READ:DEV:MB1.T1:TEMP:LOOP:FS
 MercuryiTC_setflowctl_set(instr, val) = query(instr, "SET:DEV:MB1.T1:TEMP:LOOP:FAUT:$val")
 MercuryiTC_setflowctl_get(instr) = split(query(instr, "READ:DEV:MB1.T1:TEMP:LOOP:FAUT"), "FAUT:")[end]
 
-MercuryiTC_angleread_get(instr) = string(parse(Float64, rstrip(split(query(instr, "READ:DEV:DB4.G1:AUX:SIG:STEP"), "STEP:")[end], 'n')) / 15136 - 130)
+MercuryiTC_angleset_set(instr, val) = query(instr, "SET:DEV:DB4.G1:AUX:SIG:Target Angle:$val")
+MercuryiTC_angleset_get(instr) = rstrip(split(query(instr, "READ:DEV:DB4.G1:AUX:SIG:Target Angle"), "Target Angle:")[end], '\xb0')
+
+MercuryiTC_angleread_get(instr) = rstrip(split(query(instr, "READ:DEV:DB4.G1:AUX:SIG:Angular Position"), "Angular Position:")[end], '\xb0')
