@@ -9,6 +9,17 @@ help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
 type = "set"
 cmdheader = ""
 
+[heliumlevel]
+alias = "He4液面"
+U = ""
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
 [sigfldy]
 alias = "Y当前场"
 U = "T"
