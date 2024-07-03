@@ -77,3 +77,5 @@ let
 end
 
 MercuryIPS_heliumlevel_get(instr) = split(query(instr, "READ:DEV:DB1.L1:LVL:SIG:HEL:LEV"), "LEV:")[end]
+MercuryIPS_nitrogenlevel_get(instr) = split(query(instr, "READ:DEV:DB1.L1:LVL:SIG:NIT:LEV"), "LEV:")[end]
+MercuryIPS_magnetT_get(instr) = split(query(instr, "READ:DEV:MB1.T1:TEMP:SIG:TEMP"), "TEMP:")[end][1:end-1]

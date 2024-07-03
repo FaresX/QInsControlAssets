@@ -9,6 +9,28 @@ help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
 type = "set"
 cmdheader = ""
 
+[magnetT]
+alias = "磁体温度"
+U = "K"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = "magnet temperature"
+type = "read"
+cmdheader = ""
+
+[nitrogenlevel]
+alias = "N2液面"
+U = ""
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
 [heliumlevel]
 alias = "He4液面"
 U = ""
