@@ -32,7 +32,7 @@ Triton_taloopD_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:LOOP:D"), "D:")
 
 function Triton_taloopPID_set(instr, val)
     spval = split(val, ',')
-    @assert length(spval) == 3 "please input P,I,D"
+    length(spval) == 3 || (@warn "please input P,I,D"; return)
     p, i, d = val
     query(instr, "SET:DEV:TA:TEMP:LOOP:P:$p:I:$i:D:$d")
 end
@@ -57,23 +57,23 @@ Triton_taexcitationtype_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:EXCT:T
 
 function Triton_taexcitationcur_set(instr, val)
     type = split(query(instr, "READ:DEV:TA:TEMP:EXCT:TYPE"), "TYPE:")[end]
-    @assert type == "CUR" "excitation is type of voltage"
+    type == "CUR" || (@warn "excitation is type of voltage"; return)
     query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:$val")
 end
 function Triton_taexcitationcur_get(instr)
     type = split(query(instr, "READ:DEV:TA:TEMP:EXCT:TYPE"), "TYPE:")[end]
-    @assert type == "CUR" "excitation is type of voltage"
+    type == "CUR" || (@warn "excitation is type of voltage"; return)
     split(query(instr, "READ:DEV:TA:TEMP:EXCT:MAG"), "MAG:")[end][1:end-1]
 end
 
 function Triton_taexcitationvolt_set(instr, val)
     type = split(query(instr, "READ:DEV:TA:TEMP:EXCT:TYPE"), "TYPE:")[end]
-    @assert type == "VOLT" "excitation is type of current"
+    type == "VOLT" || (@warn "excitation is type of current"; return)
     query(instr, "SET:DEV:TA:TEMP:EXCT:MAG:$val")
 end
 function Triton_taexcitationvolt_get(instr)
     type = split(query(instr, "READ:DEV:TA:TEMP:EXCT:TYPE"), "TYPE:")[end]
-    @assert type == "VOLT" "excitation is type of current"
+    type == "VOLT" || (@warn "excitation is type of current"; return)
     split(query(instr, "READ:DEV:TA:TEMP:EXCT:MAG"), "MAG:")[end][1:end-1]
 end
 
