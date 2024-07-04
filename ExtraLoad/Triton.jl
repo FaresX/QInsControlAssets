@@ -18,7 +18,7 @@ Triton_temperatureT8_get(instr) = split(query(instr, "READ:DEV:T8:TEMP:SIG:TEMP"
 
 Triton_temperatureT13_get(instr) = split(query(instr, "READ:DEV:T13:TEMP:SIG:TEMP"), "TEMP:")[end][1:end-1]
 
-Triton_loopmode_set(instr, val) = query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:$val")
+Triton_loopmode_set(instr, val) = (write(instr, "SET:DEV:TA:TEMP:LOOP:MODE:$val"); sleep(2); read(instr))
 Triton_loopmode_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:LOOP:MODE"), "MODE:")[end]
 
 Triton_taloopP_set(instr, val) = query(instr, "SET:DEV:TA:TEMP:LOOP:P:$val")
@@ -109,7 +109,7 @@ let
             end
         end
     end
-    global Triton_tlm400probeaautotset_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:SIG:TEMP"), "TEMP:")[end][1:end-1]
+    global Triton_tlm400probeaautotset_get(instr) = Triton_temperatureTA_get(instr)
 
     global function Triton_tlm400probebautotset_set(instr, val)
         if tlm400probeautotsetsw == "ON"
@@ -141,7 +141,7 @@ let
             end
         end
     end
-    global Triton_tlm400probebautotset_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:SIG:TEMP"), "TEMP:")[end][1:end-1]
+    global Triton_tlm400probebautotset_get(instr) = Triton_temperatureTA_get(instr)
 
     global function Triton_tlm400probecautotset_set(instr, val)
         if tlm400probeautotsetsw == "ON"
@@ -173,9 +173,9 @@ let
             end
         end
     end
-    global Triton_tlm400probecautotset_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:SIG:TEMP"), "TEMP:")[end][1:end-1]
+    global Triton_tlm400probecautotset_get(instr) = Triton_temperatureTA_get(instr)
 
-    global function Triton_tlm400probeaautotsetsw_set(instr, val)
+    global function Triton_tlm400probeautotsetsw_set(instr, val)
         if val == "ON"
             tlm400probeautotsetsw = "ON"
         elseif val == "OFF"
