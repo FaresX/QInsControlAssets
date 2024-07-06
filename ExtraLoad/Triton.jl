@@ -90,7 +90,8 @@ let
                 elseif 0.5 <= sv <= 1
                     "31.6nA", "2,8,0", "3.16", "0"
                 end
-                Triton_loopmode_set(instr, "ON")
+                loopmode = Triton_loopmode_get(instr)
+                loopmode == "OFF" && Triton_loopmode_set(instr, "ON")
                 Triton_taexcitationtype_set(instr, "CUR")
                 Triton_taexcitationcur_set(instr, exctcur)
                 Triton_taloopPID_set(instr, pid)
@@ -113,7 +114,8 @@ let
                 elseif 0.5 <= sv <= 1
                     "31.6nA", "2,8,0", "3.16", "0"
                 end
-                Triton_loopmode_set(instr, "ON")
+                loopmode = Triton_loopmode_get(instr)
+                loopmode == "OFF" && Triton_loopmode_set(instr, "ON")
                 Triton_taexcitationtype_set(instr, "CUR")
                 Triton_taexcitationcur_set(instr, exctcur)
                 Triton_taloopPID_set(instr, pid)
@@ -136,7 +138,8 @@ let
                 elseif 0.5 <= sv <= 1
                     "31.6nA", "2,64,0", "3.16", "0"
                 end
-                Triton_loopmode_set(instr, "ON")
+                loopmode = Triton_loopmode_get(instr)
+                loopmode == "OFF" && Triton_loopmode_set(instr, "ON")
                 Triton_taexcitationtype_set(instr, "CUR")
                 Triton_taexcitationcur_set(instr, exctcur)
                 Triton_taloopPID_set(instr, pid)
@@ -153,7 +156,8 @@ let
             tlm400probeautotsetsw = "ON"
         elseif val == "OFF"
             tlm400probeautotsetsw = "OFF"
-            Triton_loopmode_set(instr, "OFF")
+            loopmode = Triton_loopmode_get(instr)
+            loopmode == "ON" && Triton_loopmode_set(instr, "OFF")
             Triton_taexcitationtype_set(instr, "CUR")
             Triton_taexcitationcur_set(instr, "316pA")
             Triton_looprange_set(instr, "0")

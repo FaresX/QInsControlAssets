@@ -41,7 +41,7 @@ MercuryIPS_sigpfldz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:PFLD"
 MercuryIPS_sigfldz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:PFLD"), "FLD:")[end][1:end-1]
 
 let
-    stabilizationtime::Float64 = 300
+    stabilizationtime::Float64 = 120
     timespent::Float64 = 0
     global function MercuryIPS_zheater_set(instr, val)
         heaterstate = MercuryIPS_zheater_get(instr)
