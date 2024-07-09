@@ -46,7 +46,7 @@ let
     global function MercuryIPS_zheater_set(instr, val)
         heaterstate = MercuryIPS_zheater_get(instr)
         if timespent == 0 && heaterstate != val
-            query(instr, "SET:DEV:GRPZ:PSU:SIG:SWHT:$val"; delay=2)
+            query(instr, "SET:DEV:GRPZ:PSU:SIG:SWHT:$val"; delay=4)
             t1 = time()
             hs = MercuryIPS_zheater_get(instr)
             timespent = hs == val ? time() - t1 : 0
