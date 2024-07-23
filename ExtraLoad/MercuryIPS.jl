@@ -76,5 +76,7 @@ let
 end
 
 MercuryIPS_heliumlevel_get(instr) = split(query(instr, "READ:DEV:DB1.L1:LVL:SIG:HEL:LEV"), "LEV:")[end]
+MercuryIPS_heliumlevelrmode_set(instr, val) = query(instr, "SET:DEV:DB1.L1:LVL:HEL:PULS:SLOW:$val")
+MercuryIPS_heliumlevelrmode_get(instr) = split(query(instr, "READ:DEV:DB1.L1:LVL:HEL:PULS:SLOW"), "SLOW:")[end]
 MercuryIPS_nitrogenlevel_get(instr) = split(query(instr, "READ:DEV:DB1.L1:LVL:SIG:NIT:LEV"), "LEV:")[end]
 MercuryIPS_magnetT_get(instr) = split(query(instr, "READ:DEV:MB1.T1:TEMP:SIG:TEMP"), "TEMP:")[end][1:end-1]

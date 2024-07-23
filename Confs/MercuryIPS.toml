@@ -86,6 +86,17 @@ help = ""
 type = "read"
 cmdheader = ""
 
+[heliumlevelrmode]
+alias = "He4液面读取模式"
+U = ""
+numread = 1
+optkeys = ["Fast", "Slow"]
+separator = ""
+optvalues = ["0", "1"]
+help = ""
+type = "set"
+cmdheader = ""
+
 [sigrfsty]
 alias = "Y扫描速率"
 U = "T/min"
