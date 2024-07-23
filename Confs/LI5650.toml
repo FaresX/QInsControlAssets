@@ -28,8 +28,8 @@ optkeys = []
 separator = ""
 optvalues = []
 help = ""
-type = "sweep"
-cmdheader = ":SOURce:FREQuency1:CW"
+type = "read"
+cmdheader = ":SENSe:FREQuency1?"
 
 [ground]
 alias = "接地"
@@ -63,6 +63,17 @@ optvalues = []
 help = ""
 type = "sweep"
 cmdheader = ":SOURce:VOLTage:LEVel:IMMediate:AMPLitude"
+
+[oscfrequency]
+alias = "OSC交流频率"
+U = "Hz"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ":SOURce:FREQuency1:CW"
 
 [slopepPSD]
 alias = "衰减率pPSD"
