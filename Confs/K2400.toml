@@ -9,16 +9,16 @@ help = ""
 type = "set"
 cmdheader = ":SOURce:VOLTage:RANGe"
 
-[levelv]
-alias = "输出电压"
-U = "V"
+[datareadCtrl]
+alias = "读数据Ctrl"
+U = ""
 numread = 1
 optkeys = []
 separator = ""
 optvalues = []
 help = ""
-type = "sweep"
-cmdheader = ":SOURce:VOLTage:LEVel"
+type = "read"
+cmdheader = ""
 
 [measurefuncon]
 alias = "启用测量模式"
@@ -63,6 +63,17 @@ optvalues = ["\"VOLT:DC\"", "\"CURR:DC\"", "\"RES\""]
 help = ""
 type = "set"
 cmdheader = ":SENSe:FUNCtion:OFF"
+
+[datareadvi]
+alias = "读数据VI"
+U = ""
+numread = 2
+optkeys = []
+separator = ","
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ":READ?"
 
 [measureproti]
 alias = "测量电流保护"
@@ -137,17 +148,6 @@ icon = ""
 input_labels = ["L", "LS"]
 cmdtype = "scpi"
 
-[datareadCtrl]
-alias = "读数据Ctrl"
-U = ""
-numread = 1
-optkeys = []
-separator = ""
-optvalues = []
-help = ""
-type = "read"
-cmdheader = ""
-
 [measureprotv]
 alias = "测量电压保护"
 U = "V"
@@ -158,6 +158,17 @@ optvalues = []
 help = ""
 type = "set"
 cmdheader = ":SENSe:VOLTage:PROTection"
+
+[levelv]
+alias = "输出电压"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ":SOURce:VOLTage:LEVel"
 
 [leveli]
 alias = "输出电流"
