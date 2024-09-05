@@ -3,10 +3,21 @@ alias = "混合室温度"
 U = "K"
 numread = 1
 optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
+help = ""
 type = "read"
+cmdheader = ""
+
+[drimixclheater]
+alias = "混合室加热器"
+U = ""
+numread = 2
+optkeys = []
+separator = ","
+optvalues = []
+help = ""
+type = "set"
 cmdheader = ""
 
 [conf]
