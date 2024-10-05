@@ -2,7 +2,7 @@
 instrnm = "Triton"
 name = "Triton 2016"
 windowflags = 2097186
-windowsize = [352.0, 434.0]
+windowsize = [344.0, 428.0]
 usewallpaper = false
 wallpaperpath = ""
 rate = 1
