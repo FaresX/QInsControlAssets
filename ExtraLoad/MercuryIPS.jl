@@ -12,6 +12,15 @@ MercuryIPS_sigpfldx_get(instr) = split(query(instr, "READ:DEV:GRPX:PSU:SIG:PFLD"
 
 MercuryIPS_sigfldx_get(instr) = split(query(instr, "READ:DEV:GRPX:PSU:SIG:FLD"), "FLD:")[end][1:end-1]
 
+function MercuryIPS_drivex_set(instr, val)
+    MercuryIPS_sigactnx_set(instr, "HOLD")
+    sleep(0.1)
+    MercuryIPS_sigfsetx_set(instr, val)
+    sleep(0.1)
+    MercuryIPS_sigactnx_set(instr, "RTOS")
+end
+MercuryIPS_drivex_get(instr) = MercuryIPS_sigpfldx_get(instr)
+
 ###Y Field###
 MercuryIPS_sigrfsty_set(instr, val) = query(instr, "SET:DEV:GRPY:PSU:SIG:RFST:$val")
 MercuryIPS_sigrfsty_get(instr) = split(query(instr, "READ:DEV:GRPY:PSU:SIG:RFST"), "RFST:")[end][1:end-3]
@@ -26,6 +35,15 @@ MercuryIPS_sigpfldy_get(instr) = split(query(instr, "READ:DEV:GRPY:PSU:SIG:PFLD"
 
 MercuryIPS_sigfldy_get(instr) = split(query(instr, "READ:DEV:GRPY:PSU:SIG:FLD"), "FLD:")[end][1:end-1]
 
+function MercuryIPS_drivey_set(instr, val)
+    MercuryIPS_sigactny_set(instr, "HOLD")
+    sleep(0.1)
+    MercuryIPS_sigfsety_set(instr, val)
+    sleep(0.1)
+    MercuryIPS_sigactny_set(instr, "RTOS")
+end
+MercuryIPS_drivey_get(instr) = MercuryIPS_sigpfldy_get(instr)
+
 ###Z Field###
 function MercuryIPS_sigrfstz_set(instr, val)
     parse(Float64, val) > 0.3 && (@warn "no larger than 0.3 T/min !!!"; return)
@@ -39,6 +57,15 @@ MercuryIPS_sigfsetz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:FSET"
 MercuryIPS_sigpfldz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:PFLD"), "PFLD:")[end][1:end-1]
 
 MercuryIPS_sigfldz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:PFLD"), "FLD:")[end][1:end-1]
+
+function MercuryIPS_drivez_set(instr, val)
+    MercuryIPS_sigactnz_set(instr, "HOLD")
+    sleep(0.1)
+    MercuryIPS_sigfsetz_set(instr, val)
+    sleep(0.1)
+    MercuryIPS_sigactnz_set(instr, "RTOS")
+end
+MercuryIPS_drivez_get(instr) = MercuryIPS_sigpfldz_get(instr)
 
 let
     stabilizationtime::Float64 = 120

@@ -108,6 +108,28 @@ help = ""
 type = "set"
 cmdheader = ""
 
+[drivez]
+alias = "驱动Z"
+U = "T"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[drivex]
+alias = "驱动X"
+U = "T"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
 [sigactnx]
 alias = "X状态"
 U = ""
@@ -204,6 +226,17 @@ optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 separator = ""
 optvalues = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
+type = "set"
+cmdheader = ""
+
+[drivey]
+alias = "驱动Y"
+U = "T"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
 type = "set"
 cmdheader = ""
 
