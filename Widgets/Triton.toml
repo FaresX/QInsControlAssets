@@ -1,7 +1,7 @@
 ["Triton 2016"]
 instrnm = "Triton"
 name = "Triton 2016"
-windowflags = 2097186
+windowflags = 2621474
 windowsize = [344.0, 428.0]
 usewallpaper = false
 wallpaperpath = ""
@@ -1756,7 +1756,7 @@ sizeoffset = [0.0, 0.0]
 [HR-TL400]
 instrnm = "Triton"
 name = "HR-TL400"
-windowflags = 2097186
+windowflags = 2621474
 windowsize = [626.0, 428.0]
 usewallpaper = false
 wallpaperpath = ""

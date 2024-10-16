@@ -1,7 +1,7 @@
 ["状态"]
 instrnm = "MercuryIPS"
 name = "状态"
-windowflags = 0
+windowflags = 524288
 windowsize = [293.0, 214.0]
 usewallpaper = false
 wallpaperpath = ""
@@ -516,7 +516,7 @@ sizeoffset = [0.0, 0.0]
 ["XYZ Control"]
 instrnm = "MercuryIPS"
 name = "XYZ Control"
-windowflags = 2097186
+windowflags = 2621474
 windowsize = [485.0, 636.0]
 usewallpaper = false
 wallpaperpath = ""
@@ -2891,7 +2891,7 @@ sizeoffset = [0.0, 0.0]
 ["Z Control"]
 instrnm = "MercuryIPS"
 name = "Z Control"
-windowflags = 2097186
+windowflags = 2621474
 windowsize = [395.0, 264.0]
 usewallpaper = false
 wallpaperpath = ""
