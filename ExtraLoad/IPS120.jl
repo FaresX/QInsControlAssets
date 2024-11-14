@@ -52,19 +52,16 @@ let
         return isv
     end
     global function IPS120_sigfldz_get(instr)
-        bstr = ""
         for _ in 1:6
             bstr = split(query(instr, "R7"), "R")[end]
-            isvalidB(instr, bstr) && break
+            isvalidB(instr, bstr) && return bstr
         end
-        return bstr
+        error("invalid field value!!!")
     end
 end
 
 # IPS120_sigfldz_get(instr) = split(query(instr, "R7"), "R")[end]
 function IPS120_drivez_set(instr, val)
-    IPS120_sigactnz_set(instr, "0")
-    sleep(0.1)
     IPS120_sigfsetz_set(instr, val)
     sleep(0.1)
     IPS120_sigactnz_set(instr, "1")
