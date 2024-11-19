@@ -100,7 +100,7 @@ cmdheader = ""
 [conf]
 idn = "IPS120"
 output_labels = []
-icon = ""
+icon = ""
 input_labels = []
 cmdtype = ""
 
