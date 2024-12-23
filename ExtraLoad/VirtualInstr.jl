@@ -58,6 +58,9 @@ let
     global VirtualInstr_I_set(_, setv) = (Iparse = tryparse(Float64, setv); I = isnothing(Iparse) ? 0 : Iparse)
     global VirtualInstr_I_get(_) = string(I)
 
+    global VirtualInstr_Ierr_set(_, setv) = rand() < 0.01 ? error("Ierr set error !") : VirtualInstr_I_set("", setv)
+    global VirtualInstr_Ierr_get(_) = rand() < 0.01 ? error("Ierr get error !") : VirtualInstr_I_get("")
+
     global VirtualInstr_Iac_set(_, setv) = (Iacparse = tryparse(Float64, setv); Iac = isnothing(Iacparse) ? 0 : Iacparse)
     global VirtualInstr_Iac_get(_) = string(Iac)
 
