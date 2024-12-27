@@ -56,7 +56,13 @@ MercuryIPS_sigfsetz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:FSET"
 
 MercuryIPS_sigpfldz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:PFLD"), "PFLD:")[end][1:end-1]
 
-MercuryIPS_sigfldz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:PFLD"), "FLD:")[end][1:end-1]
+MercuryIPS_sigfldz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:FLD"), "FLD:")[end][1:end-1]
+
+MercuryIPS_sigvoltz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:VOLT"), "VOLT:")[end][1:end-1]
+
+MercuryIPS_sigcurrz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:CURR"), "CURR:")[end][1:end-1]
+
+MercuryIPS_sigpcurz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:SIG:PCUR"), "PCUR:")[end][1:end-1]
 
 function MercuryIPS_drivez_set(instr, val)
     MercuryIPS_sigactnz_set(instr, "HOLD")
@@ -73,6 +79,18 @@ let
     global function MercuryIPS_zheater_set(instr, val)
         heaterstate = MercuryIPS_zheater_get(instr)
         if timespent == 0 && heaterstate != val
+            if val == "ON"
+                pfldz = MercuryIPS_sigpfldz_get(instr)
+                MercuryIPS_drivez_set(instr, pfldz)
+                timedwait(60; pollint=1) do
+                    fldz = MercuryIPS_sigfldz_get(instr)
+                    try
+                        abs(parse(Float64, fldz) - parse(Float64, pfldz)) < 0.0005
+                    catch
+                        false
+                    end
+                end
+            end
             query(instr, "SET:DEV:GRPZ:PSU:SIG:SWHT:$val"; delay=4)
             t1 = time()
             hs = MercuryIPS_zheater_get(instr)
@@ -84,6 +102,7 @@ let
                         timespent = time() - t1
                     end
                     timespent = 0
+                    val == "OFF" && MercuryIPS_sigactnz_set(instr, "RTOZ")
                 end
             end
         end
