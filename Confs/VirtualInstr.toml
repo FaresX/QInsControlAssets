@@ -141,6 +141,17 @@ help = "仅作为测试"
 type = "sweep"
 cmdheader = ""
 
+[Ierr]
+alias = "JJ I error"
+U = "A"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = "仅作为测试"
+type = "sweep"
+cmdheader = ""
+
 [conf]
 idn = "VirtualInstr"
 output_labels = []

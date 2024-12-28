@@ -42,6 +42,17 @@ help = ""
 type = "read"
 cmdheader = ""
 
+[sigvoltz]
+alias = "Z电压"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
 [sigfldy]
 alias = "Y当前场"
 U = "T"
@@ -100,6 +111,39 @@ cmdheader = ""
 [sigrfsty]
 alias = "Y扫描速率"
 U = "T/min"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[drivez]
+alias = "驱动Z"
+U = "T"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[sigcurrz]
+alias = "Z电流"
+U = "A"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[drivex]
+alias = "驱动X"
+U = "T"
 numread = 1
 optkeys = []
 separator = ""
@@ -174,6 +218,17 @@ help = ""
 type = "read"
 cmdheader = ""
 
+[sigpcurz]
+alias = "Z稳恒电流"
+U = "A"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
 [sigpfldx]
 alias = "X当前恒定场"
 U = "T"
@@ -204,6 +259,17 @@ optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 separator = ""
 optvalues = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
+type = "set"
+cmdheader = ""
+
+[drivey]
+alias = "驱动Y"
+U = "T"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
 type = "set"
 cmdheader = ""
 

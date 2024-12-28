@@ -1,0 +1,116 @@
+[init]
+alias = "初始化地址"
+U = ""
+numread = 1
+optkeys = ["address 2"]
+separator = ""
+optvalues = ["2"]
+help = ""
+type = "set"
+cmdheader = ""
+
+[sigrfstz]
+alias = "Z扫描速率"
+U = "T/min"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[drivez]
+alias = "驱动Z"
+U = "T"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[remote]
+alias = "远程"
+U = ""
+numread = 1
+optkeys = ["Local Locked", "Remote Locked", "Local Unlocked", "Remote Unlocked"]
+separator = ""
+optvalues = ["0", "1", "2", "3"]
+help = ""
+type = "set"
+cmdheader = ""
+
+[zheatertime]
+alias = "Z加热器时间"
+U = "s"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[sigfsetz]
+alias = "Z目标场"
+U = "T"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[sigfldz]
+alias = "Z当前场"
+U = "T"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[sigactnz]
+alias = "Z状态"
+U = ""
+numread = 1
+optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
+separator = ""
+optvalues = ["0", "1", "2", "4"]
+help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
+type = "set"
+cmdheader = ""
+
+[zheater]
+alias = "Z加热器"
+U = ""
+numread = 1
+optkeys = ["ON", "OFF"]
+separator = ""
+optvalues = ["ON", "OFF"]
+help = ""
+type = "set"
+cmdheader = ""
+
+[conf]
+idn = "IPS120"
+output_labels = []
+icon = ""
+input_labels = []
+cmdtype = ""
+
+[zheatertimespent]
+alias = "Z加热器触发时间"
+U = "s"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
