@@ -38,6 +38,7 @@ let
     B::Float64 = 0
     Power::String = "0"
     Vacrange::Float64 = 1
+    errortimes::Int = 0
 
     Ic(b) = 1e-6 * abs(sinc(1e3b))
     function IR(i)
@@ -58,8 +59,24 @@ let
     global VirtualInstr_I_set(_, setv) = (Iparse = tryparse(Float64, setv); I = isnothing(Iparse) ? 0 : Iparse)
     global VirtualInstr_I_get(_) = string(I)
 
-    global VirtualInstr_Ierr_set(_, setv) = rand() < 0.01 ? error("Ierr set error !") : VirtualInstr_I_set("", setv)
-    global VirtualInstr_Ierr_get(_) = rand() < 0.01 ? error("Ierr get error !") : VirtualInstr_I_get("")
+    global function VirtualInstr_Ierr_set(_, setv)
+        if (errortimes !=0 && errortimes < 9) || rand() < 0.01
+            errortimes += 1
+            errortimes == 9 && (errortimes = 0)
+            error("Ierr set error !")
+        else
+            VirtualInstr_I_set("", setv)
+        end
+    end
+    global function VirtualInstr_Ierr_get(_)
+        if (errortimes !=0 && errortimes < 9) || rand() < 0.01
+            errortimes += 1
+            errortimes == 9 && (errortimes = 0)
+            error("Ierr get error !")
+        else
+            VirtualInstr_I_get("")
+        end
+    end
 
     global VirtualInstr_Iac_set(_, setv) = (Iacparse = tryparse(Float64, setv); Iac = isnothing(Iacparse) ? 0 : Iacparse)
     global VirtualInstr_Iac_get(_) = string(Iac)
