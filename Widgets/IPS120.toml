@@ -451,8 +451,8 @@ sizeoffset = [0.0, 0.0]
         grabcolor = [0.25999999046325684, 0.5899999737739563, 0.9800000190734863, 0.7799999713897705]
         grabactivecolor = [0.46000000834465027, 0.5400000214576721, 0.800000011920929, 0.6000000238418579]
     [["Z Control".qtws]]
-    name = "init"
-    alias = "初始化地址"
+    name = "address"
+    alias = "地址"
     qtype = "set"
     numoptvs = 1
     numread = 1
