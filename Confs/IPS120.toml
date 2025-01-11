@@ -1,5 +1,5 @@
-[init]
-alias = "初始化地址"
+[address]
+alias = "地址"
 U = ""
 numread = 1
 optkeys = ["address 2"]
@@ -90,9 +90,9 @@ cmdheader = ""
 alias = "Z加热器"
 U = ""
 numread = 1
-optkeys = ["ON", "OFF"]
+optkeys = ["OFF 0", "ON", "OFF F", "Fault", "None"]
 separator = ""
-optvalues = ["ON", "OFF"]
+optvalues = ["0", "1", "2", "5", "8"]
 help = ""
 type = "set"
 cmdheader = ""
