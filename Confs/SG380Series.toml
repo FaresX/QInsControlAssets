@@ -1,0 +1,83 @@
+[apllf]
+alias = "低频功率"
+U = "dBm"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = "AMPL"
+
+[enablehf]
+alias = "启用高频"
+U = ""
+numread = 1
+optkeys = ["Disabled", "Enabled"]
+separator = ""
+optvalues = ["0", "1"]
+help = ""
+type = "set"
+cmdheader = "ENBH"
+
+[enablelf]
+alias = "启用低频"
+U = ""
+numread = 1
+optkeys = ["Disabled", "Enabled"]
+separator = ""
+optvalues = ["0", "1"]
+help = ""
+type = "set"
+cmdheader = "ENBL"
+
+[aplrf]
+alias = "射频功率"
+U = "dBm"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = "AMPR"
+
+[enablerf]
+alias = "启用射频"
+U = ""
+numread = 1
+optkeys = ["Disabled", "Enabled"]
+separator = ""
+optvalues = ["0", "1"]
+help = ""
+type = "set"
+cmdheader = "ENBR"
+
+[frequency]
+alias = "频率"
+U = "Hz"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = "FREQ"
+
+[conf]
+idn = "SG384"
+output_labels = []
+icon = ""
+input_labels = []
+cmdtype = "scpi"
+
+[aplhf]
+alias = "高频功率"
+U = "dBm"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = "AMPH"
