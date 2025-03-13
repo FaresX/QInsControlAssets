@@ -26,3 +26,14 @@ output_labels = []
 icon = ""
 input_labels = []
 cmdtype = ""
+
+[claimcontrol]
+alias = "控制声明"
+U = ""
+numread = 1
+optkeys = ["claim control", "relinquich control"]
+separator = ""
+optvalues = ["1", "0"]
+help = ""
+type = "set"
+cmdheader = ""
