@@ -1,0 +1,182 @@
+[channel0]
+alias = "通道1"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channelD]
+alias = "通道14"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channelC]
+alias = "通道13"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channel6]
+alias = "通道7"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channel8]
+alias = "通道9"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channel1]
+alias = "通道2"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channelE]
+alias = "通道15"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channel2]
+alias = "通道3"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channel5]
+alias = "通道6"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channelF]
+alias = "通道16"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channel7]
+alias = "通道8"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channel3]
+alias = "通道4"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channelA]
+alias = "通道11"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channel9]
+alias = "通道10"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channelB]
+alias = "通道12"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[channel4]
+alias = "通道5"
+U = "V"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "sweep"
+cmdheader = ""
+
+[conf]
+idn = "IKI2102"
+output_labels = []
+icon = ""
+input_labels = []
+cmdtype = "scpi"
