@@ -1,0 +1,17 @@
+[querydata]
+alias = "读数据"
+U = ""
+numread = 3
+optkeys = []
+separator = ","
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[conf]
+idn = "AH 2500"
+output_labels = []
+icon = ""
+input_labels = []
+cmdtype = "scpi"
