@@ -232,7 +232,7 @@ let
         if t8autotsetsw == "ON"
             sv = parse(Float64, val)
             if sv <= 1.5
-                exctcur, looprange = if sv < 0.1
+                exctcur, looprange = if sv < 0.2
                     "1nA", "3.16"
                 elseif 0.07 <= sv < 0.7
                     "10nA", "10"
