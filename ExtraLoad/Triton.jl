@@ -236,7 +236,7 @@ let
                     "1nA", "3.16"
                 elseif 0.07 <= sv < 0.7
                     "10nA", "10"
-                elseif 0.5 <= sv <= 1.5
+                elseif 0.7 <= sv <= 1.5
                     "31.6nA", "31.6"
                 end
                 loopmode = Triton_t8loopmode_get(instr)
