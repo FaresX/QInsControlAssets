@@ -232,20 +232,18 @@ let
         if t8autotsetsw == "ON"
             sv = parse(Float64, val)
             if sv <= 1.5
-                exctcur, looprange = if sv < 0.2
-                    "1nA", "3.16"
+                exctvolt, looprange = if sv < 0.2
+                    "63.2uV", "3.16"
                 elseif 0.07 <= sv < 0.7
-                    "10nA", "10"
+                    "63.2uV", "10"
                 elseif 0.7 <= sv <= 1.5
-                    "31.6nA", "31.6"
+                    "200uV", "31.6"
                 end
                 loopmode = Triton_t8loopmode_get(instr)
                 loopmode == "OFF" && Triton_t8loopmode_set(instr, "ON")
-                Triton_t8excitationtype_set(instr, "CUR")
-                Triton_t8excitationcur_set(instr, exctcur)
-                # Triton_t8loopPID_set(instr, pid)
+                Triton_t8excitationtype_set(instr, "VOLT")
+                Triton_t8excitationvolt_set(instr, exctvolt)
                 Triton_t8looprange_set(instr, looprange)
-                # Triton_h2power_set(instr, h2p)
                 Triton_t8looptset_set(instr, val)
             end
         end
@@ -259,10 +257,9 @@ let
             t8autotsetsw = "OFF"
             loopmode = Triton_t8loopmode_get(instr)
             loopmode == "ON" && Triton_t8loopmode_set(instr, "OFF")
-            Triton_t8excitationtype_set(instr, "CUR")
-            Triton_t8excitationcur_set(instr, "316pA")
+            Triton_t8excitationtype_set(instr, "VOLT")
+            Triton_t8excitationvolt_set(instr, "63.2uV")
             Triton_t8looprange_set(instr, "0")
-            Triton_h2power_set(instr, "8000")
         end
     end
     global Triton_t8autotsetsw_get(_) = t8autotsetsw
