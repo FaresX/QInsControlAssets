@@ -115,7 +115,11 @@ let
     global MercuryIPS_zheatertimespent_get(_) = string(floor(Int, timespent))
 
     global function MercuryIPS_sigactnz_set(instr, val)
-        val == "RTOS" && timespent != 0 && (@warn "waiting for heater on"; return)
+        if val == "CLMP"
+            heaterstate = MercuryIPS_zheater_get(instr)
+            fldz = parse(Float64, MercuryIPS_sigfldz_get(instr))
+            (heaterstate != "OFF" || abs(fldz) > 0.0005) && (@warn "heater is on or field is not zero"; return)
+        end
         query(instr, "SET:DEV:GRPZ:PSU:ACTN:$val")
     end
     global MercuryIPS_sigactnz_get(instr) = split(query(instr, "READ:DEV:GRPZ:PSU:ACTN"), "ACTN:")[end]
