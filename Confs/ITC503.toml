@@ -1,0 +1,149 @@
+[sensor1temp]
+alias = "道道1温度"
+U = "K"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[setgasflowctl]
+alias = "流量控制"
+U = ""
+numread = 1
+optkeys = ["Manual", "Auto"]
+separator = ""
+optvalues = ["0", "1"]
+help = ""
+type = "set"
+cmdheader = ""
+
+[heaterchannel]
+alias = "加热器通道"
+U = ""
+numread = 1
+optkeys = ["1", "2", "3"]
+separator = ""
+optvalues = ["1", "2", "3"]
+help = ""
+type = "set"
+cmdheader = ""
+
+[gasflow]
+alias = "针阀流量"
+U = ""
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[heaterpct]
+alias = "加热器百分比"
+U = ""
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[sensor3temp]
+alias = "道道3温度"
+U = "K"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[pidD]
+alias = "PID-D"
+U = ""
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[remote]
+alias = "远程"
+U = ""
+numread = 1
+optkeys = ["Local Locked", "Remote Locked", "Local Unlocked", "Remote Unlocked"]
+separator = ""
+optvalues = ["0", "1", "2", "3"]
+help = ""
+type = "set"
+cmdheader = ""
+
+[pidP]
+alias = "PID-P"
+U = ""
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[settemp]
+alias = "温度设置"
+U = "K"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
+
+[sensor2temp]
+alias = "道道2温度"
+U = "K"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[setheaterctl]
+alias = "加热器控制"
+U = ""
+numread = 1
+optkeys = ["Manual", "Auto"]
+separator = ""
+optvalues = ["0", "1"]
+help = ""
+type = "set"
+cmdheader = ""
+
+[conf]
+idn = "ITC503"
+output_labels = []
+icon = ""
+input_labels = []
+cmdtype = ""
+
+[pidI]
+alias = "PID-I"
+U = ""
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "set"
+cmdheader = ""
