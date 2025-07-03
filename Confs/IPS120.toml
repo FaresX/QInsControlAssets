@@ -1,14 +1,3 @@
-[address]
-alias = "地址"
-U = ""
-numread = 1
-optkeys = ["address 2"]
-separator = ""
-optvalues = ["2"]
-help = ""
-type = "set"
-cmdheader = ""
-
 [sigrfstz]
 alias = "Z扫描速率"
 U = "T/min"
@@ -64,6 +53,28 @@ help = ""
 type = "set"
 cmdheader = ""
 
+[sigpfldz]
+alias = "Z当前恒定场"
+U = "T"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[sigpcurz]
+alias = "Z稳恒电流"
+U = "A"
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
 [sigfldz]
 alias = "Z当前场"
 U = "T"
@@ -90,9 +101,9 @@ cmdheader = ""
 alias = "Z加热器"
 U = ""
 numread = 1
-optkeys = ["OFF 0", "ON", "OFF F", "Fault", "None"]
+optkeys = ["OFF", "ON"]
 separator = ""
-optvalues = ["0", "1", "2", "5", "8"]
+optvalues = ["0", "1"]
 help = ""
 type = "set"
 cmdheader = ""
