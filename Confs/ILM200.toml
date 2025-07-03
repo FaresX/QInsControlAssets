@@ -1,0 +1,39 @@
+[nitrogenlevel]
+alias = "N2液面"
+U = ""
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[heliumlevel]
+alias = "He4液面"
+U = ""
+numread = 1
+optkeys = []
+separator = ""
+optvalues = []
+help = ""
+type = "read"
+cmdheader = ""
+
+[heliumlevelrmode]
+alias = "He4液面读取模式"
+U = ""
+numread = 1
+optkeys = ["Fast", "Slow"]
+separator = ""
+optvalues = ["1", "0"]
+help = ""
+type = "set"
+cmdheader = ""
+
+[conf]
+idn = "ILM200"
+output_labels = []
+icon = ""
+input_labels = []
+cmdtype = ""
