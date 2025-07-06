@@ -218,7 +218,7 @@ end
 function Triton_t8excitationvolt_set(instr, val)
     type = Triton_t8excitationtype_get(instr)
     type == "VOLT" || (@warn "excitation is type of current"; return "none")
-    query(instr, "SET:DEV:T8:TEMP:EXCT:MAG:$val")
+    query(instr, "SET:DEV:T8:TEMP:EXCT:MAG:$(val)V")
 end
 function Triton_t8excitationvolt_get(instr)
     type = Triton_t8excitationtype_get(instr)
