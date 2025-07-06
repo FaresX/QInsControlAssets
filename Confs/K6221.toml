@@ -1,57 +1,67 @@
 [sensedata]
+cmdheader = ":SENSE:DATA?"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "读数据"
 U = ""
+timeoutr = 1.0
 numread = 2
-optkeys = []
 separator = ","
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ":SENSE:DATA?"
 
 [deltaarm]
+cmdheader = ":DELta:ARM"
+optkeys = ["To Be Armed", "Armed", "Not Armed"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "δ装备"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["To Be Armed", "Armed", "Not Armed"]
 separator = ""
 optvalues = [" ", "1", "0"]
-help = ""
 type = "set"
-cmdheader = ":DELta:ARM"
 
 [output]
+cmdheader = ":OUTPut1:STATe"
+optkeys = ["ON", "OFF"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "输出"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["ON", "OFF"]
 separator = ""
 optvalues = ["1", "0"]
-help = ""
 type = "set"
-cmdheader = ":OUTPut1:STATe"
 
 [deltahigh]
+cmdheader = ":DELta:HIGH"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "δ高电平"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ":DELta:HIGH"
 
 [deltalow]
+cmdheader = ":DELta:LOW"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "δ低电平"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ":DELta:LOW"
 
 [conf]
 idn = "MODEL 6221"

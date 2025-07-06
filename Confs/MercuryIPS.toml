@@ -1,288 +1,340 @@
 [sigactny]
+cmdheader = ""
+optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
+help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
+timeoutw = 0.10000000149011612
 alias = "Y状态"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 separator = ""
 optvalues = ["HOLD", "RTOS", "RTOZ", "CLMP"]
-help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
 type = "set"
-cmdheader = ""
 
 [magnetT]
+cmdheader = ""
+optkeys = []
+help = "magnet temperature"
+timeoutw = 0.10000000149011612
 alias = "磁体温度"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "magnet temperature"
 type = "read"
-cmdheader = ""
 
 [nitrogenlevel]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "N2液面"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [heliumlevel]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "He4液面"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [sigvoltz]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z电压"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [sigfldy]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Y当前场"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [sigrfstz]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z扫描速率"
 U = "T/min"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [sigfsetx]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "X目标场"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [sigfldx]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "X当前场"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [heliumlevelrmode]
+cmdheader = ""
+optkeys = ["Fast", "Slow"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "He4液面读取模式"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["Fast", "Slow"]
 separator = ""
 optvalues = ["OFF", "ON"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [sigrfsty]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Y扫描速率"
 U = "T/min"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [drivez]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "驱动Z"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [sigcurrz]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z电流"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [drivex]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "驱动X"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [sigactnx]
+cmdheader = ""
+optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
+help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
+timeoutw = 0.10000000149011612
 alias = "X状态"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 separator = ""
 optvalues = ["HOLD", "RTOS", "RTOZ", "CLMP"]
-help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
 type = "set"
-cmdheader = ""
 
 [sigpfldy]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Y当前恒定场"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [zheatertime]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z加热器时间"
 U = "s"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [sigfsetz]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z目标场"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [sigrfstx]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "X扫描速率"
 U = "T/min"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [sigpfldz]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z当前恒定场"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [sigpcurz]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z稳恒电流"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [sigpfldx]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "X当前恒定场"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [sigfldz]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z当前场"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [sigactnz]
+cmdheader = ""
+optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
+help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
+timeoutw = 0.10000000149011612
 alias = "Z状态"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 separator = ""
 optvalues = ["HOLD", "RTOS", "RTOZ", "CLMP"]
-help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
 type = "set"
-cmdheader = ""
 
 [drivey]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "驱动Y"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [zheater]
+cmdheader = ""
+optkeys = ["ON", "OFF"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z加热器"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["ON", "OFF"]
 separator = ""
 optvalues = ["ON", "OFF"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [conf]
 idn = "MERCURY IPS"
@@ -292,23 +344,27 @@ input_labels = ["X +", "Y +", "Z +"]
 cmdtype = "scpi"
 
 [sigfsety]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Y目标场"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [zheatertimespent]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z加热器触发时间"
 U = "s"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""

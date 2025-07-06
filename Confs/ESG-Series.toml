@@ -1,46 +1,54 @@
 [output]
+cmdheader = ":OUTPut:STATe"
+optkeys = ["ON", "OFF"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "射频输出"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["ON", "OFF"]
-help = ""
-optvalues = ["1", "0"]
 separator = ""
+optvalues = ["1", "0"]
 type = "set"
-cmdheader = ":OUTPut:STATe"
 
 [outputmod]
-alias = "调制输出"
-U = ""
-numread = 1
+cmdheader = ":OUTPut:MODulation:STATe"
 optkeys = ["ON", "OFF"]
 help = ""
-optvalues = ["1", "0"]
+timeoutw = 0.10000000149011612
+alias = "调制输出"
+U = ""
+timeoutr = 1.0
+numread = 1
 separator = ""
+optvalues = ["1", "0"]
 type = "set"
-cmdheader = ":OUTPut:MODulation:STATe"
 
 [frequency]
+cmdheader = ":SOUR:FREQ"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "频率"
 U = "Hz"
+timeoutr = 1.0
 numread = 1
-optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
 type = "sweep"
-cmdheader = ":SOUR:FREQ"
 
 [power]
-alias = "功率"
-U = "dBm"
-numread = 1
+cmdheader = ":SOUR:POW"
 optkeys = []
 help = ""
-optvalues = []
+timeoutw = 0.10000000149011612
+alias = "功率"
+U = "dBm"
+timeoutr = 1.0
+numread = 1
 separator = ""
+optvalues = []
 type = "sweep"
-cmdheader = ":SOUR:POW"
 
 [conf]
 idn = "E8254A;E8257D;ESG-3000B;MG3692C"

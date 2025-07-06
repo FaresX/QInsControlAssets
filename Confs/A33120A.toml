@@ -1,68 +1,80 @@
 [sourcevunit]
-alias = "电压模式"
-U = ""
-numread = 1
+cmdheader = "SOURce:VOLTage:UNIT"
 optkeys = ["Vpp", "Vrms", "dBm"]
 help = ""
-optvalues = ["VPP", "VRMS", "DBM"]
+timeoutw = 0.10000000149011612
+alias = "电压模式"
+U = ""
+timeoutr = 1.0
+numread = 1
 separator = ""
+optvalues = ["VPP", "VRMS", "DBM"]
 type = "sweep"
-cmdheader = "SOURce:VOLTage:UNIT"
 
 [sourcepulsedcyle]
+cmdheader = "SOURce:PULSe:DCYCle"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "占空比"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
 type = "set"
-cmdheader = "SOURce:PULSe:DCYCle"
 
 [sourcefreq]
+cmdheader = "SOURce:FREQuency"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "频率"
 U = "Hz"
+timeoutr = 1.0
 numread = 1
-optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
 type = "sweep"
-cmdheader = "SOURce:FREQuency"
 
 [sourcevoffset]
+cmdheader = "SOURce:VOLTage:OFFSet"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "电压偏移"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
 type = "sweep"
-cmdheader = "SOURce:VOLTage:OFFSet"
 
 [sourcefunc]
-alias = "波形"
-U = ""
-numread = 1
+cmdheader = "SOURce:FUNCtion:SHAPe"
 optkeys = ["sin", "square", "triangle", "ramp", "noise"]
 help = ""
-optvalues = ["SIN", "SQU", "TRI", "RAMP", "NOIS"]
+timeoutw = 0.10000000149011612
+alias = "波形"
+U = ""
+timeoutr = 1.0
+numread = 1
 separator = ""
+optvalues = ["SIN", "SQU", "TRI", "RAMP", "NOIS"]
 type = "set"
-cmdheader = "SOURce:FUNCtion:SHAPe"
 
 [sourcev]
-alias = "电压"
-U = "V"
-numread = 1
+cmdheader = "SOURce:VOLTage"
 optkeys = []
 help = ""
-optvalues = []
+timeoutw = 0.10000000149011612
+alias = "电压"
+U = "V"
+timeoutr = 1.0
+numread = 1
 separator = ""
+optvalues = []
 type = "sweep"
-cmdheader = "SOURce:VOLTage"
 
 [conf]
 idn = "33120A"

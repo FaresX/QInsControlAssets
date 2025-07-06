@@ -1,13 +1,15 @@
 [querydata]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "读数据"
 U = ""
+timeoutr = 1.0
 numread = 3
-optkeys = []
 separator = ","
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [conf]
 idn = "AH 2500"

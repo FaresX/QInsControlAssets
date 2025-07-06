@@ -1,156 +1,184 @@
 [Date]
+cmdheader = ""
+optkeys = []
+help = "Return a Date corresponding to the user's system time including the system timezone locale."
+timeoutw = 0.10000000149011612
 alias = "日期"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "Return a Date corresponding to the user's system time including the system timezone locale."
 type = "read"
-cmdheader = ""
 
 [YearMonthDayHMSM]
+cmdheader = ""
+optkeys = []
+help = "Return a DateTime corresponding to the user's system time including the system timezone locale."
+timeoutw = 0.10000000149011612
 alias = "年月日时分秒毫秒"
 U = ""
+timeoutr = 1.0
 numread = 7
-optkeys = []
 separator = ","
 optvalues = []
-help = "Return a DateTime corresponding to the user's system time including the system timezone locale."
 type = "read"
-cmdheader = ""
 
 [Vac]
+cmdheader = ""
+optkeys = []
+help = "仅作为测试"
+timeoutw = 0.10000000149011612
 alias = "JJ Vac"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "仅作为测试"
 type = "read"
-cmdheader = ""
 
 [B]
+cmdheader = ""
+optkeys = []
+help = "仅作为测试"
+timeoutw = 0.10000000149011612
 alias = "JJ B"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "仅作为测试"
 type = "sweep"
-cmdheader = ""
 
 [Time]
+cmdheader = ""
+optkeys = []
+help = "Return a Time corresponding to the user's system time including the system timezone locale."
+timeoutw = 0.10000000149011612
 alias = "时间"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "Return a Time corresponding to the user's system time including the system timezone locale."
 type = "read"
-cmdheader = ""
 
 [HourMinuteSecond]
+cmdheader = ""
+optkeys = []
+help = "Return a DateTime corresponding to the user's system time including the system timezone locale."
+timeoutw = 0.10000000149011612
 alias = "时分秒"
 U = ""
+timeoutr = 1.0
 numread = 3
-optkeys = []
 separator = ":"
 optvalues = []
-help = "Return a DateTime corresponding to the user's system time including the system timezone locale."
 type = "read"
-cmdheader = ""
 
 [SystemTime]
+cmdheader = ""
+optkeys = []
+help = "Get the system time in seconds since the epoch, with fairly high (typically, microsecond) resolution."
+timeoutw = 0.10000000149011612
 alias = "系统时间"
 U = "s"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "Get the system time in seconds since the epoch, with fairly high (typically, microsecond) resolution."
 type = "read"
-cmdheader = ""
 
 [power]
+cmdheader = ""
+optkeys = ["ON", "OFF"]
+help = "仅作为设置测试"
+timeoutw = 0.10000000149011612
 alias = "Power"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["ON", "OFF"]
 separator = ""
 optvalues = ["1", "0"]
-help = "仅作为设置测试"
 type = "set"
-cmdheader = ""
 
 [Iac]
+cmdheader = ""
+optkeys = []
+help = "仅作为测试"
+timeoutw = 0.10000000149011612
 alias = "JJ Iac"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "仅作为测试"
 type = "sweep"
-cmdheader = ""
 
 [DateTime]
+cmdheader = ""
+optkeys = []
+help = "Return a DateTime corresponding to the user's system time including the system timezone locale."
+timeoutw = 0.10000000149011612
 alias = "日期和时间"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "Return a DateTime corresponding to the user's system time including the system timezone locale."
 type = "read"
-cmdheader = ""
 
 [Vacrange]
+cmdheader = ""
+optkeys = ["1V", "1mV", "1μV"]
+help = "仅作为测试"
+timeoutw = 0.10000000149011612
 alias = "JJ Vac Range"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = ["1V", "1mV", "1μV"]
 separator = ""
 optvalues = ["1", "1e-3", "1e-6"]
-help = "仅作为测试"
 type = "set"
-cmdheader = ""
 
 [VacCtrl]
+cmdheader = ""
+optkeys = []
+help = "仅作为测试"
+timeoutw = 0.10000000149011612
 alias = "JJ Vac Ctrl"
 U = "V"
+timeoutr = 1.0
 numread = 4
-optkeys = []
 separator = ","
 optvalues = []
-help = "仅作为测试"
 type = "read"
-cmdheader = ""
 
 [I]
+cmdheader = ""
+optkeys = []
+help = "仅作为测试"
+timeoutw = 0.10000000149011612
 alias = "JJ I"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "仅作为测试"
 type = "sweep"
-cmdheader = ""
 
 [Ierr]
+cmdheader = ""
+optkeys = []
+help = "仅作为测试"
+timeoutw = 0.10000000149011612
 alias = "JJ I error"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "仅作为测试"
 type = "sweep"
-cmdheader = ""
 
 [conf]
 idn = "VirtualInstr"

@@ -1,79 +1,93 @@
 [setflowctl]
+cmdheader = ""
+optkeys = ["Manual", "Auto"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "流量控制"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["Manual", "Auto"]
 separator = ""
 optvalues = ["OFF", "ON"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [enablepid]
+cmdheader = ""
+optkeys = ["Manual", "Auto"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "PID开关"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["Manual", "Auto"]
 separator = ""
 optvalues = ["OFF", "ON"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [angleread]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "读角度"
 U = "°"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [setheater]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "设置加热器"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [setsweepmode]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "设置扫温模式"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [angleset]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "角度设置"
 U = "°"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [settemp]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "设置温度"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [conf]
 idn = "MERCURY ITC"
@@ -83,23 +97,27 @@ input_labels = []
 cmdtype = "scpi"
 
 [temperature]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "温度"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [setflow]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "设置流量"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""

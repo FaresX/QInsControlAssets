@@ -1,277 +1,327 @@
 [Bmeasureiv]
+cmdheader = "smub.measure.iv()"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "B测量电流电压"
 U = ""
+timeoutr = 1.0
 numread = 2
-optkeys = []
 separator = "\t"
 optvalues = []
-help = ""
 type = "read"
-cmdheader = "smub.measure.iv()"
 
 [Bmeasurerangei]
+cmdheader = "smub.measure.rangei"
+optkeys = ["100nA", "1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A", "1.5A"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "B测量电流范围"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = ["100nA", "1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A", "1.5A"]
 separator = ""
 optvalues = ["1.0e-7", "1.0e-6", "1.0e-5", "0.0001", "0.001", "0.01", "0.1", "1.0", "1.5"]
-help = ""
 type = "set"
-cmdheader = "smub.measure.rangei"
 
 [Asourcelimitv]
+cmdheader = "smua.source.limitv"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "A输出电压限制"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = "smua.source.limitv"
 
 [Bmeasurerangev]
+cmdheader = "smub.measure.rangev"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "B测量电压范围"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = "smub.measure.rangev"
 
 [Ameasurerangei]
+cmdheader = "smua.measure.rangei"
+optkeys = ["100nA", "1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A", "1.5A"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "A测量电流范围"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = ["100nA", "1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A", "1.5A"]
 separator = ""
 optvalues = ["1.0e-7", "1.0e-6", "1.0e-5", "0.0001", "0.001", "0.01", "0.1", "1.0", "1.5"]
-help = ""
 type = "set"
-cmdheader = "smua.measure.rangei"
 
 [Ameasureiv]
+cmdheader = "smua.measure.iv()"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "A测量电流电压"
 U = ""
+timeoutr = 1.0
 numread = 2
-optkeys = []
 separator = "\t"
 optvalues = []
-help = ""
 type = "read"
-cmdheader = "smua.measure.iv()"
 
 [Asourcerangev]
+cmdheader = "smua.source.rangev"
+optkeys = ["200mV", "2V", "20V", "200V"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "A输出电压范围"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = ["200mV", "2V", "20V", "200V"]
 separator = ""
 optvalues = ["0.2", "2.0", "20.0", "200.0"]
-help = ""
 type = "set"
-cmdheader = "smua.source.rangev"
 
 [Ameasurev]
+cmdheader = "smua.measure.v()"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "A测量电压"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = "smua.measure.v()"
 
 [Bsourcefunc]
+cmdheader = "smub.source.func"
+optkeys = ["AMP", "VOLT"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "B输出模式"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["AMP", "VOLT"]
 separator = ""
 optvalues = ["0.00000e+00", "1.00000e+00"]
-help = ""
 type = "set"
-cmdheader = "smub.source.func"
 
 [Bmeasurev]
+cmdheader = "smub.measure.v()"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "B测量电压"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = "smub.measure.v()"
 
 [Asourcelimiti]
+cmdheader = "smua.source.limiti"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "A输出电流限制"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = "smua.source.limiti"
 
 [Bsourceleveli]
+cmdheader = "smub.source.leveli"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "B输出电流"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = "smub.source.leveli"
 
 [Bsourcelimitv]
+cmdheader = "smub.source.limitv"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "B输出电压限制"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = "smub.source.limitv"
 
 [Bsourcerangev]
+cmdheader = "smub.source.rangev"
+optkeys = ["200mV", "2V", "20V", "200V"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "B输出电压范围"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = ["200mV", "2V", "20V", "200V"]
 separator = ""
 optvalues = ["0.2", "2.0", "20.0", "200.0"]
-help = ""
 type = "set"
-cmdheader = "smub.source.rangev"
 
 [Asourcefunc]
+cmdheader = "smua.source.func"
+optkeys = ["AMP", "VOLT"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "A输出模式"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["AMP", "VOLT"]
 separator = ""
 optvalues = ["0.00000e+00", "1.00000e+00"]
-help = ""
 type = "set"
-cmdheader = "smua.source.func"
 
 [Boutput]
+cmdheader = "smub.source.output"
+optkeys = ["ON", "OFF"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "B输出"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["ON", "OFF"]
 separator = ""
 optvalues = ["1.00000e+00", "0.00000e+00"]
-help = ""
 type = "set"
-cmdheader = "smub.source.output"
 
 [Asourcerangei]
+cmdheader = "smua.source.rangei"
+optkeys = ["100nA", "1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A", "1.5A"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "A输出电流范围"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = ["100nA", "1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A", "1.5A"]
 separator = ""
 optvalues = ["1.0e-7", "1.0e-6", "1.0e-5", "0.0001", "0.001", "0.01", "0.1", "1.0", "1.5"]
-help = ""
 type = "set"
-cmdheader = "smua.source.rangei"
 
 [Bsourcelevelv]
+cmdheader = "smub.source.levelv"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "B输出电压"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = "smub.source.levelv"
 
 [Ameasurei]
+cmdheader = "smua.measure.i()"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "A测量电流"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = "smua.measure.i()"
 
 [Aoutput]
+cmdheader = "smua.source.output"
+optkeys = ["ON", "OFF"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "A输出"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["ON", "OFF"]
 separator = ""
 optvalues = ["1.00000e+00", "0.00000e+00"]
-help = ""
 type = "set"
-cmdheader = "smua.source.output"
 
 [Bmeasurei]
+cmdheader = "smub.measure.i()"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "B测量电流"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = "smub.measure.i()"
 
 [Ameasurerangev]
+cmdheader = "smua.measure.rangev"
+optkeys = ["200mV", "2V", "20V", "200V"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "A测量电压范围"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = ["200mV", "2V", "20V", "200V"]
 separator = ""
 optvalues = ["0.2", "2.0", "20.0", "200.0"]
-help = ""
 type = "set"
-cmdheader = "smua.measure.rangev"
 
 [Bsourcelimiti]
+cmdheader = "smub.source.limiti"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "B输出电流限制"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = "smub.source.limiti"
 
 [Bsourcerangei]
+cmdheader = "smub.source.rangei"
+optkeys = ["100nA", "1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A", "1.5A"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "B输出电流范围"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = ["100nA", "1μA", "10μA", "100μA", "1mA", "10mA", "100mA", "1A", "1.5A"]
 separator = ""
 optvalues = ["1.0e-7", "1.0e-6", "1.0e-5", "0.0001", "0.001", "0.01", "0.1", "1.0", "1.5"]
-help = ""
 type = "set"
-cmdheader = "smub.source.rangei"
 
 [Asourceleveli]
+cmdheader = "smua.source.leveli"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "A输出电流"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = "smua.source.leveli"
 
 [conf]
 idn = "Model 2612"
@@ -281,12 +331,14 @@ input_labels = ["AL", "ALS", "BL", "BLS"]
 cmdtype = "tsp"
 
 [Asourcelevelv]
+cmdheader = "smua.source.levelv"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "A输出电压"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = "smua.source.levelv"

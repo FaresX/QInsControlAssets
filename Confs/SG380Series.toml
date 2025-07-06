@@ -1,68 +1,80 @@
 [apllf]
+cmdheader = "AMPL"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "低频功率"
 U = "dBm"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = "AMPL"
 
 [enablehf]
+cmdheader = "ENBH"
+optkeys = ["Disabled", "Enabled"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "启用高频"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["Disabled", "Enabled"]
 separator = ""
 optvalues = ["0", "1"]
-help = ""
 type = "set"
-cmdheader = "ENBH"
 
 [enablelf]
+cmdheader = "ENBL"
+optkeys = ["Disabled", "Enabled"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "启用低频"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["Disabled", "Enabled"]
 separator = ""
 optvalues = ["0", "1"]
-help = ""
 type = "set"
-cmdheader = "ENBL"
 
 [aplrf]
+cmdheader = "AMPR"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "射频功率"
 U = "dBm"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = "AMPR"
 
 [enablerf]
+cmdheader = "ENBR"
+optkeys = ["Disabled", "Enabled"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "启用射频"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["Disabled", "Enabled"]
 separator = ""
 optvalues = ["0", "1"]
-help = ""
 type = "set"
-cmdheader = "ENBR"
 
 [frequency]
+cmdheader = "FREQ"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "频率"
 U = "Hz"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = "FREQ"
 
 [conf]
 idn = "SG384"
@@ -72,12 +84,14 @@ input_labels = []
 cmdtype = "scpi"
 
 [aplhf]
+cmdheader = "AMPH"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "高频功率"
 U = "dBm"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = "AMPH"

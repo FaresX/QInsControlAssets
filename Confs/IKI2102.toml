@@ -1,178 +1,210 @@
 [channel0]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道1"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channelD]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道14"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channelC]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道13"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channel6]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道7"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channel8]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道9"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channel1]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道2"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channelE]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道15"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channel2]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道3"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channel5]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道6"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channelF]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道16"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channel7]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道8"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channel3]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道4"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channelA]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道11"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channel9]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道10"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channelB]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道12"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [channel4]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "通道5"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "sweep"
-cmdheader = ""
 
 [conf]
 idn = "IKI2102"

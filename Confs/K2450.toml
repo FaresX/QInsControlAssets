@@ -1,13 +1,15 @@
 [sourcefunc]
-alias = "输出模式"
-U = ""
-numread = 1
+cmdheader = "smu.source.func"
 optkeys = ["CURR", "VOLT"]
 help = ""
-optvalues = ["smu.FUNC_DC_CURRENT", "smu.FUNC_DC_VOLTAGE"]
+timeoutw = 0.10000000149011612
+alias = "输出模式"
+U = ""
+timeoutr = 1.0
+numread = 1
 separator = ""
+optvalues = ["smu.FUNC_DC_CURRENT", "smu.FUNC_DC_VOLTAGE"]
 type = "set"
-cmdheader = "smu.source.func"
 
 [conf]
 idn = "MODEL 2450"

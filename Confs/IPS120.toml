@@ -1,112 +1,132 @@
 [sigrfstz]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z扫描速率"
 U = "T/min"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [drivez]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "驱动Z"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [remote]
+cmdheader = ""
+optkeys = ["Local Locked", "Remote Locked", "Local Unlocked", "Remote Unlocked"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "远程"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["Local Locked", "Remote Locked", "Local Unlocked", "Remote Unlocked"]
 separator = ""
 optvalues = ["0", "1", "2", "3"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [zheatertime]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z加热器时间"
 U = "s"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [sigfsetz]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z目标场"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [sigpfldz]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z当前恒定场"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [sigpcurz]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z稳恒电流"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [sigfldz]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z当前场"
 U = "T"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [sigactnz]
+cmdheader = ""
+optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
+help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
+timeoutw = 0.10000000149011612
 alias = "Z状态"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["HOLD", "RTOS", "RTOZ", "CLMP"]
 separator = ""
 optvalues = ["0", "1", "2", "4"]
-help = "HOLD:RTOS:RTOZ:CLMP      Ramp status (Hold, to set, to zero, clamp)"
 type = "set"
-cmdheader = ""
 
 [zheater]
+cmdheader = ""
+optkeys = ["OFF", "ON"]
+help = ""
+timeoutw = 6.0
 alias = "Z加热器"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["OFF", "ON"]
 separator = ""
 optvalues = ["0", "1"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [conf]
 idn = "IPS120"
@@ -116,12 +136,14 @@ input_labels = []
 cmdtype = ""
 
 [zheatertimespent]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "Z加热器触发时间"
 U = "s"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""

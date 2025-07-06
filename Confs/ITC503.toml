@@ -1,321 +1,379 @@
 [cdstep2starttime]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝阶段2开始时间"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [sensor1temp]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "道道1温度"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [cdNVnormal]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝针阀1"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [cdstep1starttime]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝阶段1开始时间"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
-
-[cdtsample]
-alias = "冷凝样品腔温度"
-U = "K"
-numread = 1
-optkeys = []
-separator = ""
-optvalues = []
-help = ""
-type = "set"
-cmdheader = ""
 
 [cdstep4starttime]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝阶段4开始时间"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
-
-[setgasflowctl]
-alias = "流量控制"
-U = ""
-numread = 1
-optkeys = ["Manual", "Auto"]
-separator = ""
-optvalues = ["0", "1"]
-help = ""
-type = "set"
-cmdheader = ""
-
-[heaterchannel]
-alias = "加热器通道"
-U = ""
-numread = 1
-optkeys = ["1", "2", "3"]
-separator = ""
-optvalues = ["1", "2", "3"]
-help = ""
-type = "set"
-cmdheader = ""
-
-[cddelay2]
-alias = "冷凝阶段2延时"
-U = "s"
-numread = 1
-optkeys = []
-separator = ""
-optvalues = []
-help = ""
-type = "set"
-cmdheader = ""
 
 [cdpidP]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝PID-P"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
+
+[setgasflowctl]
 cmdheader = ""
+optkeys = ["Manual", "Auto"]
+help = ""
+timeoutw = 0.10000000149011612
+alias = "流量控制"
+U = ""
+timeoutr = 1.0
+numread = 1
+separator = ""
+optvalues = ["0", "1"]
+type = "set"
+
+[heaterchannel]
+cmdheader = ""
+optkeys = ["1", "2", "3"]
+help = ""
+timeoutw = 0.10000000149011612
+alias = "加热器通道"
+U = ""
+timeoutr = 1.0
+numread = 1
+separator = ""
+optvalues = ["1", "2", "3"]
+type = "set"
+
+[cddelay2]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
+alias = "冷凝阶段2延时"
+U = "s"
+timeoutr = 1.0
+numread = 1
+separator = ""
+optvalues = []
+type = "set"
+
+[cdtsample]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
+alias = "冷凝样品腔温度"
+U = "K"
+timeoutr = 1.0
+numread = 1
+separator = ""
+optvalues = []
+type = "set"
 
 [cdtsorb]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝Sorb温度"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [gasflow]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "针阀流量"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [heaterpct]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "加热器百分比"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [cdstep]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝阶段"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [cdNVcooldown]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝针阀3"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [cdpidI]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝PID-I"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [sensor3temp]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "道道3温度"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [pidD]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "PID-D"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [remote]
+cmdheader = ""
+optkeys = ["Local Locked", "Remote Locked", "Local Unlocked", "Remote Unlocked"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "远程"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["Local Locked", "Remote Locked", "Local Unlocked", "Remote Unlocked"]
 separator = ""
 optvalues = ["0", "1", "2", "3"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [pidP]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "PID-P"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [cddelay3]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝阶段3延时"
 U = "s"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [cdstep3starttime]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝阶段3开始时间"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [cdpidD]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝PID-D"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [settemp]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "温度设置"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [cdstate]
+cmdheader = ""
+optkeys = ["Condense", "Condensing"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝状态"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["Condense", "Condensing"]
 separator = ""
 optvalues = ["0", "1"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [cdstep1heater]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝阶段1加热器"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [sensor2temp]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "道道2温度"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [cdNVcondense]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "冷凝针阀2"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [setheaterctl]
+cmdheader = ""
+optkeys = ["Manual", "Auto"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "加热器控制"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["Manual", "Auto"]
 separator = ""
 optvalues = ["0", "1"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [conf]
 idn = "ITC503"
@@ -325,12 +383,14 @@ input_labels = []
 cmdtype = ""
 
 [pidI]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "PID-I"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""

@@ -1,409 +1,483 @@
 [tlm400probebautotset]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "TLM400样品杆B自动控温"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [t8autotsetsw]
+cmdheader = ""
+optkeys = ["ON", "OFF"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "T8自动控温开关"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["ON", "OFF"]
 separator = ""
 optvalues = ["ON", "OFF"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [tlm400probeautotsetsw]
+cmdheader = ""
+optkeys = ["ON", "OFF"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "TLM400样品杆自动控温开关"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["ON", "OFF"]
 separator = ""
 optvalues = ["ON", "OFF"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [temperatureT5]
+cmdheader = ""
+optkeys = []
+help = "MC Plate Cernox"
+timeoutw = 0.10000000149011612
 alias = "温度T5"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "MC Plate Cernox"
 type = "read"
-cmdheader = ""
 
 [temperatureT4]
+cmdheader = ""
+optkeys = []
+help = "Cold Plate"
+timeoutw = 0.10000000149011612
 alias = "温度T4"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "Cold Plate"
 type = "read"
-cmdheader = ""
 
 [t8excitationtype]
+cmdheader = ""
+optkeys = ["电流", "电压"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "T8激励类型"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["电流", "电压"]
 separator = ""
 optvalues = ["CUR", "VOLT"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [taloopP]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "TAPID - P"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [taloopI]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "TAPID - I"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [temperatureT1]
+cmdheader = ""
+optkeys = []
+help = "PT2 Head"
+timeoutw = 0.10000000149011612
 alias = "温度T1"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "PT2 Head"
 type = "read"
-cmdheader = ""
 
 [h2power]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "加热器H2功率"
 U = "μW"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [taloopPID]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "TAPID"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [t8loopmode]
+cmdheader = ""
+optkeys = ["ON", "OFF"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "T8闭合PID"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["ON", "OFF"]
 separator = ""
 optvalues = ["ON", "OFF"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [temperatureT6]
+cmdheader = ""
+optkeys = []
+help = "PT1 Head"
+timeoutw = 0.10000000149011612
 alias = "温度T6"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "PT1 Head"
 type = "read"
-cmdheader = ""
 
 [temperatureT13]
+cmdheader = ""
+optkeys = []
+help = "Magnet"
+timeoutw = 0.10000000149011612
 alias = "温度T13"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "Magnet"
 type = "read"
-cmdheader = ""
 
 [t8loopD]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "T8PID - D"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [temperatureT3]
+cmdheader = ""
+optkeys = []
+help = "Still Plate"
+timeoutw = 0.10000000149011612
 alias = "温度T3"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "Still Plate"
 type = "read"
-cmdheader = ""
 
 [taexcitationcur]
+cmdheader = ""
+optkeys = ["316pA", "1nA", "3.16nA", "10nA", "31.6nA", "100nA"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "TA激励电流"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = ["316pA", "1nA", "3.16nA", "10nA", "31.6nA", "100nA"]
 separator = ""
 optvalues = ["316pA", "1nA", "3.16nA", "10nA", "31.6nA", "100nA"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [t8loopP]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "T8PID - P"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [talooprange]
+cmdheader = ""
+optkeys = ["0", "31.6 μA", "100 μA", "316 μA", "1 mA", "3.16 mA", "10 mA", "31.6 mA", "100 mA"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "TA加热器范围"
 U = "mA"
+timeoutr = 1.0
 numread = 1
-optkeys = ["0", "31.6 μA", "100 μA", "316 μA", "1 mA", "3.16 mA", "10 mA", "31.6 mA", "100 mA"]
 separator = ""
 optvalues = ["0", "0.0316", "0.1", "0.316", "1", "3.16", "10", "31.6", "100"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [t8excitationvolt]
+cmdheader = ""
+optkeys = ["2μV", "6.32μV", "20μV", "63.2μV", "200μV", "632μV", "2mV", "6.32mV", "20mV", "63.2mV", "200mV", "632mV"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "T8激励电压"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = ["2μV", "6.32μV", "20μV", "63.2μV", "200μV", "632μV", "2mV", "6.32mV", "20mV", "63.2mV", "200mV", "632mV"]
 separator = ""
 optvalues = ["2uV", "6.32uV", "20uV", "63.2uV", "200uV", "632uV", "2mV", "6.32mV", "20mV", "63.2mV", "200mV", "632mV"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [temperatureT7]
+cmdheader = ""
+optkeys = []
+help = "PT1 Plate"
+timeoutw = 0.10000000149011612
 alias = "温度T7"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "PT1 Plate"
 type = "read"
-cmdheader = ""
 
 [tlm400probeaautotset]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "TLM400样品杆A自动控温"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [t8looprange]
+cmdheader = ""
+optkeys = ["0", "31.6 μA", "100 μA", "316 μA", "1 mA", "3.16 mA", "10 mA", "31.6 mA", "100 mA"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "T8加热器范围"
 U = "mA"
+timeoutr = 1.0
 numread = 1
-optkeys = ["0", "31.6 μA", "100 μA", "316 μA", "1 mA", "3.16 mA", "10 mA", "31.6 mA", "100 mA"]
 separator = ""
 optvalues = ["0", "0.0316", "0.1", "0.316", "1", "3.16", "10", "31.6", "100"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [t8excitationcur]
+cmdheader = ""
+optkeys = ["316pA", "1nA", "3.16nA", "10nA", "31.6nA", "100nA"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "T8激励电流"
 U = "A"
+timeoutr = 1.0
 numread = 1
-optkeys = ["316pA", "1nA", "3.16nA", "10nA", "31.6nA", "100nA"]
 separator = ""
 optvalues = ["316pA", "1nA", "3.16nA", "10nA", "31.6nA", "100nA"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [tlm400probecautotset]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "TLM400样品杆C自动控温"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [temperatureT8]
+cmdheader = ""
+optkeys = []
+help = "MC Plate RuO2"
+timeoutw = 0.10000000149011612
 alias = "温度T8"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "MC Plate RuO2"
 type = "read"
-cmdheader = ""
 
 [taexcitationvolt]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "TA激励电压"
 U = "V"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [t8loopI]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "T8PID - I"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [temperatureTA]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "温度TA"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [talooptset]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "TA温度设置"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [t8loopPID]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "T8PID"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [taloopmode]
+cmdheader = ""
+optkeys = ["ON", "OFF"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "TA闭合PID"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["ON", "OFF"]
 separator = ""
 optvalues = ["ON", "OFF"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [t8autotset]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "T8自动控温"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [temperatureT2]
+cmdheader = ""
+optkeys = []
+help = "PT2 Plate"
+timeoutw = 0.10000000149011612
 alias = "温度T2"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = "PT2 Plate"
 type = "read"
-cmdheader = ""
 
 [taloopD]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "TAPID - D"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [taexcitationtype]
+cmdheader = ""
+optkeys = ["电流", "电压"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "TA激励类型"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["电流", "电压"]
 separator = ""
 optvalues = ["CUR", "VOLT"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [t8looptset]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "T8温度设置"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [conf]
 idn = "Triton"

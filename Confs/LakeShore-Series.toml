@@ -1,24 +1,28 @@
 [inputA]
+cmdheader = "KRDG? A"
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "A通道温度"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
-help = ""
-optvalues = []
 separator = ""
+optvalues = []
 type = "read"
-cmdheader = "KRDG? A"
 
 [inputB]
-alias = "B通道温度"
-U = "K"
-numread = 1
+cmdheader = "KRDG? B"
 optkeys = []
 help = ""
-optvalues = []
+timeoutw = 0.10000000149011612
+alias = "B通道温度"
+U = "K"
+timeoutr = 1.0
+numread = 1
 separator = ""
+optvalues = []
 type = "read"
-cmdheader = "KRDG? B"
 
 [conf]
 idn = "MODEL336;MODEL350"

@@ -1,35 +1,41 @@
 [nitrogenlevel]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "N2液面"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [heliumlevel]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "He4液面"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [heliumlevelrmode]
+cmdheader = ""
+optkeys = ["Fast", "Slow"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "He4液面读取模式"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["Fast", "Slow"]
 separator = ""
 optvalues = ["1", "0"]
-help = ""
 type = "set"
-cmdheader = ""
 
 [conf]
 idn = "ILM200"

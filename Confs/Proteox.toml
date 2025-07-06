@@ -1,24 +1,28 @@
 [drimixs]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "混合室温度"
 U = "K"
+timeoutr = 1.0
 numread = 1
-optkeys = []
 separator = ""
 optvalues = []
-help = ""
 type = "read"
-cmdheader = ""
 
 [drimixclheater]
+cmdheader = ""
+optkeys = []
+help = ""
+timeoutw = 0.10000000149011612
 alias = "混合室加热器"
 U = ""
+timeoutr = 1.0
 numread = 2
-optkeys = []
 separator = ","
 optvalues = []
-help = ""
 type = "set"
-cmdheader = ""
 
 [conf]
 idn = "Proteox"
@@ -28,12 +32,14 @@ input_labels = []
 cmdtype = ""
 
 [claimcontrol]
+cmdheader = ""
+optkeys = ["claim control", "relinquich control"]
+help = ""
+timeoutw = 0.10000000149011612
 alias = "控制声明"
 U = ""
+timeoutr = 1.0
 numread = 1
-optkeys = ["claim control", "relinquich control"]
 separator = ""
 optvalues = ["1", "0"]
-help = ""
 type = "set"
-cmdheader = ""
