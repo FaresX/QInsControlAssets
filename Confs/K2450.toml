@@ -2,10 +2,10 @@
 cmdheader = "smu.source.func"
 optkeys = ["CURR", "VOLT"]
 help = ""
-timeoutw = 0.10000000149011612
+timeoutw=0.3
 alias = "输出模式"
 U = ""
-timeoutr = 1.0
+timeoutr=3
 numread = 1
 separator = ""
 optvalues = ["smu.FUNC_DC_CURRENT", "smu.FUNC_DC_VOLTAGE"]
