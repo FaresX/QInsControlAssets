@@ -2,7 +2,7 @@
 cmdheader = "smu.source.func"
 optkeys = ["CURR", "VOLT"]
 help = ""
-timeoutw = 0.30000001192092896
+timeoutw = 3
 alias = "输出模式"
 U = ""
 timeoutr = 3.0

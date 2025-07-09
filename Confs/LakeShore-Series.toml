@@ -2,7 +2,7 @@
 cmdheader = "KRDG? A"
 optkeys = []
 help = ""
-timeoutw = 0.30000001192092896
+timeoutw = 3
 alias = "A通道温度"
 U = "K"
 timeoutr = 3.0
@@ -15,7 +15,7 @@ type = "read"
 cmdheader = "KRDG? B"
 optkeys = []
 help = ""
-timeoutw = 0.30000001192092896
+timeoutw = 3
 alias = "B通道温度"
 U = "K"
 timeoutr = 3.0
