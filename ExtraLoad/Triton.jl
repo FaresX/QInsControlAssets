@@ -22,7 +22,10 @@ Triton_h2power_set(instr, val) = query(instr, "SET:DEV:H2:HTR:SIG:POWR:$val")
 Triton_h2power_get(instr) = split(query(instr, "READ:DEV:H2:HTR:SIG:POWR"), "POWR:")[end][1:end-2]
 
 ### TA
-Triton_taloopmode_set(instr, val) = query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:$val"; delay=6)
+function Triton_taloopmode_set(instr, val)
+    loopmode = Triton_taloopmode_get(instr)
+    loopmode == val || query(instr, "SET:DEV:TA:TEMP:LOOP:MODE:$val"; delay=6)
+end
 Triton_taloopmode_get(instr) = split(query(instr, "READ:DEV:TA:TEMP:LOOP:MODE"), "MODE:")[end]
 
 Triton_taloopP_set(instr, val) = query(instr, "SET:DEV:TA:TEMP:LOOP:P:$val")
@@ -91,14 +94,13 @@ let
                 elseif 0.5 <= sv <= 1
                     "31.6nA", "2,8,0", "3.16", "0"
                 end
-                loopmode = Triton_loopmode_get(instr)
-                loopmode == "OFF" && Triton_loopmode_set(instr, "ON")
+                Triton_taloopmode_set(instr, "ON")
                 Triton_taexcitationtype_set(instr, "CUR")
                 Triton_taexcitationcur_set(instr, exctcur)
                 Triton_taloopPID_set(instr, pid)
-                Triton_looprange_set(instr, looprange)
+                Triton_talooprange_set(instr, looprange)
                 Triton_h2power_set(instr, h2p)
-                Triton_looptset_set(instr, val)
+                Triton_talooptset_set(instr, val)
             end
         end
     end
@@ -115,14 +117,13 @@ let
                 elseif 0.5 <= sv <= 1
                     "31.6nA", "2,8,0", "3.16", "0"
                 end
-                loopmode = Triton_loopmode_get(instr)
-                loopmode == "OFF" && Triton_loopmode_set(instr, "ON")
+                Triton_taloopmode_set(instr, "ON")
                 Triton_taexcitationtype_set(instr, "CUR")
                 Triton_taexcitationcur_set(instr, exctcur)
                 Triton_taloopPID_set(instr, pid)
-                Triton_looprange_set(instr, looprange)
+                Triton_talooprange_set(instr, looprange)
                 Triton_h2power_set(instr, h2p)
-                Triton_looptset_set(instr, val)
+                Triton_talooptset_set(instr, val)
             end
         end
     end
@@ -139,14 +140,13 @@ let
                 elseif 0.5 <= sv <= 1
                     "31.6nA", "2,64,0", "3.16", "0"
                 end
-                loopmode = Triton_loopmode_get(instr)
-                loopmode == "OFF" && Triton_loopmode_set(instr, "ON")
+                Triton_taloopmode_set(instr, "ON")
                 Triton_taexcitationtype_set(instr, "CUR")
                 Triton_taexcitationcur_set(instr, exctcur)
                 Triton_taloopPID_set(instr, pid)
-                Triton_looprange_set(instr, looprange)
+                Triton_talooprange_set(instr, looprange)
                 Triton_h2power_set(instr, h2p)
-                Triton_looptset_set(instr, val)
+                Triton_talooptset_set(instr, val)
             end
         end
     end
@@ -157,11 +157,10 @@ let
             tlm400probeautotsetsw = "ON"
         elseif val == "OFF"
             tlm400probeautotsetsw = "OFF"
-            loopmode = Triton_loopmode_get(instr)
-            loopmode == "ON" && Triton_loopmode_set(instr, "OFF")
+            Triton_taloopmode_set(instr, "OFF")
             Triton_taexcitationtype_set(instr, "CUR")
             Triton_taexcitationcur_set(instr, "316pA")
-            Triton_looprange_set(instr, "0")
+            Triton_talooprange_set(instr, "0")
             Triton_h2power_set(instr, "8000")
         end
     end
@@ -170,7 +169,10 @@ end
 
 ### T8
 
-Triton_t8loopmode_set(instr, val) = query(instr, "SET:DEV:T8:TEMP:LOOP:MODE:$val"; delay=6)
+function Triton_t8loopmode_set(instr, val)
+    loopmode = Triton_t8loopmode_get(instr)
+    loopmode == val || query(instr, "SET:DEV:T8:TEMP:LOOP:MODE:$val"; delay=val == "ON" ? 6 : 12)
+end
 Triton_t8loopmode_get(instr) = split(query(instr, "READ:DEV:T8:TEMP:LOOP:MODE"), "MODE:")[end]
 
 Triton_t8loopP_set(instr, val) = query(instr, "SET:DEV:T8:TEMP:LOOP:P:$val")
@@ -239,8 +241,7 @@ let
                 elseif 0.7 <= sv <= 1.5
                     "200uV", "31.6"
                 end
-                loopmode = Triton_t8loopmode_get(instr)
-                loopmode == "OFF" && Triton_t8loopmode_set(instr, "ON")
+                Triton_t8loopmode_set(instr, "ON")
                 Triton_t8excitationtype_set(instr, "VOLT")
                 Triton_t8excitationvolt_set(instr, exctvolt)
                 Triton_t8looprange_set(instr, looprange)
@@ -255,8 +256,7 @@ let
             t8autotsetsw = "ON"
         elseif val == "OFF"
             t8autotsetsw = "OFF"
-            loopmode = Triton_t8loopmode_get(instr)
-            loopmode == "ON" && Triton_t8loopmode_set(instr, "OFF")
+            Triton_t8loopmode_set(instr, "OFF")
             Triton_t8excitationtype_set(instr, "VOLT")
             Triton_t8excitationvolt_set(instr, "63.2uV")
             Triton_t8looprange_set(instr, "0")

@@ -1888,7 +1888,7 @@ sizeoffset = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
         [Dry.qtws.options]
-        uitype = "inputctrlset"
+        uitype = "readinputctrlset"
         globaloptions = false
         allowoverlap = false
         useimage = false
@@ -3252,7 +3252,7 @@ sizeoffset = [0.0, 0.0]
     sizebuf = [0.0, 0.0]
 
         [Dry.qtws.options]
-        uitype = "inputctrlset"
+        uitype = "readinputctrlset"
         globaloptions = false
         allowoverlap = false
         useimage = false
