@@ -1,5 +1,5 @@
-[readdata]
-cmdheader = "READ?"
+[fetchdata]
+cmdheader = ":FETCh?"
 optkeys = []
 help = ""
 timeoutw = 3.0
@@ -12,8 +12,8 @@ optvalues = []
 type = "read"
 
 [conf]
-idn = "34410A;34401"
+idn = "MODEL 2182"
 output_labels = []
 icon = ""
-input_labels = ["Input +", "Input -"]
+input_labels = ["CH1 +", "CH1 -", "CH2 +", "CH2 -"]
 cmdtype = "scpi"
