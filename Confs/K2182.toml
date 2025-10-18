@@ -1,0 +1,19 @@
+[fetchdata]
+cmdheader = ":FETCh?"
+optkeys = []
+help = ""
+timeoutw = 3.0
+alias = "读数据"
+U = ""
+timeoutr = 3.0
+numread = 1
+separator = ""
+optvalues = []
+type = "read"
+
+[conf]
+idn = "MODEL 2182"
+output_labels = []
+icon = ""
+input_labels = ["CH1 +", "CH1 -", "CH2 +", "CH2 -"]
+cmdtype = "scpi"

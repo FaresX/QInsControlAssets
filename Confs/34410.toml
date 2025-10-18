@@ -1,0 +1,19 @@
+[readdata]
+cmdheader = "READ?"
+optkeys = []
+help = ""
+timeoutw = 3.0
+alias = "读数据"
+U = ""
+timeoutr = 3.0
+numread = 1
+separator = ""
+optvalues = []
+type = "read"
+
+[conf]
+idn = "34410A;34401"
+output_labels = []
+icon = ""
+input_labels = ["Input +", "Input -"]
+cmdtype = "scpi"
