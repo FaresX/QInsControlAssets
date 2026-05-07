@@ -114,9 +114,9 @@ let
     function step1(instr)
         step = 1
         step1starttime = now()
+        ITC503_setheaterctl_set(instr, 0)
         ITC503_heaterchannel_set(instr, 1)
         ITC503_setgasflowctl_set(instr, 0)
-        ITC503_setheaterctl_set(instr, 0)
         ITC503_gasflow_set(instr, NVnormal)
         ITC503_heaterpct_set(instr, step1heater)
         ITC503_pidP_set(instr, pidP)
@@ -131,9 +131,10 @@ let
     end
     function step2(instr)
         step = 2
+        ITC503_setheaterctl_set(instr, 0)
         ITC503_heaterchannel_set(instr, 1)
-        ITC503_setgasflowctl_set(instr, 0)
         ITC503_setheaterctl_set(instr, 1)
+        ITC503_setgasflowctl_set(instr, 0)
         ITC503_gasflow_set(instr, NVcondense)
         ITC503_settemp_set(instr, tsorb)
         t3 = parse(Float64, ITC503_sensor3temp_get(instr))
@@ -161,9 +162,9 @@ let
     function step4(instr)
         step = 4
         step4starttime = now()
+        ITC503_setheaterctl_set(instr, 0)
         ITC503_heaterchannel_set(instr, 1)
         ITC503_setgasflowctl_set(instr, 0)
-        ITC503_setheaterctl_set(instr, 0)
         ITC503_heaterpct_set(instr, 0)
         ITC503_settemp_set(instr, 0)
         ITC503_gasflow_set(instr, NVcooldown)
