@@ -2,7 +2,7 @@
 cmdheader = ""
 optkeys = []
 help = ""
-timeoutw = 3
+timeoutw = 3.0
 alias = "读数据"
 U = ""
 timeoutr = 3.0
@@ -12,7 +12,7 @@ optvalues = []
 type = "read"
 
 [conf]
-idn = "AH 2500"
+idn = "AH2500A"
 output_labels = []
 icon = ""
 input_labels = []
