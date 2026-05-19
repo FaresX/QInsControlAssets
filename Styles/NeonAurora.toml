@@ -5,7 +5,7 @@ FontScaleDpi = 1.0
 Alpha = 1.0
 DisabledAlpha = 0.6000000238418579
 WindowPadding = [8.0, 8.0]
-WindowRounding = 8.0
+WindowRounding = 0.0
 WindowBorderSize = 0.0
 WindowBorderHoverPadding = 12.0
 WindowMinSize = [96.0, 96.0]
@@ -186,7 +186,8 @@ Flags = 5
 
 [morestyle.Variables]
 ImGuiScale = 1.0
-BigIconSize = 24
+BigIconSize = 28
+BlockDragdropBorderSize = 2.0
 TextRectRounding = 0.0
 TextRectThickness = 2.0
 TextRectPadding = [6.0, 6.0]
@@ -224,6 +225,7 @@ BlockObserveReadingBG = [0.929411768913269, 0.7686274647712708, 0.29019609093666
 BlockIcons = [0.24705882370471954, 0.7333333492279053, 0.9372549057006836, 1.0]
 BlockTrycatch = [0.929411768913269, 0.3764705955982208, 0.3764705955982208, 1.0]
 BlockDragdrop = [0.32156863808631897, 0.6549019813537598, 0.8823529481887817, 0.47011953592300415]
+BlockDragdropBorder = [0.0, 0.5, 1.0, 1.0]
 ShowTextRect = [0.24705882370471954, 0.7333333492279053, 0.9372549057006836, 1.0]
 DAQTaskRunning = [0.24705882370471954, 0.7333333492279053, 0.9372549057006836, 1.0]
 DAQTaskToRun = [0.4000000059604645, 0.6627451181411743, 0.8823529481887817, 0.4000000059604645]

@@ -1,7 +1,7 @@
 [imguistyle]
 FontSizeBase = 15.0
 FontScaleMain = 1.0
-FontScaleDpi = 1.25
+FontScaleDpi = 1.0
 Alpha = 0.9800000190734863
 DisabledAlpha = 0.550000011920929
 WindowPadding = [8.0, 8.0]
@@ -185,8 +185,9 @@ Flags = 5
     MiniMapCanvasOutline = [0.7843137979507446, 0.7843137979507446, 0.7843137979507446, 0.7843137979507446]
 
 [morestyle.Variables]
-ImGuiScale = 1.25
-BigIconSize = 26
+ImGuiScale = 1.0
+BigIconSize = 28
+BlockDragdropBorderSize = 2.0
 TextRectRounding = 4.0
 TextRectThickness = 2.5
 TextRectPadding = [8.0, 8.0]
@@ -224,6 +225,7 @@ BlockObserveReadingBG = [1.0, 0.6000000238418579, 0.0, 0.699999988079071]
 BlockIcons = [0.5952759981155396, 0.8286852836608887, 0.18488596379756927, 1.0]
 BlockTrycatch = [1.0, 0.0, 0.0, 1.0]
 BlockDragdrop = [0.0, 0.6057046055793762, 0.717131495475769, 0.47011953592300415]
+BlockDragdropBorder = [0.0, 0.5, 1.0, 1.0]
 ShowTextRect = [0.32669323682785034, 1.0, 0.5895780324935913, 1.0]
 DAQTaskRunning = [0.0, 0.8047808408737183, 0.0, 1.0]
 DAQTaskToRun = [0.0, 0.5976095199584961, 0.290471613407135, 0.4000000059604645]
