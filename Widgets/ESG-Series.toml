@@ -631,7 +631,7 @@ sizeoffset = [0.0, 0.0]
 ["远控"]
 instrnm = "ESG-Series"
 name = "远控"
-windowflags = 2621474
+windowflags = 2621442
 windowsize = [433.0, 225.0]
 usewallpaper = false
 wallpaperpath = ""
