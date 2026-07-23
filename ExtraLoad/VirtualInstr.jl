@@ -60,18 +60,18 @@ let
     global VirtualInstr_I_get(_) = string(I)
 
     global function VirtualInstr_Ierr_set(_, setv)
-        if (errortimes !=0 && errortimes < 9) || rand() < 0.01
+        if (errortimes !=0 && errortimes < 2) || rand() < 0.01
             errortimes += 1
-            errortimes == 9 && (errortimes = 0)
+            errortimes == 2 && (errortimes = 0)
             error("Ierr set error !")
         else
             VirtualInstr_I_set("", setv)
         end
     end
     global function VirtualInstr_Ierr_get(_)
-        if (errortimes !=0 && errortimes < 9) || rand() < 0.01
+        if (errortimes !=0 && errortimes < 2) || rand() < 0.01
             errortimes += 1
-            errortimes == 9 && (errortimes = 0)
+            errortimes == 2 && (errortimes = 0)
             error("Ierr get error !")
         else
             VirtualInstr_I_get("")

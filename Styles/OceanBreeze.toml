@@ -31,6 +31,7 @@ GrabMinSize = 14.0
 GrabRounding = 6.0
 LogSliderDeadzone = 5.0
 ImageBorderSize = 0.0
+ImageRounding = 0.0
 TabRounding = 5.0
 TabBorderSize = 1.0
 TabMinWidthBase = 50.0
@@ -47,9 +48,11 @@ TreeLinesRounding = 6.0
 DragDropTargetRounding = 4.0
 DragDropTargetBorderSize = 2.0
 DragDropTargetPadding = 4.0
+ColorMarkerSize = 0.0
 ColorButtonPosition = 1
 ButtonTextAlign = [0.5, 0.5]
 SelectableTextAlign = [0.0, 0.0]
+SeparatorSize = 1.0
 SeparatorTextBorderSize = 4.0
 SeparatorTextAlign = [0.05999999865889549, 0.5]
 SeparatorTextPadding = [14.0, 4.0]
@@ -185,6 +188,7 @@ Flags = 5
     MiniMapCanvasOutline = [0.44999998807907104, 0.5199999809265137, 0.5799999833106995, 0.75]
 
 [morestyle.Variables]
+FontPath = "C:\\Users\\22112\\OneDrive - mails.ucas.ac.cn\\文档\\CODE\\Julia\\QInsControl remote\\QInsControlAssets\\Fonts\\HarmonyOS_Sans_SC_Regular.ttf"
 ImGuiScale = 1.0
 BigIconSize = 28
 BlockBorderSize = 3.0
