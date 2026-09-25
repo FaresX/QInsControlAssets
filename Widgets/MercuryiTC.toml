@@ -2,7 +2,7 @@
 instrnm = "MercuryiTC"
 name = "TLM400 Angle"
 windowflags = 2621442
-windowsize = [276.0, 153.0]
+windowsize = [276.0, 152.6666717529297]
 usewallpaper = false
 wallpaperpath = ""
 rate = 1

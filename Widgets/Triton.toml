@@ -2,7 +2,7 @@
 instrnm = "Triton"
 name = "Dry"
 windowflags = 2621442
-windowsize = [629.0, 428.0]
+windowsize = [628.6666870117188, 428.0]
 usewallpaper = false
 wallpaperpath = ""
 rate = 1
@@ -3377,7 +3377,7 @@ sizeoffset = [0.0, 0.0]
 instrnm = "Triton"
 name = "HR-TL400"
 windowflags = 2621442
-windowsize = [629.0, 428.0]
+windowsize = [628.6666870117188, 428.0]
 usewallpaper = false
 wallpaperpath = ""
 rate = 1

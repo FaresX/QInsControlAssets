@@ -2,7 +2,7 @@
 instrnm = "K2612"
 name = "A通道"
 windowflags = 2621442
-windowsize = [564.0, 413.0]
+windowsize = [564.0, 412.6666564941406]
 usewallpaper = false
 wallpaperpath = ""
 rate = 1
@@ -1547,7 +1547,7 @@ sizeoffset = [0.0, 0.0]
 instrnm = "K2612"
 name = "B通道"
 windowflags = 2621442
-windowsize = [564.0, 413.0]
+windowsize = [564.0, 412.6666564941406]
 usewallpaper = false
 wallpaperpath = ""
 rate = 1

@@ -2,7 +2,7 @@
 instrnm = "ILM200"
 name = "液面计"
 windowflags = 524290
-windowsize = [284.0, 141.0]
+windowsize = [284.0, 140.6666717529297]
 usewallpaper = false
 wallpaperpath = ""
 rate = 1
