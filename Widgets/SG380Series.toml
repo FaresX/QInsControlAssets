@@ -1,0 +1,229 @@
+# SG380Series 控制面板 —— 含全部已注册变量
+# 布局：三组（RF / LF / HF），每组 = 组框 + 使能开关 + 幅度/频率目标 + 读数 + 扫描控制
+[SG380]
+instrnm = "SG380Series"
+name = "SG380 控制面板"
+windowsize = [560.0, 460.0]
+
+# ============ 组框 1：RF ============
+[[SG380.qtws]]
+name = "_Panel_"
+alias = "RF 输出"
+qtype = "none"
+    [SG380.qtws.options]
+    uitype = "none"
+    fontsize = 12.0
+    vertices = [[15.0, 15.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [530.0, 155.0]
+    allowoverlap = true
+
+# ---------- enablerf [set] ----------
+[[SG380.qtws]]
+name = "enablerf"
+alias = "RF 输出使能"
+qtype = "set"
+numoptvs = 2
+numread = 1
+    [SG380.qtws.options]
+    uitype = "toggle"
+    vertices = [[40.0, 50.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [140.0, 30.0]
+    allowoverlap = true
+
+# ---------- frequency [sweep] ----------
+[[SG380.qtws]]
+name = "frequency"
+alias = "RF 频率目标"
+qtype = "sweep"
+numoptvs = 0
+numread = 1
+    [SG380.qtws.options]
+    uitype = "inputstop"
+    vertices = [[195.0, 50.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [160.0, 30.0]
+    allowoverlap = true
+
+[[SG380.qtws]]
+name = "frequency"
+alias = "RF 频率读数"
+qtype = "sweep"
+numoptvs = 0
+numread = 1
+    [SG380.qtws.options]
+    uitype = "readunit"
+    vertices = [[370.0, 50.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [160.0, 30.0]
+    allowoverlap = true
+
+[[SG380.qtws]]
+name = "frequency"
+alias = "RF 频率扫描"
+qtype = "sweep"
+numoptvs = 0
+numread = 1
+    [SG380.qtws.options]
+    uitype = "ctrlsweep"
+    vertices = [[40.0, 90.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [140.0, 30.0]
+    allowoverlap = true
+
+# ---------- aplrf [sweep] ----------
+[[SG380.qtws]]
+name = "aplrf"
+alias = "RF 幅度目标 (dBm)"
+qtype = "sweep"
+numoptvs = 0
+numread = 1
+    [SG380.qtws.options]
+    uitype = "inputstop"
+    vertices = [[195.0, 90.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [160.0, 30.0]
+    allowoverlap = true
+
+[[SG380.qtws]]
+name = "aplrf"
+alias = "RF 幅度读数"
+qtype = "sweep"
+numoptvs = 0
+numread = 1
+    [SG380.qtws.options]
+    uitype = "readunit"
+    vertices = [[370.0, 90.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [160.0, 30.0]
+    allowoverlap = true
+
+[[SG380.qtws]]
+name = "aplrf"
+alias = "RF 幅度扫描"
+qtype = "sweep"
+numoptvs = 0
+numread = 1
+    [SG380.qtws.options]
+    uitype = "ctrlsweep"
+    vertices = [[40.0, 130.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [140.0, 30.0]
+    allowoverlap = true
+
+# ============ 组框 2：LF ============
+[[SG380.qtws]]
+name = "_Panel_"
+alias = "LF 输出"
+qtype = "none"
+    [SG380.qtws.options]
+    uitype = "none"
+    fontsize = 12.0
+    vertices = [[15.0, 185.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [530.0, 115.0]
+    allowoverlap = true
+
+# ---------- enablelf [set] ----------
+[[SG380.qtws]]
+name = "enablelf"
+alias = "LF 输出使能"
+qtype = "set"
+numoptvs = 2
+numread = 1
+    [SG380.qtws.options]
+    uitype = "toggle"
+    vertices = [[40.0, 210.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [140.0, 30.0]
+    allowoverlap = true
+
+# ---------- apllf [sweep] ----------
+[[SG380.qtws]]
+name = "apllf"
+alias = "LF 幅度目标 (dBm)"
+qtype = "sweep"
+numoptvs = 0
+numread = 1
+    [SG380.qtws.options]
+    uitype = "inputstop"
+    vertices = [[195.0, 210.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [160.0, 30.0]
+    allowoverlap = true
+
+[[SG380.qtws]]
+name = "apllf"
+alias = "LF 幅度读数"
+qtype = "sweep"
+numoptvs = 0
+numread = 1
+    [SG380.qtws.options]
+    uitype = "readunit"
+    vertices = [[370.0, 210.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [160.0, 30.0]
+    allowoverlap = true
+
+[[SG380.qtws]]
+name = "apllf"
+alias = "LF 幅度扫描"
+qtype = "sweep"
+numoptvs = 0
+numread = 1
+    [SG380.qtws.options]
+    uitype = "ctrlsweep"
+    vertices = [[40.0, 250.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [140.0, 30.0]
+    allowoverlap = true
+
+# ============ 组框 3：HF ============
+[[SG380.qtws]]
+name = "_Panel_"
+alias = "HF 输出"
+qtype = "none"
+    [SG380.qtws.options]
+    uitype = "none"
+    fontsize = 12.0
+    vertices = [[15.0, 315.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [530.0, 115.0]
+    allowoverlap = true
+
+# ---------- enablehf [set] ----------
+[[SG380.qtws]]
+name = "enablehf"
+alias = "HF 输出使能"
+qtype = "set"
+numoptvs = 2
+numread = 1
+    [SG380.qtws.options]
+    uitype = "toggle"
+    vertices = [[40.0, 340.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [140.0, 30.0]
+    allowoverlap = true
+
+# ---------- aplhf [sweep] ----------
+[[SG380.qtws]]
+name = "aplhf"
+alias = "HF 幅度目标 (dBm)"
+qtype = "sweep"
+numoptvs = 0
+numread = 1
+    [SG380.qtws.options]
+    uitype = "inputstop"
+    vertices = [[195.0, 340.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [160.0, 30.0]
+    allowoverlap = true
+
+[[SG380.qtws]]
+name = "aplhf"
+alias = "HF 幅度读数"
+qtype = "sweep"
+numoptvs = 0
+numread = 1
+    [SG380.qtws.options]
+    uitype = "readunit"
+    vertices = [[370.0, 340.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [160.0, 30.0]
+    allowoverlap = true
+
+[[SG380.qtws]]
+name = "aplhf"
+alias = "HF 幅度扫描"
+qtype = "sweep"
+numoptvs = 0
+numread = 1
+    [SG380.qtws.options]
+    uitype = "ctrlsweep"
+    vertices = [[40.0, 380.0], [0.0, 0.0], [0.0, 0.0]]
+    itemsize = [140.0, 30.0]
+    allowoverlap = true
